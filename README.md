@@ -21,13 +21,14 @@ current rates, buy cost, sell cost ... or what ever we can find.<br />  - Emanue
 
 
 # Time line for project
+<pre>
 11/2/21 - 11/2/21   |  Thursday  -   Thursday   |   finding multiple site to parse.                   |<br />
 12/2/21 - 12/2/21   |  Friday    -   Friday     |   parsing data for the url's - at least 2 of them . |<br />
 12/2/21 - 13/2/21   |  Saturday  -   Sunday     |   organizing data - move to lists dicts and more    |<br />
 15/2/21 - 19/2/21   |  Monday    -   Friday     |   coding file - need to finish by then.             |<br />
 18/2/20 - 20/2/21   |  Friday    -   Saturday   |   code testing file.                                |<br />
 21/2/21 - 21/2/21   |  Sunday    -   D-Day      |   posting on google class room.                     |<br />
-
+</pre>
 # Meetings time
  DATE         Time<br />
 11/2/21 - 21:00 -21:30 <br />

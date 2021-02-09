@@ -43,5 +43,5 @@ The captain and crew know exactly where the ship is going and how long it will t
 it has a definite goal. <br />
 And 9,999 times out of 10,000, it will get there.<br />
 
-###THE STRANGEST SECRET<br />
-###by Earl Nightingale<br />
+THE STRANGEST SECRET<br />
+by Earl Nightingale<br />

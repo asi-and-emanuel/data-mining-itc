@@ -21,15 +21,12 @@ current rates, buy cost, sell cost ... or what ever we can find.  - Emanuel need
 
 
 # Time line for project
-      DATE                      DAY                     TO-DO
--------------------------------------------------------------------------------------------------------
-| 11/2/21 - 11/2/21   |  Thursday  -   Thursday   |   finding multiple site to parse.                   |
-| 12/2/21 - 12/2/21   |  Friday    -   Friday     |   parsing data for the url's - at least 2 of them . |
-| 12/2/21 - 13/2/21   |  Saturday  -   Sunday     |   organizing data - move to lists dicts and more    |
-| 15/2/21 - 19/2/21   |  Monday    -   Friday     |   coding file - need to finish by then.             |
-| 18/2/20 - 20/2/21   |  Friday    -   Saturday   |   code testing file.                                |
-| 21/2/21 - 21/2/21   |  Sunday    -   D-Day      |   posting on google class room.                     |
----------------------------------------------------------------------------------------------------------
+11/2/21 - 11/2/21   |  Thursday  -   Thursday   |   finding multiple site to parse.                   |
+12/2/21 - 12/2/21   |  Friday    -   Friday     |   parsing data for the url's - at least 2 of them . |
+12/2/21 - 13/2/21   |  Saturday  -   Sunday     |   organizing data - move to lists dicts and more    |
+15/2/21 - 19/2/21   |  Monday    -   Friday     |   coding file - need to finish by then.             |
+18/2/20 - 20/2/21   |  Friday    -   Saturday   |   code testing file.                                |
+21/2/21 - 21/2/21   |  Sunday    -   D-Day      |   posting on google class room.                     |
 
 # Meetings time
  DATE         Time

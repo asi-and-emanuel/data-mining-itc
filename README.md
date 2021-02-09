@@ -9,9 +9,9 @@ we will search for "buzz" stock names in the sites and try to find as many repea
 we will the next relevent data:<br />
 stock name, repeats, time of publish, if there is any - number of likes, comments, responses and shares.<br />
 from sites like :<br />
-"https://www.marketwatch.com/"<br />
-"https://seekingalpha.com/market-news/all"<br />
-"https://finance.yahoo.com/topic/stock-market-news"<br />
+https://www.marketwatch.com/ <br />
+https://seekingalpha.com/market-news/all <br />
+https://finance.yahoo.com/topic/stock-market-news <br />
 as many as we can and read the daily news for intresting stuff<br />
                 
 
@@ -38,9 +38,10 @@ more meeting to come.
 
 ## Motivation Quote : 
 
-Think of a ship with the complete voyage mapped out and planned. The captain and<br />
-crew know exactly where the ship is going and how long it will take — it has a<br />
-definite goal. And 9,999 times out of 10,000, it will get there.<br />
+Think of a ship with the complete voyage mapped out and planned.<br />
+The captain and crew know exactly where the ship is going and how long it will take<br />
+it has a definite goal. <br />
+And 9,999 times out of 10,000, it will get there.<br />
 
-THE STRANGEST SECRET<br />
-by Earl Nightingale<br />
+######THE STRANGEST SECRET<br />
+######by Earl Nightingale<br />

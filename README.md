@@ -119,8 +119,8 @@ Average Daily $ Volume|$20.67B|$8.38B|
 - [x] send to approval - @Emanuel
 
 #### Next meeting: 12/2/21 - 21:00 -21:30 - Topics:
-- [] Wait for approval from Benny.
-- [] Set up time line and Gannt for project.
+- [ ] Wait for approval from Benny.
+- [ ] Set up time line and Gannt for project.
 
 ## Motivation Quote : 
 

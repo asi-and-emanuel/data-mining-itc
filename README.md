@@ -26,6 +26,7 @@ and many more (actually 500 of them)<br />
 if we will take the url: https://www.etf.com/SPY#overview <br />
 we will be able to see it has a lot of data inside:<br />
 #### characteristics 
+
 **Name**: SPYSPDR S&P 500 ETF Trust<br />
 **Grade:** A<br />
 **Score:** 94<br />
@@ -97,9 +98,9 @@ Average Daily $ Volume|$20.67B|$8.38B|
 |Telecommunications Services|1.73%|
 
 
-#### And a lot more data
+#### And a lot more data<br />
 
-# Time line for project
+# Time line for project<br />
 |       DATE         |          DAY              |                      TO-DO                          |
 |--------------------|---------------------------|-----------------------------------------------------|
 |11/2/21 - 11/2/21   |  Thursday  -   Thursday   |   Kick off - After approval                         |
@@ -108,9 +109,54 @@ Average Daily $ Volume|$20.67B|$8.38B|
 |19/2/20 - 20/2/21   |  Friday    -   Saturday   |   code testing file - last steps.                   |
 |21/2/21 - 21/2/21   |  Sunday    -   D-Day      |   posting on google class room.                     |
 
+# TO-do List:<br />
 
-# Meetings time
+12/2/21 - 17/2/21:<br />
+12-13/2/21
+- [ ]   get response from url <br />www.etf.com
+- [ ]   read response from utf <br />Q: link for specific etc or many links ? <br />
+- [ ]   get data for sorting <br />Q: what data ??? there is a lot of data<br />
+- [ ]   build the class outline <br />Q: what outline is correct<br />
+- [ ]   sort data by fields <br />Q: find what is important<br />
+13-14/2/21<br />
+- [ ]   write data csv<br />
+- [ ]   view data on pc<br />
+- [ ]   get data for sorting<br />
+- [ ] TBD 1
+- [ ] TBD 2
+- [ ] TBD 3
 
+14-17/2/21<br />
+- [ ] TBD 1
+- [ ] TBD 2
+- [ ] TBD 3
+- [ ] TBD 4
+
+Tasks:<br />
+Asi:<br />
+* task 1<br />
+* task 2<br />
+* task 3<br />
+* task 4<br />
+* task 5<br />
+Emanuel:<br />
+* task 1<br />
+* task 2<br />
+* task 3<br />
+* task 4<br />
+* task 5<br />
+
+
+17/2/21 - 19/2/21 : 
+- [ ] TBD 1
+- [ ] TBD 2
+- [ ] TBD 3
+- [ ] TBD 4
+- [ ] TBD 5
+
+
+
+# Meetings time<br />
 
 #### Meeting: 11/2/21 - 21:00 -21:30 - Discussed topics:
 - [x] find site to parse
@@ -118,9 +164,14 @@ Average Daily $ Volume|$20.67B|$8.38B|
 - [x] finish readme. md
 - [x] send to approval - @Emanuel
 
-#### Next meeting: 12/2/21 - 21:00 -21:30 - Topics:
-- [ ] Wait for approval from Benny.
-- [ ] Set up time line and Gannt for project.
+#### Next meeting: 12/2/21 - 14:00 -14:30 - Topics:
+- [ ]   Wait for approval from Benny.
+- [ ]   Set up time line and Gannt for project.
+
+#### Next meeting: 13/2/21 - 21:00 -21:30 - Topics:
+- [X] Asi - confirmed
+- [ ] Emanuel - confirmed
+
 
 ## Motivation Quote : 
 

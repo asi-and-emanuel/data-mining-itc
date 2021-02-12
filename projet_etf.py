@@ -18,6 +18,7 @@ def get_data_from_response(response):
     except AttributeError:
         return f'url defected'
 
+
 def get_response(url):
     sequence = count(start=1, step=1)
     response = requests.get(url)
@@ -33,7 +34,6 @@ def main():
 
     response_list = list()                                      # initialize a new response list
     data_list = list()                                               # initialize a new data list
-
 
     for url in conf.url_list:
         response_list.append(get_response(url))
@@ -52,5 +52,4 @@ def main():
 
 
 if __name__ == '__main__':
-
     main()

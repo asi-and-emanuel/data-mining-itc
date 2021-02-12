@@ -113,6 +113,8 @@ Average Daily $ Volume|$20.67B|$8.38B|
 
 12/2/21 - 17/2/21:<br />
 12-13/2/21
+- [ ]   decide what log file to have and what to log.<br />
+- [ ]   decide what site we want to parse.
 - [ ]   get response from url <br />www.etf.com
 - [ ]   read response from utf <br />Q: link for specific etc or many links ? <br />
 - [ ]   get data for sorting <br />Q: what data ??? there is a lot of data<br />

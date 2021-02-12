@@ -1,0 +1,8 @@
+1 	ERROR :  NOT OK! https://www.etf.com/etfanalytics/etf-finder got bad response got response code: 503
+1 	ERROR :  NOT OK! https://www.etf.com/SPY got bad response got response code: 503
+1 	OK! https://etfdb.com/etfs/asset-class/alternatives/ is good to go got response code: 200
+1 	OK! https://etfdb.com/etfs/ is good to go got response code: 200
+1 	OK! https://www.justetf.com/en/etf-lists.html is good to go got response code: 200
+1 	OK! https://investor.vanguard.com/etf/list#/etf/asset-class/month-end-returns is good to go got response code: 200
+1 	OK! https://www.ishares.com/us/products/etf-investments is good to go got response code: 200
+1 	OK! https://finance.yahoo.com/screener/predefined/undervalued_growth_stocks is good to go got response code: 200

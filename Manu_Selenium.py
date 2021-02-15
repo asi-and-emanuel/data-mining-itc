@@ -35,7 +35,7 @@ def open_url_or_file(url, local_file, is_all_data=False):
 
 
 def main():
-
+    driver = webdriver.Chrome(r'chromedriver.exe')  # Optional argument, if not specified will search path.
     all_etf_url = r'https://www.etf.com/etfanalytics/etf-finder'
     base_url = r'https://www.etf.com/'
     path_base_data = os.path.join(os.getcwd(), r'ETF_raw_data', '%s.html' % 'all_etf_data')

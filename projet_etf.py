@@ -7,6 +7,7 @@ Due-Date - 21/2/21
 
 # imports:
 import conf
+from selenium.webdriver import ActionChains
 from itertools import count
 import requests
 import time
@@ -20,6 +21,25 @@ def get_data_from_response(response):
     except AttributeError:
         return f'url defected'
 
+def get_links():
+    driver = webdriver.Chrome(
+        r'chromedriver.exe')  # Optional argument, if not specified will search path.
+    driver.get("https://www.etf.com/etfanalytics/etf-finder")
+    time.sleep(10)
+    element = driver.find_element_by_xpath("//button[@value='100']")
+    driver.execute_script("arguments[0].click();", element)
+    link_list = soup.find_all("a", class_="linkTickerName")
+    links = list()
+    soup = BeautifulSoup(driver.page_source)
+
+    #  ---   a class="linkTickerName" href="/SBM"
+    for data in link_list:
+        link_ends = data.text.replace(" ", "")
+        link = "/" + link_ends
+        links.append(link)
+
+
+    return links
 
 def get_response(url):
     sequence = count(start=1, step=1)
@@ -32,12 +52,11 @@ def get_response(url):
         return response
 
 def get_data_from_url(url):
-    driver = webdriver.Chrome(
-        r'chromedriver.exe')  # Optional argument, if not specified will search path.
+    driver = webdriver.Chrome(r'chromedriver.exe')  # Optional argument, if not specified will search path.
+    driver.get(url)
+
     etf_data = dict()
     data = dict()
-
-    driver.get(url)
     # time.sleep(2)  # Let the user actually see something!
     soup = BeautifulSoup(driver.page_source)
     name = soup.find("h1", class_="etf pull-left w-100")
@@ -85,11 +104,18 @@ def get_data_from_url(url):
 def main():
     id = 1
     full_dict = dict()
-    for url in conf.url_list:
+
+    links = get_links()
+    pprint.pprint(links)
+
+    for url in links:
         full_dict[url] = get_data_from_url(url)
         id += 1
 
-    pprint.pprint(full_dict)
+
+    import pandas as pd
+    df = pd.DataFrame(full_dict)
+    print(df)
 
 
 if __name__ == '__main__':

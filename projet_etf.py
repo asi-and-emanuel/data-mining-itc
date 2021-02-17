@@ -110,7 +110,6 @@ def main():
 
     for url in links:
         full_dict[url] = get_data_from_url(url)
-        id += 1
 
 
     import pandas as pd

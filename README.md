@@ -100,86 +100,49 @@ Average Daily $ Volume|$20.67B|$8.38B|
 
 #### And a lot more data<br />
 
-# Time line for project<br />
-|       DATE         |          DAY              |                      TO-DO                          |
-|--------------------|---------------------------|-----------------------------------------------------|
-|11/2/21 - 11/2/21   |  Thursday  -   Thursday   |   Kick off - After approval                         |
-|12/2/21 - 17/2/21   |  Friday    -   Wednesday  |   Parsing the URL  - building all functions         |
-|17/2/21 - 19/2/21   |  Wednesday  -   Friday    |   Organizing data - finalizing data and structure   |
-|19/2/20 - 20/2/21   |  Friday    -   Saturday   |   code testing file - last steps.                   |
-|21/2/21 - 21/2/21   |  Sunday    -   D-Day      |   posting on google class room.                     |
+# SETUP<br />
 
-# TO-do List:<br />
+for setup we will need to download the "chromedriver" for our chrome browser.<br />
 
-12/2/21 - 17/2/21:<br />
-12-13/2/21
-- [ ]   decide what log file to have and what to log.<br />
-- [ ]   decide what site we want to parse.
-- [ ]   get response from url <br />www.etf.com
-- [ ]   read response from utf <br />Q: link for specific etc or many links ? <br />
-- [ ]   get data for sorting <br />Q: what data ??? there is a lot of data<br />
-- [ ]   build the class outline <br />Q: what outline is correct<br />
-- [ ]   sort data by fields <br />Q: find what is important<br />
-13-14/2/21<br />
-- [ ]   write data csv<br />
-- [ ]   view data on pc<br />
-- [ ]   get data for sorting<br />
-- [ ] TBD 1
-- [ ] TBD 2
-- [ ] TBD 3
+if you need to download chrome download here : https://www.google.com/chrome<br />
+to download the correct chrome driver find the version in chrome.<br />
+download the corresponding driver from here: https://chromedriver.chromium.org/downloads<br />
 
-14-17/2/21<br />
-- [ ] TBD 1
-- [ ] TBD 2
-- [ ] TBD 3
-- [ ] TBD 4
+after downloading paste in the same folder.<br />
 
-Tasks:<br />
-Asi:<br />
-* task 1<br />
-* task 2<br />
-* task 3<br />
-* task 4<br />
-* task 5<br />
-Emanuel:<br />
-* task 1<br />
-* task 2<br />
-* task 3<br />
-* task 4<br />
-* task 5<br />
+# Requirements<br />
 
+requests>=2.24.0<br />
+selenium>=3.141.0<br />
+beautifulsoup4>=4.9.1<br />
 
-17/2/21 - 19/2/21 : 
-- [ ] TBD 1
-- [ ] TBD 2
-- [ ] TBD 3
-- [ ] TBD 4
-- [ ] TBD 5
+# How it works <br />
 
+when running the program we can either download all the etf from the web <br />
+or read from hard drive.<br />
 
+## if we want to load from hard drive:<br />
+set value "download_new_list = False" <br />
+in function "open_url_or_file".<br />
+program will run from files in ETF_raw_data<br />
 
-# Meetings time<br />
+## if we want to load from hard and refresh some etf data:<br />
+delete etf data from ETF_raw_data - program will download it fresh.<br />
+set value "download_new_list = False"<br /> 
+in function "open_url_or_file".<br />
+program will download them.<br />
 
-#### Meeting: 11/2/21 - 21:00 -21:30 - Discussed topics:
-- [x] find site to parse
-- [x] find and sumary for data
-- [x] finish readme. md
-- [x] send to approval - @Emanuel
+## if we want to fresh list top-100 etf and new etf data:<br />
+delete etf data from ETF_raw_data - program will download it fresh.<br />
+set value "download_new_list = True" <br />
+in function "open_url_or_file".<br />
 
-#### Next meeting: 12/2/21 - 14:00 -14:30 - Topics:
-- [ ]   Wait for approval from Benny.
-- [ ]   Set up time line and Gannt for project.
+run program once to download all data.<br />
 
-#### Next meeting: 13/2/21 - 21:00 -21:30 - Topics:
-- [X] Asi - confirmed
-- [ ] Emanuel - confirmed
+# output<br />
 
+output is in json file "data.json"<br />
 
-## Motivation Quote : 
+#Contributing
 
-Think of a ship with the complete voyage mapped out and planned.<br />
-The captain and crew know exactly where the ship is going and how long it will take it has a definite goal. <br />
-And 9,999 times out of 10,000, it will get there.<br />
-
-THE STRANGEST SECRET<br />
-by Earl Nightingale<br />
+Feel Free

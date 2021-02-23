@@ -15,11 +15,13 @@ import pprint
 from bs4 import BeautifulSoup
 from selenium import webdriver
 
+
 def get_data_from_response(response):
     try:
         return BeautifulSoup(response.text, 'lxml')
     except AttributeError:
         return f'url defected'
+
 
 def get_links():
     driver = webdriver.Chrome(
@@ -41,6 +43,7 @@ def get_links():
 
     return links
 
+
 def get_response(url):
     sequence = count(start=1, step=1)
     response = requests.get(url)
@@ -50,6 +53,7 @@ def get_response(url):
     else:
         print(f'{next(sequence)} \tERROR :  NOT OK! {url} got bad response got response code: {response.status_code}\n')
         return response
+
 
 def get_data_from_url(url):
     driver = webdriver.Chrome(r'chromedriver.exe')  # Optional argument, if not specified will search path.

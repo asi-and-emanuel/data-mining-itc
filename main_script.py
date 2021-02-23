@@ -34,7 +34,7 @@ def main():
         path_base_data = os.path.join(os.getcwd(), r'ETF_raw_data', '%s.html' % current_ETF)
         url_ETF = open_url_or_file(base_url + current_ETF, path_base_data)
         current_ETF_data = open_url_or_file(base_url, path_base_data)
-        full_dict[current_ETF] = get_data_from_url(current_ETF_data)
+        full_dict[current_ETF] = get_data_from_url(current_ETF_data, current_ETF)
 
     # dumps all to json file
     with open('data.json', 'w', encoding='utf-8') as f:

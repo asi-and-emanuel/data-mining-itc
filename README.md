@@ -1,4 +1,5 @@
 # DATA MINING - ITC PROJECT
+(by: Asi Sheratzki / Emmanuel Berdugo)<br /><br />
 Data mining project ITC - on retrieving raw data and parsing data from URL<br />
 Our sub topic is - stock exchange site "ETF.com".
 
@@ -118,8 +119,13 @@ beautifulsoup4>=4.9.1<br />
 
 # How it works <br />
 
-when running the program we can either download all the etf from the web <br />
+Simply run the "main_script.py" script.<br />
+When running the program we can either download all the etf pages from the web <br />
 or read from hard drive.<br />
+We build a method of random wait between operations in order not to be detected<br />
+as a robot by the website, that does not allow scraping...<br />
+For the same reason, we rather download the pages once and keep them <br />
+rather than downloading the pages each time...
 
 ## if we want to load from hard drive:<br />
 set value "download_new_list = False" <br />

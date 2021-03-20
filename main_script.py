@@ -1,4 +1,3 @@
-
 from conf import RANDOM_MULTIPLE, RANDOM_FIX
 import json
 import time
@@ -7,6 +6,17 @@ from random import random
 from get_data_from_url import get_data_from_url
 from open_url_or_file import open_url_or_file
 import os
+import argparse
+
+parser = argparse.ArgumentParser(description="this is etf.com data scraper it will download all data from 100 top "
+                                             "links in etf.com")
+group = parser.add_mutually_exclusive_group()
+group.add_argument('-d', '--download', action="store_true", help='delete all eft *.html data and '
+                                                                 'download new data')
+group.add_argument('-l', '--list', action="store_true", help='delete etf.com list data and download new '
+                                                             '100 top list')
+group.add_argument('-s', '--show', action="store_true", help='show the etf.com after downloading list')
+args = parser.parse_args()
 
 
 def main():
@@ -19,10 +29,26 @@ def main():
     # sets the urls
     all_etf_url = r'https://www.etf.com/etfanalytics/etf-finder'
     base_url = r'https://www.etf.com/'
+    mypath = "ETF_raw_data"
+    only_files = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]
+
+    if args.download:
+        only_files.remove("all_etf_data.html")
+        for i in only_files:
+            os.remove(str(mypath) + '/' + str(i))
+
+    if args.list:
+        os.remove("ETF_raw_data/all_etf_data.html")
+
+    print_idx = 1
+    if args.show:
+        for i in only_files:
+            print(f"downloaded etf {print_idx} is : {i}")
+            print_idx += 1
 
     # join data to URL
     path_base_data = os.path.join(os.getcwd(), r'ETF_raw_data', '%s.html' % 'all_etf_data')
-    all_etf_data = open_url_or_file(all_etf_url, path_base_data, is_all_data=True)
+    all_etf_data = open_url_or_file(all_etf_url, path_base_data, is_all_data=True, download_new_list=True)
     time.sleep(10)
 
     # finds the 100 first endings in the HTML
@@ -39,6 +65,10 @@ def main():
     # dumps all to json file
     with open('data.json', 'w', encoding='utf-8') as f:
         json.dump(full_dict, f, ensure_ascii=False, indent=4)
+
+
+
+
 
     # finds and sets the drivers variables
     if 'driver' in locals() and isinstance(driver, webdriver.chrome.webdriver.WebDriver):

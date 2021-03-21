@@ -23,7 +23,7 @@ def main():
     # join data to URL
     path_base_data = os.path.join(os.getcwd(), r'ETF_raw_data', '%s.html' % 'all_etf_data')
     all_etf_data = open_url_or_file(all_etf_url, path_base_data, is_all_data=True)
-    time.sleep(10)
+    #time.sleep(10)
 
     # finds the 100 first endings in the HTML
     first_100 = all_etf_data.find_all('a', 'linkTickerName')

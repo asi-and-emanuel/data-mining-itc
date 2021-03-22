@@ -16,7 +16,7 @@
             "Basic Materials": "2.44%",
             "Telecommunications Services": "1.58%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "5.81%",
             "Microsoft Corporation": "5.26%",
             "Amazon.com, Inc.": "3.90%",
@@ -86,8 +86,7 @@
             "Global Percentile Rank": "6.77%",
             "SRI Screening Criteria Exposure": "5.24%",
             "Exposure to Sustainable Impact Solutions": "140.00"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IVV": {
         "Top 10 Countries ": {
@@ -164,8 +163,7 @@
             "Global Percentile Rank": "7.05%",
             "SRI Screening Criteria Exposure": "3.66%",
             "Exposure to Sustainable Impact Solutions": "144.74"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VTI": {
         "Top 10 Countries ": {
@@ -185,7 +183,7 @@
             "Energy": "2.35%",
             "Telecommunications Services": "1.53%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "5.28%",
             "Microsoft Corporation": "4.37%",
             "Amazon.com, Inc.": "3.61%",
@@ -254,8 +252,7 @@
             "Global Percentile Rank": "6.39%",
             "SRI Screening Criteria Exposure": "5.22%",
             "Exposure to Sustainable Impact Solutions": "138.27"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VOO": {
         "Top 10 Countries ": {
@@ -274,7 +271,7 @@
             "Energy": "2.29%",
             "Telecommunications Services": "1.73%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "6.71%",
             "Microsoft Corporation": "5.58%",
             "Amazon.com, Inc.": "4.35%",
@@ -343,8 +340,7 @@
             "Global Percentile Rank": "7.09%",
             "SRI Screening Criteria Exposure": "3.67%",
             "Exposure to Sustainable Impact Solutions": "144.81"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "QQQ": {
         "Top 10 Countries ": {
@@ -363,7 +359,7 @@
             "Telecommunications Services": "1.38%",
             "Utilities": "0.97%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "11.66%",
             "Microsoft Corporation": "9.38%",
             "Amazon.com, Inc.": "8.33%",
@@ -432,8 +428,7 @@
             "Global Percentile Rank": "0.60%",
             "SRI Screening Criteria Exposure": "8.83%",
             "Exposure to Sustainable Impact Solutions": "38.08"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VEA": {
         "Top 10 Countries ": {
@@ -460,7 +455,7 @@
             "Utilities": "3.47%",
             "Telecommunications Services": "2.95%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Samsung Electronics Co., Ltd.": "1.56%",
             "Nestle S.A.": "1.51%",
             "Vanguard Cash Management Market Liquidity Fund": "1.23%",
@@ -529,11 +524,10 @@
             "Global Percentile Rank": "9.88%",
             "SRI Screening Criteria Exposure": "7.27%",
             "Exposure to Sustainable Impact Solutions": "150.99"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IEFA": {
-        "IEFA Top 10 Countries ": {
+        "Top 10 Countries ": {
             "Japan": "25.60%",
             "United Kingdom": "15.02%",
             "France": "9.71%",
@@ -545,7 +539,7 @@
             "Hong Kong": "2.97%",
             "Denmark": "2.46%"
         },
-        "IEFA Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Financials": "19.98%",
             "Industrials": "16.82%",
             "Consumer Cyclicals": "13.45%",
@@ -557,7 +551,7 @@
             "Energy": "3.59%",
             "Telecommunications Services": "3.18%"
         },
-        "IEFA Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Nestle S.A.": "1.68%",
             "ASML Holding NV": "1.28%",
             "Roche Holding Ltd": "1.27%",
@@ -569,7 +563,7 @@
             "Sony Corporation": "0.74%",
             "Unilever PLC": "0.73%"
         },
-        "IEFA Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "10/18/12",
@@ -579,7 +573,7 @@
             "Average Daily $ Volume": "$595.13M",
             "Average Spread (%)": "0.01%"
         },
-        "IEFA Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$61.59B",
             "Price / Earnings Ratio": "44.70",
             "Price / Book Ratio": "1.69",
@@ -587,13 +581,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "2,614"
         },
-        "IEFA Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI EAFE IMI",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI World ex USA IMI"
         },
-        "IEFA Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "8,497,921",
             "Average Daily $ Volume": "$595.13M",
             "Median Daily Share Volume": "7,251,922",
@@ -612,7 +606,7 @@
             "Net Asset Value (Yesterday)": "$72.16",
             "ETF.com Implied Liquidity": "5"
         },
-        "IEFA Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.99",
             "Beta": "0.98",
             "Up Beta": "0.99",
@@ -620,18 +614,17 @@
             "Downside Standard Deviation": "0.14%",
             "Segment Benchmark": "MSCI World ex USA IMI"
         },
-        "IEFA MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "7.22 / 10",
             "MSCI ESG Quality Score": "50.35",
             "Peer Group Percentile Rank": "85.64",
             "Global Percentile Rank": "10.76%",
             "SRI Screening Criteria Exposure": "8.10%",
             "Exposure to Sustainable Impact Solutions": "134.64"
-        },
-        "IEFA Benchmark Comparison Holdings": {}
+        }
     },
     "AGG": {
-        "Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "93.25%",
             "United Kingdom": "1.19%",
             "Canada": "1.17%",
@@ -643,7 +636,7 @@
             "Philippines": "0.35%",
             "Ireland": "0.18%"
         },
-        "Top 10 Sectors [View All]": {
+        "Top 10 Sectors ": {
             "Treasury": "38.45%",
             "MBS": "26.87%",
             "Industrial": "17.38%",
@@ -655,7 +648,7 @@
             "Government Regional": "0.25%",
             "General obligation": "0.23%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "BlackRock Funds III Instl Money Mkt Fund": "7.48%",
             "UMBS TBA 30yr 2% March Delivery 2.000% 01-NOV-2049": "2.23%",
             "United States Treasury Notes 0.375% 30-NOV-2025": "0.54%",
@@ -723,10 +716,6 @@
             "Global Percentile Rank": "2.88%",
             "SRI Screening Criteria Exposure": "0.90%",
             "Exposure to Sustainable Impact Solutions": "263.82"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "8.07 years",
-            "Yield to Maturity": "5.98"
         }
     },
     "VWO": {
@@ -754,7 +743,7 @@
             "Telecommunications Services": "2.94%",
             "Utilities": "2.77%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Tencent Holdings Ltd.": "6.46%",
             "Alibaba Group Holding Ltd. Sponsored ADR": "5.66%",
             "Taiwan Semiconductor Manufacturing Co., Ltd.": "4.48%",
@@ -823,11 +812,10 @@
             "Global Percentile Rank": "2.35%",
             "SRI Screening Criteria Exposure": "4.98%",
             "Exposure to Sustainable Impact Solutions": "290.48"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IEMG": {
-        "IEMG Top 10 Countries ": {
+        "Top 10 Countries ": {
             "Hong Kong": "28.00%",
             "Korea, Republic of": "14.37%",
             "Taiwan, Province of China": "13.75%",
@@ -839,7 +827,7 @@
             "Russian Federation": "2.36%",
             "Thailand": "2.02%"
         },
-        "IEMG Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "35.64%",
             "Financials": "19.99%",
             "Consumer Cyclicals": "8.98%",
@@ -851,7 +839,7 @@
             "Telecommunications Services": "2.67%",
             "Utilities": "2.29%"
         },
-        "IEMG Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Taiwan Semiconductor Manufacturing Co., Ltd.": "5.90%",
             "Tencent Holdings Ltd.": "5.79%",
             "Alibaba Group Holding Ltd. Sponsored ADR": "5.26%",
@@ -863,7 +851,7 @@
             "Reliance Industries Limited": "0.83%",
             "NIO Inc. Sponsored ADR Class A": "0.80%"
         },
-        "IEMG Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "10/18/12",
@@ -873,7 +861,7 @@
             "Average Daily $ Volume": "$738.51M",
             "Average Spread (%)": "0.02%"
         },
-        "IEMG Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$153.77B",
             "Price / Earnings Ratio": "27.06",
             "Price / Book Ratio": "1.95",
@@ -881,13 +869,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "2,434"
         },
-        "IEMG Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI Emerging Markets Investable Market Index",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI Emerging Markets Investable Market Index"
         },
-        "IEMG Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "11,477,334",
             "Average Daily $ Volume": "$738.51M",
             "Median Daily Share Volume": "9,842,439",
@@ -906,7 +894,7 @@
             "Net Asset Value (Yesterday)": "$69.56",
             "ETF.com Implied Liquidity": "5"
         },
-        "IEMG Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.96",
             "Beta": "1.00",
             "Up Beta": "1.00",
@@ -914,15 +902,14 @@
             "Downside Standard Deviation": "0.29%",
             "Segment Benchmark": "MSCI Emerging Markets Investable Market Index"
         },
-        "IEMG MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "4.61 / 10",
             "MSCI ESG Quality Score": "21.08",
             "Peer Group Percentile Rank": "24.27",
             "Global Percentile Rank": "2.41%",
             "SRI Screening Criteria Exposure": "4.85%",
             "Exposure to Sustainable Impact Solutions": "275.85"
-        },
-        "IEMG Benchmark Comparison Holdings": {}
+        }
     },
     "IWM": {
         "Top 10 Countries ": {
@@ -941,7 +928,7 @@
             "Utilities": "2.82%",
             "Telecommunications Services": "1.09%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Plug Power Inc.": "0.89%",
             "Novavax, Inc.": "0.64%",
             "Penn National Gaming, Inc.": "0.61%",
@@ -1011,8 +998,7 @@
             "Global Percentile Rank": "3.99%",
             "SRI Screening Criteria Exposure": "6.67%",
             "Exposure to Sustainable Impact Solutions": "126.44"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VTV": {
         "Top 10 Countries ": {
@@ -1031,7 +1017,7 @@
             "Telecommunications Services": "3.80%",
             "Basic Materials": "3.15%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Johnson & Johnson": "3.01%",
             "Berkshire Hathaway Inc. Class B": "2.92%",
             "JPMorgan Chase & Co.": "2.75%",
@@ -1100,8 +1086,7 @@
             "Global Percentile Rank": "13.19%",
             "SRI Screening Criteria Exposure": "3.49%",
             "Exposure to Sustainable Impact Solutions": "262.51"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IJR": {
         "Top 10 Countries ": {
@@ -1120,7 +1105,7 @@
             "Utilities": "1.59%",
             "Telecommunications Services": "1.59%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "BlackRock Cash Funds Treasury SL Agency Shares": "1.33%",
             "Cleveland-Cliffs Inc": "0.77%",
             "MicroStrategy Incorporated Class A": "0.73%",
@@ -1190,11 +1175,10 @@
             "Global Percentile Rank": "3.29%",
             "SRI Screening Criteria Exposure": "5.24%",
             "Exposure to Sustainable Impact Solutions": "97.63"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "BND": {
-        "Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "92.45%",
             "United Kingdom": "1.28%",
             "Canada": "1.25%",
@@ -1206,7 +1190,7 @@
             "Netherlands": "0.37%",
             "Colombia": "0.20%"
         },
-        "Top 10 Sectors [View All]": {
+        "Top 10 Sectors ": {
             "Treasury": "41.82%",
             "MBS": "21.29%",
             "Industrial": "18.00%",
@@ -1218,7 +1202,7 @@
             "Government Regional": "0.30%",
             "General obligation": "0.24%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "3.17%",
             "UMBS TBA 30yr 2% February Delivery 2.000% 01-NOV-2049": "0.87%",
             "United States Treasury Notes 0.25% 15-JUN-2023": "0.68%",
@@ -1285,10 +1269,6 @@
             "Global Percentile Rank": "3.35%",
             "SRI Screening Criteria Exposure": "0.93%",
             "Exposure to Sustainable Impact Solutions": "286.37"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "8.20 years",
-            "Yield to Maturity": "6.11"
         }
     },
     "VUG": {
@@ -1307,7 +1287,7 @@
             "Energy": "0.28%",
             "Telecommunications Services": "0.05%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "11.08%",
             "Microsoft Corporation": "9.63%",
             "Amazon.com, Inc.": "7.51%",
@@ -1376,8 +1356,7 @@
             "Global Percentile Rank": "1.61%",
             "SRI Screening Criteria Exposure": "6.24%",
             "Exposure to Sustainable Impact Solutions": "44.33"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VIG": {
         "Top 10 Countries ": {
@@ -1395,7 +1374,7 @@
             "Basic Materials": "3.83%",
             "Telecommunications Services": "0.02%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Microsoft Corporation": "4.33%",
             "Walmart Inc.": "4.23%",
             "Procter & Gamble Company": "3.75%",
@@ -1464,8 +1443,7 @@
             "Global Percentile Rank": "6.79%",
             "SRI Screening Criteria Exposure": "2.64%",
             "Exposure to Sustainable Impact Solutions": "183.82"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IWF": {
         "Top 10 Countries ": {
@@ -1484,7 +1462,7 @@
             "Telecommunications Services": "0.06%",
             "Utilities": "0.02%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "11.28%",
             "Microsoft Corporation": "9.47%",
             "Amazon.com, Inc.": "7.15%",
@@ -1554,8 +1532,7 @@
             "Global Percentile Rank": "1.33%",
             "SRI Screening Criteria Exposure": "6.37%",
             "Exposure to Sustainable Impact Solutions": "29.42"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IJH": {
         "Top 10 Countries ": {
@@ -1573,7 +1550,7 @@
             "Utilities": "3.44%",
             "Telecommunications Services": "0.30%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Generac Holdings Inc.": "0.89%",
             "SolarEdge Technologies, Inc.": "0.76%",
             "Penn National Gaming, Inc.": "0.74%",
@@ -1643,8 +1620,7 @@
             "Global Percentile Rank": "4.90%",
             "SRI Screening Criteria Exposure": "8.06%",
             "Exposure to Sustainable Impact Solutions": "152.81"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "GLD": {
         "Top 10 Holdings ": {
@@ -1724,7 +1700,7 @@
             "Utilities": "3.80%",
             "Telecommunications Services": "3.53%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Nestle S.A.": "1.98%",
             "ASML Holding NV": "1.51%",
             "Roche Holding Ltd": "1.50%",
@@ -1794,8 +1770,7 @@
             "Global Percentile Rank": "11.97%",
             "SRI Screening Criteria Exposure": "8.00%",
             "Exposure to Sustainable Impact Solutions": "134.10"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IWD": {
         "Top 10 Countries ": {
@@ -1814,7 +1789,7 @@
             "Energy": "4.46%",
             "Telecommunications Services": "3.20%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Berkshire Hathaway Inc. Class B": "2.50%",
             "JPMorgan Chase & Co.": "2.34%",
             "Johnson & Johnson": "2.10%",
@@ -1884,15 +1859,14 @@
             "Global Percentile Rank": "11.89%",
             "SRI Screening Criteria Exposure": "3.87%",
             "Exposure to Sustainable Impact Solutions": "254.79"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VO": {
-        "VO Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "99.53%",
             "Canada": "0.47%"
         },
-        "VO Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "24.06%",
             "Financials": "17.92%",
             "Consumer Cyclicals": "14.61%",
@@ -1904,7 +1878,7 @@
             "Energy": "3.19%",
             "Telecommunications Services": "0.36%"
         },
-        "VO Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "0.78%",
             "Twitter, Inc.": "0.73%",
             "IDEXX Laboratories, Inc.": "0.72%",
@@ -1916,7 +1890,7 @@
             "Chipotle Mexican Grill, Inc.": "0.66%",
             "Cadence Design Systems, Inc.": "0.64%"
         },
-        "VO Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "01/26/04",
             "Legal Structure": "Open-Ended Fund",
@@ -1925,7 +1899,7 @@
             "Average Daily $ Volume": "$138.54M",
             "Average Spread (%)": "0.03%"
         },
-        "VO Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$23.86B",
             "Price / Earnings Ratio": "146.27",
             "Price / Book Ratio": "3.47",
@@ -1933,13 +1907,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "336"
         },
-        "VO Index Data": {
+        "Index Data": {
             "Index Tracked": "CRSP US Mid Cap",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI USA Mid Cap Index"
         },
-        "VO Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "659,613",
             "Average Daily $ Volume": "$138.54M",
             "Median Daily Share Volume": "574,482",
@@ -1958,7 +1932,7 @@
             "Net Asset Value (Yesterday)": "$223.16",
             "ETF.com Implied Liquidity": "5"
         },
-        "VO Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "0.98",
             "Up Beta": "1.00",
@@ -1966,22 +1940,21 @@
             "Downside Standard Deviation": "0.14%",
             "Segment Benchmark": "MSCI USA Mid Cap Index"
         },
-        "VO MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.25 / 10",
             "MSCI ESG Quality Score": "71.09",
             "Peer Group Percentile Rank": "34.85",
             "Global Percentile Rank": "4.38%",
             "SRI Screening Criteria Exposure": "6.52%",
             "Exposure to Sustainable Impact Solutions": "240.81"
-        },
-        "VO Benchmark Comparison Holdings": {}
+        }
     },
     "VB": {
-        "VB Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "99.95%",
             "Canada": "0.05%"
         },
-        "VB Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Financials": "21.14%",
             "Technology": "18.50%",
             "Healthcare": "15.88%",
@@ -1993,7 +1966,7 @@
             "Utilities": "2.61%",
             "Telecommunications Services": "0.47%"
         },
-        "VB Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "2.00%",
             "Plug Power Inc.": "0.62%",
             "Enphase Energy, Inc.": "0.41%",
@@ -2005,7 +1978,7 @@
             "STERIS Plc": "0.32%",
             "Generac Holdings Inc.": "0.31%"
         },
-        "VB Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "01/26/04",
             "Legal Structure": "Open-Ended Fund",
@@ -2014,7 +1987,7 @@
             "Average Daily $ Volume": "$185.10M",
             "Average Spread (%)": "0.07%"
         },
-        "VB Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$6.68B",
             "Price / Earnings Ratio": "-109.05",
             "Price / Book Ratio": "2.62",
@@ -2022,13 +1995,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "1,420"
         },
-        "VB Index Data": {
+        "Index Data": {
             "Index Tracked": "CRSP US Small Cap",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI USA Small Cap Index"
         },
-        "VB Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "917,651",
             "Average Daily $ Volume": "$185.10M",
             "Median Daily Share Volume": "786,633",
@@ -2047,7 +2020,7 @@
             "Net Asset Value (Yesterday)": "$216.75",
             "ETF.com Implied Liquidity": "5"
         },
-        "VB Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "0.96",
             "Up Beta": "0.97",
@@ -2055,18 +2028,17 @@
             "Downside Standard Deviation": "0.17%",
             "Segment Benchmark": "MSCI USA Small Cap Index"
         },
-        "VB MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "4.66 / 10",
             "MSCI ESG Quality Score": "38.31",
             "Peer Group Percentile Rank": "25.18",
             "Global Percentile Rank": "4.77%",
             "SRI Screening Criteria Exposure": "6.54%",
             "Exposure to Sustainable Impact Solutions": "133.79"
-        },
-        "VB Benchmark Comparison Holdings": {}
+        }
     },
     "LQD": {
-        "Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "86.31%",
             "United Kingdom": "5.04%",
             "Japan": "2.03%",
@@ -2084,7 +2056,7 @@
             "Utility": "3.23%",
             "Government Agency": "0.63%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "1.67%",
             "CORPORATE BOND": "0.83%",
             "GE Capital International Funding Co. 4.418% 15-NOV-2035": "0.35%",
@@ -2152,14 +2124,10 @@
             "Global Percentile Rank": "10.52%",
             "SRI Screening Criteria Exposure": "2.43%",
             "Exposure to Sustainable Impact Solutions": "147.05"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "13.73 years",
-            "Yield to Maturity": "9.62"
         }
     },
     "VXUS": {
-        "VXUS Top 10 Countries ": {
+        "Top 10 Countries ": {
             "Japan": "16.54%",
             "Hong Kong": "10.48%",
             "United Kingdom": "9.06%",
@@ -2171,7 +2139,7 @@
             "Taiwan, Province of China": "4.36%",
             "Korea, Republic of": "4.29%"
         },
-        "VXUS Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Financials": "21.18%",
             "Technology": "16.82%",
             "Industrials": "13.41%",
@@ -2183,7 +2151,7 @@
             "Utilities": "3.30%",
             "Telecommunications Services": "2.96%"
         },
-        "VXUS Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Taiwan Semiconductor Manufacturing Co., Ltd.": "1.55%",
             "Tencent Holdings Ltd.": "1.40%",
             "Alibaba Group Holding Ltd. Sponsored ADR": "1.39%",
@@ -2195,7 +2163,7 @@
             "ASML Holding NV": "0.66%",
             "Toyota Motor Corp.": "0.65%"
         },
-        "VXUS Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "01/26/11",
             "Legal Structure": "Open-Ended Fund",
@@ -2204,7 +2172,7 @@
             "Average Daily $ Volume": "$228.81M",
             "Average Spread (%)": "0.02%"
         },
-        "VXUS Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$87.86B",
             "Price / Earnings Ratio": "36.76",
             "Price / Book Ratio": "1.74",
@@ -2212,13 +2180,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "7,747"
         },
-        "VXUS Index Data": {
+        "Index Data": {
             "Index Tracked": "FTSE Global All Cap ex US Net US RIC",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI ACWI ex USA IMI Index -TR net"
         },
-        "VXUS Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "3,732,670",
             "Average Daily $ Volume": "$228.81M",
             "Median Daily Share Volume": "3,362,077",
@@ -2237,7 +2205,7 @@
             "Net Asset Value (Yesterday)": "$64.62",
             "ETF.com Implied Liquidity": "5"
         },
-        "VXUS Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.00",
             "Up Beta": "1.00",
@@ -2245,15 +2213,14 @@
             "Downside Standard Deviation": "0.02%",
             "Segment Benchmark": "MSCI ACWI ex USA IMI Index -TR net"
         },
-        "VXUS MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.42 / 10",
             "MSCI ESG Quality Score": "15.04",
             "Peer Group Percentile Rank": "68.86",
             "Global Percentile Rank": "7.89%",
             "SRI Screening Criteria Exposure": "6.68%",
             "Exposure to Sustainable Impact Solutions": "185.50"
-        },
-        "VXUS Benchmark Comparison Holdings": {}
+        }
     },
     "VGT": {
         "Top 10 Countries ": {
@@ -2271,7 +2238,7 @@
             "Renewable Energy": "0.46%",
             "Media & Publishing": "0.06%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "21.76%",
             "Microsoft Corporation": "16.08%",
             "NVIDIA Corporation": "3.09%",
@@ -2340,11 +2307,10 @@
             "Global Percentile Rank": "0.54%",
             "SRI Screening Criteria Exposure": "3.26%",
             "Exposure to Sustainable Impact Solutions": "21.20"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VCIT": {
-        "VCIT Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "85.74%",
             "United Kingdom": "4.72%",
             "Japan": "2.80%",
@@ -2356,7 +2322,7 @@
             "China": "0.39%",
             "France": "0.31%"
         },
-        "VCIT Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Industrial": "55.23%",
             "Financial": "37.30%",
             "Utility": "6.55%",
@@ -2364,7 +2330,7 @@
             "Treasury": "0.33%",
             "Corporate-Other": "0.12%"
         },
-        "VCIT Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "CVS Health Corporation 4.3% 25-MAR-2028": "0.47%",
             "T-Mobile USA, Inc. 3.875% 15-APR-2030": "0.40%",
             "Bristol-Myers Squibb Company 3.45% 15-NOV-2027": "0.38%",
@@ -2376,7 +2342,7 @@
             "Citigroup Inc. 4.412% 31-MAR-2031": "0.28%",
             "Broadcom Corporation 3.875% 15-JAN-2027": "0.27%"
         },
-        "VCIT Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "11/19/09",
             "Legal Structure": "Open-Ended Fund",
@@ -2385,20 +2351,20 @@
             "Average Daily $ Volume": "$299.24M",
             "Average Spread (60-Day)": "0.01%"
         },
-        "VCIT Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "6.44",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "1.57%",
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "1,981"
         },
-        "VCIT Index Data": {
+        "Index Data": {
             "Index Tracked": "Bloomberg Barclays U.S. 5-10 Year Corporate Bond Index",
             "Index Weighting Methodology": "Market Value",
             "Index Selection Methodology": "Market Value",
             "Segment Benchmark": "Bloomberg Barclays Intermediate Corporate Bond Index"
         },
-        "VCIT Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "3,102,290",
             "Average Daily $ Volume": "$299.24M",
             "Median Daily Share Volume": "2,832,422",
@@ -2417,28 +2383,24 @@
             "Net Asset Value (Yesterday)": "$95.53",
             "ETF.com Implied Liquidity": "5"
         },
-        "VCIT Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.98",
             "Beta": "1.40",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
         },
-        "VCIT MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.12 / 10",
             "MSCI ESG Quality Score": "72.12",
             "Peer Group Percentile Rank": "59.93",
             "Global Percentile Rank": "9.37%",
             "SRI Screening Criteria Exposure": "3.29%",
             "Exposure to Sustainable Impact Solutions": "241.06"
-        },
-        "VCIT Holdings Statistics": {
-            "Weighted Average Life": "7.42 years",
-            "Yield to Maturity": "6.44"
         }
     },
     "BNDX": {
-        "BNDX Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "1.58%",
             "TREASURY ISSUES (LONG-TERM)": "1.49%",
             "AGENCY BOND": "0.83%",
@@ -2450,7 +2412,7 @@
             "France 1.0% 25-MAY-2027": "0.50%",
             "France 0.0% 25-NOV-2030": "0.45%"
         },
-        "BNDX Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "06/04/13",
             "Legal Structure": "Open-Ended Fund",
@@ -2459,20 +2421,20 @@
             "Average Daily $ Volume": "$187.80M",
             "Average Spread (60-Day)": "0.02%"
         },
-        "BNDX Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "--",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "--",
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "6,111"
         },
-        "BNDX Index Data": {
+        "Index Data": {
             "Index Tracked": "Bloomberg Barclays Global Aggregate ex-USD Float Adjusted RIC Capped Index",
             "Index Weighting Methodology": "Market Value",
             "Index Selection Methodology": "Market Value",
             "Segment Benchmark": "N/A"
         },
-        "BNDX Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "3,219,966",
             "Average Daily $ Volume": "$187.80M",
             "Median Daily Share Volume": "2,771,719",
@@ -2491,14 +2453,14 @@
             "Net Asset Value (Yesterday)": "$57.48",
             "ETF.com Implied Liquidity": "5"
         },
-        "BNDX Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "--",
             "Beta": "--",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
         },
-        "BNDX MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.36 / 10",
             "MSCI ESG Quality Score": "83.70",
             "Peer Group Percentile Rank": "67.10",
@@ -2522,7 +2484,7 @@
             "Machinery, Equipment & Components": "0.81%",
             "Office Equipment": "0.04%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "21.76%",
             "Microsoft Corporation": "20.26%",
             "NVIDIA Corporation": "4.14%",
@@ -2592,11 +2554,10 @@
             "Global Percentile Rank": "0.22%",
             "SRI Screening Criteria Exposure": "2.87%",
             "Exposure to Sustainable Impact Solutions": "19.46"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VCSH": {
-        "VCSH Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "82.92%",
             "United Kingdom": "5.50%",
             "Canada": "3.79%",
@@ -2608,7 +2569,7 @@
             "France": "0.49%",
             "China": "0.42%"
         },
-        "VCSH Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Industrial": "48.12%",
             "Financial": "46.37%",
             "Utility": "4.73%",
@@ -2616,7 +2577,7 @@
             "Revenue": "0.12%",
             "Corporate-Other": "0.01%"
         },
-        "VCSH Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "0.82%",
             "CORPORATE BOND": "0.43%",
             "Bank of America Corporation 3.004% 20-DEC-2023": "0.31%",
@@ -2628,7 +2589,7 @@
             "JPMorgan Chase & Co. 2.083% 22-APR-2026": "0.21%",
             "Diamond 1 Finance Corp. 5.45% 15-JUN-2023": "0.20%"
         },
-        "VCSH Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "11/19/09",
             "Legal Structure": "Open-Ended Fund",
@@ -2637,20 +2598,20 @@
             "Average Daily $ Volume": "$266.95M",
             "Average Spread (60-Day)": "0.01%"
         },
-        "VCSH Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "2.78",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "0.79%",
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "2,277"
         },
-        "VCSH Index Data": {
+        "Index Data": {
             "Index Tracked": "Bloomberg Barclays U.S. 1-5 Year Corporate Bond Index",
             "Index Weighting Methodology": "Market Value",
             "Index Selection Methodology": "Market Value",
             "Segment Benchmark": "Bloomberg Barclays U.S. Corporate Bond 1-3 Year Index"
         },
-        "VCSH Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "3,212,025",
             "Average Daily $ Volume": "$266.95M",
             "Median Daily Share Volume": "2,999,915",
@@ -2669,24 +2630,20 @@
             "Net Asset Value (Yesterday)": "$82.95",
             "ETF.com Implied Liquidity": "5"
         },
-        "VCSH Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.96",
             "Beta": "1.31",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
         },
-        "VCSH MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.42 / 10",
             "MSCI ESG Quality Score": "88.11",
             "Peer Group Percentile Rank": "68.95",
             "Global Percentile Rank": "7.47%",
             "SRI Screening Criteria Exposure": "2.90%",
             "Exposure to Sustainable Impact Solutions": "182.56"
-        },
-        "VCSH Holdings Statistics": {
-            "Weighted Average Life": "2.97 years",
-            "Yield to Maturity": "2.78"
         }
     },
     "XLF": {
@@ -2699,7 +2656,7 @@
             "Investment Banking & Investment Services": "21.52%",
             "Professional & Commercial Services": "5.02%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Berkshire Hathaway Inc. Class B": "13.37%",
             "JPMorgan Chase & Co.": "12.20%",
             "Bank of America Corp": "7.20%",
@@ -2769,15 +2726,14 @@
             "Global Percentile Rank": "14.49%",
             "SRI Screening Criteria Exposure": "0.17%",
             "Exposure to Sustainable Impact Solutions": "41.93"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "ITOT": {
-        "ITOT Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "99.99%",
             "Canada": "0.01%"
         },
-        "ITOT Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "32.31%",
             "Consumer Cyclicals": "15.52%",
             "Financials": "13.74%",
@@ -2789,7 +2745,7 @@
             "Energy": "2.40%",
             "Telecommunications Services": "1.53%"
         },
-        "ITOT Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "5.28%",
             "Microsoft Corporation": "4.52%",
             "Amazon.com, Inc.": "3.40%",
@@ -2801,7 +2757,7 @@
             "Johnson & Johnson": "1.07%",
             "JPMorgan Chase & Co.": "1.04%"
         },
-        "ITOT Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "01/20/04",
@@ -2811,7 +2767,7 @@
             "Average Daily $ Volume": "$133.34M",
             "Average Spread (%)": "0.01%"
         },
-        "ITOT Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$391.87B",
             "Price / Earnings Ratio": "51.47",
             "Price / Book Ratio": "3.90",
@@ -2819,13 +2775,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "3,475"
         },
-        "ITOT Index Data": {
+        "Index Data": {
             "Index Tracked": "S&P Total Market Index",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Committee",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "ITOT Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,531,495",
             "Average Daily $ Volume": "$133.34M",
             "Median Daily Share Volume": "1,317,759",
@@ -2844,7 +2800,7 @@
             "Net Asset Value (Yesterday)": "$91.79",
             "ETF.com Implied Liquidity": "5"
         },
-        "ITOT Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.00",
             "Up Beta": "1.00",
@@ -2852,15 +2808,14 @@
             "Downside Standard Deviation": "0.02%",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "ITOT MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "4.98 / 10",
             "MSCI ESG Quality Score": "27.65",
             "Peer Group Percentile Rank": "29.84",
             "Global Percentile Rank": "6.35%",
             "SRI Screening Criteria Exposure": "5.24%",
             "Exposure to Sustainable Impact Solutions": "137.45"
-        },
-        "ITOT Benchmark Comparison Holdings": {}
+        }
     },
     "VNQ": {
         "Top 10 Countries ": {
@@ -2875,7 +2830,7 @@
             "Real Estate Development & Operations": "0.72%",
             "Construction & Engineering": "0.03%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Vanguard Real Estate II Index Fund Institutional Plus Shares": "11.98%",
             "American Tower Corporation": "7.30%",
             "Prologis, Inc.": "5.52%",
@@ -2944,8 +2899,7 @@
             "Global Percentile Rank": "0.76%",
             "SRI Screening Criteria Exposure": "12.12%",
             "Exposure to Sustainable Impact Solutions": "126.10"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VYM": {
         "Top 10 Countries ": {
@@ -2963,7 +2917,7 @@
             "Basic Materials": "4.45%",
             "Telecommunications Services": "4.28%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Johnson & Johnson": "3.89%",
             "JPMorgan Chase & Co.": "3.52%",
             "Procter & Gamble Company": "2.82%",
@@ -3032,8 +2986,7 @@
             "Global Percentile Rank": "10.06%",
             "SRI Screening Criteria Exposure": "3.88%",
             "Exposure to Sustainable Impact Solutions": "340.06"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VEU": {
         "Top 10 Countries ": {
@@ -3060,7 +3013,7 @@
             "Utilities": "3.21%",
             "Telecommunications Services": "3.16%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Tencent Holdings Ltd.": "1.56%",
             "Alibaba Group Holding Ltd. Sponsored ADR": "1.55%",
             "Nestle S.A.": "1.25%",
@@ -3129,11 +3082,10 @@
             "Global Percentile Rank": "8.42%",
             "SRI Screening Criteria Exposure": "6.75%",
             "Exposure to Sustainable Impact Solutions": "182.25"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "BSV": {
-        "Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "90.09%",
             "Canada": "1.82%",
             "United Kingdom": "1.57%",
@@ -3157,7 +3109,7 @@
             "General obligation": "0.04%",
             "Corporate-Other": "0.00%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "1.97%",
             "United States Treasury Notes 0.125% 15-JUL-2023": "1.60%",
             "United States Treasury Notes 0.25% 15-APR-2023": "1.55%",
@@ -3224,10 +3176,6 @@
             "Global Percentile Rank": "2.05%",
             "SRI Screening Criteria Exposure": "0.82%",
             "Exposure to Sustainable Impact Solutions": "155.81"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "2.93 years",
-            "Yield to Maturity": "2.82"
         }
     },
     "IVW": {
@@ -3247,7 +3195,7 @@
             "Telecommunications Services": "0.32%",
             "Energy": "0.05%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "12.24%",
             "Microsoft Corporation": "10.48%",
             "Amazon.com, Inc.": "7.89%",
@@ -3317,8 +3265,7 @@
             "Global Percentile Rank": "3.25%",
             "SRI Screening Criteria Exposure": "3.65%",
             "Exposure to Sustainable Impact Solutions": "68.18"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "EEM": {
         "Top 10 Countries ": {
@@ -3345,7 +3292,7 @@
             "Telecommunications Services": "2.79%",
             "Utilities": "2.11%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Taiwan Semiconductor Manufacturing Co., Ltd.": "6.59%",
             "Tencent Holdings Ltd.": "6.46%",
             "Alibaba Group Holding Ltd. Sponsored ADR": "5.87%",
@@ -3415,8 +3362,7 @@
             "Global Percentile Rank": "2.35%",
             "SRI Screening Criteria Exposure": "5.11%",
             "Exposure to Sustainable Impact Solutions": "260.23"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "DIA": {
         "Top 10 Countries ": {
@@ -3434,7 +3380,7 @@
             "Telecommunications Services": "1.28%",
             "Basic Materials": "1.18%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "UnitedHealth Group Incorporated": "6.86%",
             "Goldman Sachs Group, Inc.": "6.40%",
             "Home Depot, Inc.": "5.80%",
@@ -3504,15 +3450,14 @@
             "Global Percentile Rank": "9.19%",
             "SRI Screening Criteria Exposure": "4.80%",
             "Exposure to Sustainable Impact Solutions": "38.25"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "USMV": {
-        "USMV Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "98.83%",
             "Canada": "1.17%"
         },
-        "USMV Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "21.29%",
             "Healthcare": "18.83%",
             "Financials": "12.81%",
@@ -3524,7 +3469,7 @@
             "Basic Materials": "2.93%",
             "Energy": "0.22%"
         },
-        "USMV Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Microsoft Corporation": "1.68%",
             "Johnson & Johnson": "1.65%",
             "NextEra Energy, Inc.": "1.63%",
@@ -3536,7 +3481,7 @@
             "T-Mobile US, Inc.": "1.43%",
             "Vertex Pharmaceuticals Incorporated": "1.43%"
         },
-        "USMV Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "10/18/11",
@@ -3546,7 +3491,7 @@
             "Average Daily $ Volume": "$288.06M",
             "Average Spread (%)": "0.02%"
         },
-        "USMV Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$138.10B",
             "Price / Earnings Ratio": "27.41",
             "Price / Book Ratio": "4.46",
@@ -3554,13 +3499,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "184"
         },
-        "USMV Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI USA Minimum Volatility Index",
             "Index Weighting Methodology": "Multi-Factor",
             "Index Selection Methodology": "Multi-Factor",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "USMV Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "4,272,366",
             "Average Daily $ Volume": "$288.06M",
             "Median Daily Share Volume": "3,884,284",
@@ -3579,7 +3524,7 @@
             "Net Asset Value (Yesterday)": "$67.53",
             "ETF.com Implied Liquidity": "5"
         },
-        "USMV Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.94",
             "Beta": "0.87",
             "Up Beta": "0.95",
@@ -3587,15 +3532,14 @@
             "Downside Standard Deviation": "0.57%",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "USMV MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.83 / 10",
             "MSCI ESG Quality Score": "77.11",
             "Peer Group Percentile Rank": "49.86",
             "Global Percentile Rank": "8.27%",
             "SRI Screening Criteria Exposure": "8.65%",
             "Exposure to Sustainable Impact Solutions": "323.13"
-        },
-        "USMV Benchmark Comparison Holdings": {}
+        }
     },
     "IAU": {
         "Top 10 Holdings ": {
@@ -3651,11 +3595,11 @@
         }
     },
     "SCHX": {
-        "SCHX Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%",
             "Canada": "0.00%"
         },
-        "SCHX Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "34.04%",
             "Consumer Cyclicals": "15.52%",
             "Healthcare": "13.22%",
@@ -3667,7 +3611,7 @@
             "Energy": "2.29%",
             "Telecommunications Services": "1.60%"
         },
-        "SCHX Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "5.88%",
             "Microsoft Corporation": "5.03%",
             "Amazon.com, Inc.": "3.80%",
@@ -3679,7 +3623,7 @@
             "Johnson & Johnson": "1.19%",
             "JPMorgan Chase & Co.": "1.17%"
         },
-        "SCHX Summary Data": {
+        "Summary Data": {
             "Issuer": "Charles Schwab",
             "Brand": "Schwab",
             "Inception Date": "11/03/09",
@@ -3689,7 +3633,7 @@
             "Average Daily $ Volume": "$81.59M",
             "Average Spread (%)": "0.04%"
         },
-        "SCHX Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$432.05B",
             "Price / Earnings Ratio": "41.29",
             "Price / Book Ratio": "4.18",
@@ -3697,13 +3641,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "737"
         },
-        "SCHX Index Data": {
+        "Index Data": {
             "Index Tracked": "Dow Jones US Total Stock Market Large-Cap",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI USA Large Cap Index"
         },
-        "SCHX Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "889,554",
             "Average Daily $ Volume": "$81.59M",
             "Median Daily Share Volume": "812,589",
@@ -3722,7 +3666,7 @@
             "Net Asset Value (Yesterday)": "$96.07",
             "ETF.com Implied Liquidity": "5"
         },
-        "SCHX Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.01",
             "Up Beta": "0.99",
@@ -3730,15 +3674,14 @@
             "Downside Standard Deviation": "0.12%",
             "Segment Benchmark": "MSCI USA Large Cap Index"
         },
-        "SCHX MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.04 / 10",
             "MSCI ESG Quality Score": "32.13",
             "Peer Group Percentile Rank": "30.88",
             "Global Percentile Rank": "6.60%",
             "SRI Screening Criteria Exposure": "5.18%",
             "Exposure to Sustainable Impact Solutions": "138.39"
-        },
-        "SCHX Benchmark Comparison Holdings": {}
+        }
     },
     "IWR": {
         "Top 10 Countries ": {
@@ -3756,7 +3699,7 @@
             "Energy": "3.07%",
             "Telecommunications Services": "0.26%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Twilio, Inc. Class A": "0.60%",
             "Twitter, Inc.": "0.53%",
             "Moderna, Inc.": "0.52%",
@@ -3826,8 +3769,7 @@
             "Global Percentile Rank": "4.95%",
             "SRI Screening Criteria Exposure": "6.03%",
             "Exposure to Sustainable Impact Solutions": "218.98"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IWB": {
         "Top 10 Countries ": {
@@ -3846,7 +3788,7 @@
             "Energy": "2.29%",
             "Telecommunications Services": "1.57%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "5.83%",
             "Microsoft Corporation": "4.90%",
             "Amazon.com, Inc.": "3.70%",
@@ -3916,11 +3858,10 @@
             "Global Percentile Rank": "6.46%",
             "SRI Screening Criteria Exposure": "5.16%",
             "Exposure to Sustainable Impact Solutions": "139.02"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IXUS": {
-        "IXUS Top 10 Countries ": {
+        "Top 10 Countries ": {
             "Japan": "16.27%",
             "Hong Kong": "10.39%",
             "United Kingdom": "9.61%",
@@ -3932,7 +3873,7 @@
             "Korea, Republic of": "4.32%",
             "Taiwan, Province of China": "4.15%"
         },
-        "IXUS Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Financials": "20.79%",
             "Technology": "17.29%",
             "Industrials": "13.06%",
@@ -3944,7 +3885,7 @@
             "Utilities": "3.27%",
             "Telecommunications Services": "2.97%"
         },
-        "IXUS Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Taiwan Semiconductor Manufacturing Co., Ltd.": "1.84%",
             "Tencent Holdings Ltd.": "1.80%",
             "Alibaba Group Holding Ltd. Sponsored ADR": "1.64%",
@@ -3956,7 +3897,7 @@
             "Novartis AG": "0.65%",
             "LVMH Moet Hennessy Louis Vuitton SE": "0.57%"
         },
-        "IXUS Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "10/18/12",
@@ -3966,7 +3907,7 @@
             "Average Daily $ Volume": "$103.34M",
             "Average Spread (%)": "0.01%"
         },
-        "IXUS Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$88.02B",
             "Price / Earnings Ratio": "36.50",
             "Price / Book Ratio": "1.78",
@@ -3974,13 +3915,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "4,241"
         },
-        "IXUS Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI ACWI ex USA IMI Index -TR net",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI ACWI ex USA IMI Index -TR net"
         },
-        "IXUS Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,511,942",
             "Average Daily $ Volume": "$103.34M",
             "Median Daily Share Volume": "1,316,115",
@@ -3999,7 +3940,7 @@
             "Net Asset Value (Yesterday)": "$72.46",
             "ETF.com Implied Liquidity": "5"
         },
-        "IXUS Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.99",
             "Beta": "1.00",
             "Up Beta": "1.00",
@@ -4007,15 +3948,14 @@
             "Downside Standard Deviation": "0.12%",
             "Segment Benchmark": "MSCI ACWI ex USA IMI Index -TR net"
         },
-        "IXUS MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.37 / 10",
             "MSCI ESG Quality Score": "13.87",
             "Peer Group Percentile Rank": "67.23",
             "Global Percentile Rank": "7.67%",
             "SRI Screening Criteria Exposure": "6.84%",
             "Exposure to Sustainable Impact Solutions": "181.72"
-        },
-        "IXUS Benchmark Comparison Holdings": {}
+        }
     },
     "MBB": {
         "Top 10 Countries ": {
@@ -4024,7 +3964,7 @@
         "Top 10 Sectors ": {
             "MBS": "100.00%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "15.58%",
             "UMBS TBA 30yr 2% March Delivery 2.000% 01-NOV-2049": "6.47%",
             "MORTGAGE-BACKED SECURITIES": "1.64%",
@@ -4084,10 +4024,6 @@
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "3.03 years",
-            "Yield to Maturity": "1.81"
         }
     },
     "TIP": {
@@ -4097,7 +4033,7 @@
         "Top 10 Sectors ": {
             "Treasury": "100.00%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "United States Treasury Notes 0.5% 15-APR-2024": "7.70%",
             "Government of the United States of America 0.125% 15-JAN-2030": "6.15%",
             "United States Treasury Notes 0.625% 15-JAN-2026": "6.15%",
@@ -4165,17 +4101,13 @@
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "--",
             "Exposure to Sustainable Impact Solutions": "--"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "8.35 years",
-            "Yield to Maturity": "7.80"
         }
     },
     "SCHD": {
-        "SCHD Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%"
         },
-        "SCHD Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Financials": "25.68%",
             "Industrials": "17.52%",
             "Consumer Non-Cyclicals": "16.37%",
@@ -4186,7 +4118,7 @@
             "Telecommunications Services": "3.92%",
             "Healthcare": "3.60%"
         },
-        "SCHD Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Exxon Mobil Corporation": "4.53%",
             "Texas Instruments Incorporated": "4.28%",
             "3M Company": "3.93%",
@@ -4198,7 +4130,7 @@
             "Qualcomm Inc": "3.63%",
             "PepsiCo, Inc.": "3.60%"
         },
-        "SCHD Summary Data": {
+        "Summary Data": {
             "Issuer": "Charles Schwab",
             "Brand": "Schwab",
             "Inception Date": "10/20/11",
@@ -4208,7 +4140,7 @@
             "Average Daily $ Volume": "$109.31M",
             "Average Spread (%)": "0.02%"
         },
-        "SCHD Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$87.55B",
             "Price / Earnings Ratio": "23.62",
             "Price / Book Ratio": "2.76",
@@ -4216,13 +4148,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "98"
         },
-        "SCHD Index Data": {
+        "Index Data": {
             "Index Tracked": "Dow Jones U.S. Dividend 100 Index",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Fundamental",
             "Segment Benchmark": "MSCI USA IMI High Yield Dividend Index"
         },
-        "SCHD Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,681,403",
             "Average Daily $ Volume": "$109.31M",
             "Median Daily Share Volume": "1,583,009",
@@ -4241,7 +4173,7 @@
             "Net Asset Value (Yesterday)": "$66.99",
             "ETF.com Implied Liquidity": "5"
         },
-        "SCHD Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.98",
             "Beta": "0.97",
             "Up Beta": "0.95",
@@ -4249,18 +4181,17 @@
             "Downside Standard Deviation": "0.32%",
             "Segment Benchmark": "MSCI USA IMI High Yield Dividend Index"
         },
-        "SCHD MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.75 / 10",
             "MSCI ESG Quality Score": "40.27",
             "Peer Group Percentile Rank": "47.26",
             "Global Percentile Rank": "3.33%",
             "SRI Screening Criteria Exposure": "5.14%",
             "Exposure to Sustainable Impact Solutions": "89.93"
-        },
-        "SCHD Benchmark Comparison Holdings": {}
+        }
     },
     "SCHF": {
-        "SCHF Top 10 Countries ": {
+        "Top 10 Countries ": {
             "Japan": "22.71%",
             "United Kingdom": "12.10%",
             "France": "8.80%",
@@ -4272,7 +4203,7 @@
             "Netherlands": "3.49%",
             "Sweden": "3.03%"
         },
-        "SCHF Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Financials": "20.67%",
             "Industrials": "15.68%",
             "Consumer Cyclicals": "12.41%",
@@ -4284,7 +4215,7 @@
             "Utilities": "3.45%",
             "Telecommunications Services": "3.15%"
         },
-        "SCHF Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Samsung Electronics Co., Ltd.": "1.73%",
             "Nestle S.A.": "1.57%",
             "Roche Holding Ltd": "1.22%",
@@ -4296,7 +4227,7 @@
             "Shopify, Inc. Class A": "0.80%",
             "SAP SE": "0.74%"
         },
-        "SCHF Summary Data": {
+        "Summary Data": {
             "Issuer": "Charles Schwab",
             "Brand": "Schwab",
             "Inception Date": "11/03/09",
@@ -4306,7 +4237,7 @@
             "Average Daily $ Volume": "$98.34M",
             "Average Spread (%)": "0.03%"
         },
-        "SCHF Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$74.70B",
             "Price / Earnings Ratio": "39.97",
             "Price / Book Ratio": "1.68",
@@ -4314,13 +4245,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "1,469"
         },
-        "SCHF Index Data": {
+        "Index Data": {
             "Index Tracked": "FTSE Developed ex-US Index",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI World ex USA IMI"
         },
-        "SCHF Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "2,692,847",
             "Average Daily $ Volume": "$98.34M",
             "Median Daily Share Volume": "2,577,313",
@@ -4339,7 +4270,7 @@
             "Net Asset Value (Yesterday)": "$38.12",
             "ETF.com Implied Liquidity": "5"
         },
-        "SCHF Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "0.99",
             "Up Beta": "1.01",
@@ -4347,15 +4278,14 @@
             "Downside Standard Deviation": "0.09%",
             "Segment Benchmark": "MSCI World ex USA IMI"
         },
-        "SCHF MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "7.29 / 10",
             "MSCI ESG Quality Score": "56.06",
             "Peer Group Percentile Rank": "86.52",
             "Global Percentile Rank": "10.69%",
             "SRI Screening Criteria Exposure": "7.31%",
             "Exposure to Sustainable Impact Solutions": "148.50"
-        },
-        "SCHF Benchmark Comparison Holdings": {}
+        }
     },
     "RSP": {
         "Top 10 Countries ": {
@@ -4374,7 +4304,7 @@
             "Energy": "4.54%",
             "Telecommunications Services": "0.78%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "ViacomCBS Inc. Class B": "0.30%",
             "SVB Financial Group": "0.27%",
             "Skyworks Solutions, Inc.": "0.25%",
@@ -4443,11 +4373,10 @@
             "Global Percentile Rank": "8.16%",
             "SRI Screening Criteria Exposure": "5.10%",
             "Exposure to Sustainable Impact Solutions": "255.59"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "ARKK": {
-        "ARKK Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "88.80%",
             "China": "4.24%",
             "Belgium": "1.85%",
@@ -4459,7 +4388,7 @@
             "Kuwait": "0.00%",
             "Czech Republic": "0.00%"
         },
-        "ARKK Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "32.02%",
             "Healthcare": "31.77%",
             "Consumer Cyclicals": "18.96%",
@@ -4467,7 +4396,7 @@
             "Financials": "8.09%",
             "Telecommunications Services": "1.04%"
         },
-        "ARKK Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Tesla Inc": "8.63%",
             "Roku, Inc. Class A": "6.77%",
             "Teladoc Health, Inc.": "5.12%",
@@ -4479,7 +4408,7 @@
             "Spotify Technology SA": "3.09%",
             "Shopify, Inc. Class A": "2.53%"
         },
-        "ARKK Summary Data": {
+        "Summary Data": {
             "Issuer": "ARK",
             "Inception Date": "10/31/14",
             "Legal Structure": "Open-Ended Fund",
@@ -4488,7 +4417,7 @@
             "Average Daily $ Volume": "$963.33M",
             "Average Spread (%)": "0.04%"
         },
-        "ARKK Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$122.20B",
             "Price / Earnings Ratio": "-61.55",
             "Price / Book Ratio": "9.93",
@@ -4496,13 +4425,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "47"
         },
-        "ARKK Index Data": {
+        "Index Data": {
             "Index Tracked": "No Underlying Index",
             "Index Weighting Methodology": "Proprietary",
             "Index Selection Methodology": "Proprietary",
             "Segment Benchmark": "MSCI ACWI + Frontier Markets IMI Index"
         },
-        "ARKK Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "6,915,284",
             "Average Daily $ Volume": "$963.33M",
             "Median Daily Share Volume": "6,972,287",
@@ -4521,7 +4450,7 @@
             "Net Asset Value (Yesterday)": "$156.45",
             "ETF.com Implied Liquidity": "5"
         },
-        "ARKK Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.65",
             "Beta": "1.44",
             "Up Beta": "1.17",
@@ -4529,15 +4458,14 @@
             "Downside Standard Deviation": "2.08%",
             "Segment Benchmark": "MSCI ACWI + Frontier Markets IMI Index"
         },
-        "ARKK MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "4.18 / 10",
             "MSCI ESG Quality Score": "18.67",
             "Peer Group Percentile Rank": "13.49",
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "10.91%",
             "Exposure to Sustainable Impact Solutions": "24.64"
-        },
-        "ARKK Benchmark Comparison Holdings": {}
+        }
     },
     "XLV": {
         "Top 10 Countries ": {
@@ -4551,7 +4479,7 @@
             "Food & Drug Retailing": "1.03%",
             "Machinery, Equipment & Components": "0.65%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Johnson & Johnson": "9.96%",
             "UnitedHealth Group Incorporated": "7.07%",
             "Abbott Laboratories": "5.16%",
@@ -4621,8 +4549,7 @@
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "9.49%",
             "Exposure to Sustainable Impact Solutions": "17.51"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "XLE": {
         "Top 10 Countries ": {
@@ -4634,7 +4561,7 @@
             "Oil & Gas Transportation Services": "9.91%",
             "Oil Related Services and Equipment": "9.66%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Exxon Mobil Corporation": "24.00%",
             "Chevron Corporation": "20.99%",
             "ConocoPhillips": "5.58%",
@@ -4704,8 +4631,7 @@
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "0.16%",
             "Exposure to Sustainable Impact Solutions": "481.28"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VBR": {
         "Top 10 Countries ": {
@@ -4724,7 +4650,7 @@
             "Energy": "3.59%",
             "Telecommunications Services": "0.40%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "1.36%",
             "ON Semiconductor Corporation": "0.53%",
             "IDEX Corporation": "0.53%",
@@ -4793,11 +4719,10 @@
             "Global Percentile Rank": "5.35%",
             "SRI Screening Criteria Exposure": "4.53%",
             "Exposure to Sustainable Impact Solutions": "195.92"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IGSB": {
-        "IGSB Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "71.85%",
             "United Kingdom": "6.89%",
             "Canada": "3.68%",
@@ -4809,7 +4734,7 @@
             "Virgin Islands (british)": "0.87%",
             "China": "0.55%"
         },
-        "IGSB Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Financial": "46.22%",
             "Industrial": "44.17%",
             "Utility": "5.23%",
@@ -4817,7 +4742,7 @@
             "Corporate-Other": "0.18%",
             "Government Regional": "0.06%"
         },
-        "IGSB Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "CORPORATE BOND": "1.04%",
             "MUTUAL FUND (OTHER)": "0.72%",
             "Pacific Gas and Electric Company 1.75% 16-JUN-2022": "0.24%",
@@ -4829,7 +4754,7 @@
             "Verizon Communications Inc. 0.85% 20-NOV-2025": "0.16%",
             "Charter Communications Operating Capital Corp. 4.908% 23-JUL-2025": "0.16%"
         },
-        "IGSB Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "01/05/07",
@@ -4839,20 +4764,20 @@
             "Average Daily $ Volume": "$140.02M",
             "Average Spread (60-Day)": "0.02%"
         },
-        "IGSB Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "2.72",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "0.86%",
             "Next Ex-Dividend Date": "12/17/20",
             "Number of Holdings": "2,918"
         },
-        "IGSB Index Data": {
+        "Index Data": {
             "Index Tracked": "ICE BofAML 1-5 Year US Corporate Index",
             "Index Weighting Methodology": "Market Value",
             "Index Selection Methodology": "Market Value",
             "Segment Benchmark": "Bloomberg Barclays U.S. Corporate Bond 1-3 Year Index"
         },
-        "IGSB Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "2,542,277",
             "Average Daily $ Volume": "$140.02M",
             "Median Daily Share Volume": "2,109,885",
@@ -4871,28 +4796,24 @@
             "Net Asset Value (Yesterday)": "$55.01",
             "ETF.com Implied Liquidity": "5"
         },
-        "IGSB Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.93",
             "Beta": "1.33",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
         },
-        "IGSB MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.34 / 10",
             "MSCI ESG Quality Score": "85.41",
             "Peer Group Percentile Rank": "66.45",
             "Global Percentile Rank": "8.26%",
             "SRI Screening Criteria Exposure": "2.71%",
             "Exposure to Sustainable Impact Solutions": "242.24"
-        },
-        "IGSB Holdings Statistics": {
-            "Weighted Average Life": "2.95 years",
-            "Yield to Maturity": "2.72"
         }
     },
     "HYG": {
-        "Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "83.61%",
             "Canada": "5.43%",
             "Netherlands": "2.13%",
@@ -4911,7 +4832,7 @@
             "Corporate-Other": "0.88%",
             "Government Agency": "0.45%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "CORPORATE BOND": "1.37%",
             "BlackRock Cash Funds Treasury SL Agency Shares": "0.62%",
             "Altice France SA 7.375% 01-MAY-2026": "0.52%",
@@ -4979,18 +4900,14 @@
             "Global Percentile Rank": "6.90%",
             "SRI Screening Criteria Exposure": "2.08%",
             "Exposure to Sustainable Impact Solutions": "284.61"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "3.63 years",
-            "Yield to Maturity": "2.98"
         }
     },
     "VV": {
-        "VV Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "99.92%",
             "Canada": "0.08%"
         },
-        "VV Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "34.32%",
             "Consumer Cyclicals": "15.74%",
             "Healthcare": "13.24%",
@@ -5002,7 +4919,7 @@
             "Energy": "2.15%",
             "Telecommunications Services": "1.70%"
         },
-        "VV Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "6.19%",
             "Microsoft Corporation": "5.37%",
             "Amazon.com, Inc.": "4.19%",
@@ -5014,7 +4931,7 @@
             "Berkshire Hathaway Inc. Class B": "1.28%",
             "JPMorgan Chase & Co.": "1.20%"
         },
-        "VV Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "01/27/04",
             "Legal Structure": "Open-Ended Fund",
@@ -5023,7 +4940,7 @@
             "Average Daily $ Volume": "$47.76M",
             "Average Spread (%)": "0.04%"
         },
-        "VV Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$451.76B",
             "Price / Earnings Ratio": "39.11",
             "Price / Book Ratio": "4.27",
@@ -5031,13 +4948,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "542"
         },
-        "VV Index Data": {
+        "Index Data": {
             "Index Tracked": "CRSP US Large Cap",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI USA Large Cap Index"
         },
-        "VV Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "269,120",
             "Average Daily $ Volume": "$47.76M",
             "Median Daily Share Volume": "239,276",
@@ -5056,7 +4973,7 @@
             "Net Asset Value (Yesterday)": "$185.16",
             "ETF.com Implied Liquidity": "5"
         },
-        "VV Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.00",
             "Up Beta": "0.99",
@@ -5064,15 +4981,14 @@
             "Downside Standard Deviation": "0.09%",
             "Segment Benchmark": "MSCI USA Large Cap Index"
         },
-        "VV MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.05 / 10",
             "MSCI ESG Quality Score": "32.37",
             "Peer Group Percentile Rank": "30.97",
             "Global Percentile Rank": "6.69%",
             "SRI Screening Criteria Exposure": "5.02%",
             "Exposure to Sustainable Impact Solutions": "140.40"
-        },
-        "VV Benchmark Comparison Holdings": {}
+        }
     },
     "IVE": {
         "Top 10 Countries ": {
@@ -5091,7 +5007,7 @@
             "Telecommunications Services": "3.33%",
             "Basic Materials": "3.23%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Berkshire Hathaway Inc. Class B": "3.02%",
             "JPMorgan Chase & Co.": "2.75%",
             "Walt Disney Company": "2.24%",
@@ -5161,8 +5077,7 @@
             "Global Percentile Rank": "12.81%",
             "SRI Screening Criteria Exposure": "3.68%",
             "Exposure to Sustainable Impact Solutions": "260.52"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "MDY": {
         "Top 10 Countries ": {
@@ -5180,7 +5095,7 @@
             "Utilities": "3.44%",
             "Telecommunications Services": "0.30%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Generac Holdings Inc.": "0.92%",
             "Penn National Gaming, Inc.": "0.79%",
             "SolarEdge Technologies, Inc.": "0.76%",
@@ -5250,8 +5165,7 @@
             "Global Percentile Rank": "4.91%",
             "SRI Screening Criteria Exposure": "8.06%",
             "Exposure to Sustainable Impact Solutions": "152.78"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "MUB": {
         "Top 10 Countries ": {
@@ -5262,7 +5176,7 @@
             "General obligation": "34.17%",
             "Double barrel": "1.82%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "2.14%",
             "MUNICIPAL BONDS": "1.24%",
             "Pennsylvania St 5.0% 01-JAN-2025": "0.18%",
@@ -5322,18 +5236,14 @@
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "5.45 years",
-            "Yield to Maturity": "4.84"
         }
     },
     "QUAL": {
-        "QUAL Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%",
             "Canada": "0.00%"
         },
-        "QUAL Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "35.37%",
             "Consumer Cyclicals": "15.98%",
             "Healthcare": "13.58%",
@@ -5345,7 +5255,7 @@
             "Energy": "2.18%",
             "Telecommunications Services": "1.24%"
         },
-        "QUAL Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Microsoft Corporation": "4.37%",
             "Apple Inc.": "4.32%",
             "NIKE, Inc. Class B": "3.13%",
@@ -5357,7 +5267,7 @@
             "Booking Holdings Inc.": "2.61%",
             "BlackRock, Inc.": "2.50%"
         },
-        "QUAL Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "07/18/13",
@@ -5367,7 +5277,7 @@
             "Average Daily $ Volume": "$139.52M",
             "Average Spread (%)": "0.02%"
         },
-        "QUAL Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$330.84B",
             "Price / Earnings Ratio": "29.04",
             "Price / Book Ratio": "5.78",
@@ -5375,13 +5285,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             " Number of Holdings": "123"
         },
-        "QUAL Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI USA Sector Neutral Quality Index",
             "Index Weighting Methodology": "Fundamental",
             "Index Selection Methodology": "Fundamental",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "QUAL Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,201,666",
             "Average Daily $ Volume": "$139.52M",
             "Median Daily Share Volume": "867,886",
@@ -5400,7 +5310,7 @@
             "Net Asset Value (Yesterday)": "$119.53",
             "ETF.com Implied Liquidity": "5"
         },
-        "QUAL Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.98",
             "Beta": "0.97",
             "Up Beta": "1.02",
@@ -5408,15 +5318,14 @@
             "Downside Standard Deviation": "0.28%",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "QUAL MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.71 / 10",
             "MSCI ESG Quality Score": "72.08",
             "Peer Group Percentile Rank": "45.85",
             "Global Percentile Rank": "2.63%",
             "SRI Screening Criteria Exposure": "3.91%",
             "Exposure to Sustainable Impact Solutions": "124.12"
-        },
-        "QUAL Benchmark Comparison Holdings": {}
+        }
     },
     "XLY": {
         "Top 10 Countries ": {
@@ -5434,7 +5343,7 @@
             "Leisure Products": "0.78%",
             "Communications & Networking": "0.53%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Amazon.com, Inc.": "21.79%",
             "Tesla Inc": "17.06%",
             "Home Depot, Inc.": "8.27%",
@@ -5504,8 +5413,7 @@
             "Global Percentile Rank": "1.93%",
             "SRI Screening Criteria Exposure": "1.02%",
             "Exposure to Sustainable Impact Solutions": "42.97"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "SHY": {
         "Top 10 Countries ": {
@@ -5514,7 +5422,7 @@
         "Top 10 Sectors ": {
             "Treasury": "100.00%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "United States Treasury Notes 2.125% 15-MAY-2022": "6.15%",
             "United States Treasury Notes 1.75% 15-JUL-2022": "5.44%",
             "United States Treasury Notes 1.625% 15-NOV-2022": "5.41%",
@@ -5582,18 +5490,14 @@
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "--",
             "Exposure to Sustainable Impact Solutions": "--"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "1.90 years",
-            "Yield to Maturity": "1.86"
         }
     },
     "SCHB": {
-        "SCHB Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "99.99%",
             "Canada": "0.01%"
         },
-        "SCHB Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "32.41%",
             "Consumer Cyclicals": "15.51%",
             "Financials": "13.71%",
@@ -5605,7 +5509,7 @@
             "Energy": "2.39%",
             "Telecommunications Services": "1.53%"
         },
-        "SCHB Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "5.30%",
             "Microsoft Corporation": "4.54%",
             "Amazon.com, Inc.": "3.43%",
@@ -5617,7 +5521,7 @@
             "Johnson & Johnson": "1.07%",
             "JPMorgan Chase & Co.": "1.05%"
         },
-        "SCHB Summary Data": {
+        "Summary Data": {
             "Issuer": "Charles Schwab",
             "Brand": "Schwab",
             "Inception Date": "11/03/09",
@@ -5627,7 +5531,7 @@
             "Average Daily $ Volume": "$55.39M",
             "Average Spread (%)": "0.04%"
         },
-        "SCHB Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$393.55B",
             "Price / Earnings Ratio": "50.05",
             "Price / Book Ratio": "3.91",
@@ -5635,13 +5539,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "2,467"
         },
-        "SCHB Index Data": {
+        "Index Data": {
             "Index Tracked": "Dow Jones US Broad Stock Market",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "SCHB Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "601,830",
             "Average Daily $ Volume": "$55.39M",
             "Median Daily Share Volume": "547,584",
@@ -5660,7 +5564,7 @@
             "Net Asset Value (Yesterday)": "$96.77",
             "ETF.com Implied Liquidity": "5"
         },
-        "SCHB Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.00",
             "Up Beta": "1.00",
@@ -5668,18 +5572,17 @@
             "Downside Standard Deviation": "0.02%",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "SCHB MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "4.98 / 10",
             "MSCI ESG Quality Score": "27.49",
             "Peer Group Percentile Rank": "29.79",
             "Global Percentile Rank": "6.37%",
             "SRI Screening Criteria Exposure": "5.26%",
             "Exposure to Sustainable Impact Solutions": "137.11"
-        },
-        "SCHB Benchmark Comparison Holdings": {}
+        }
     },
     "VT": {
-        "VT Top 10 Countries ": {
+        "Top 10 Countries ": {
             "Luxembourg": "0.00%",
             "Romania": "0.00%",
             "Japan": "0.00%",
@@ -5691,7 +5594,7 @@
             "Argentina": "0.00%",
             "United States": "0.00%"
         },
-        "VT Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "3.02%",
             "Microsoft Corporation": "2.52%",
             "Amazon.com, Inc.": "2.11%",
@@ -5703,7 +5606,7 @@
             "Tesla Inc": "0.66%",
             "Tencent Holdings Ltd.": "0.66%"
         },
-        "VT Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "06/24/08",
             "Legal Structure": "Open-Ended Fund",
@@ -5712,7 +5615,7 @@
             "Average Daily $ Volume": "$161.57M",
             "Average Spread (%)": "0.01%"
         },
-        "VT Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "--",
             "Price / Earnings Ratio": "--",
             "Price / Book Ratio": "--",
@@ -5720,13 +5623,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "8,712"
         },
-        "VT Index Data": {
+        "Index Data": {
             "Index Tracked": "FTSE Global All Cap Net TR US RIC",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI ACWI + Frontier Markets IMI Index"
         },
-        "VT Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,720,915",
             "Average Daily $ Volume": "$161.57M",
             "Median Daily Share Volume": "1,261,806",
@@ -5745,7 +5648,7 @@
             "Net Asset Value (Yesterday)": "$98.39",
             "ETF.com Implied Liquidity": "5"
         },
-        "VT Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.00",
             "Up Beta": "1.00",
@@ -5753,15 +5656,14 @@
             "Downside Standard Deviation": "0.02%",
             "Segment Benchmark": "MSCI ACWI + Frontier Markets IMI Index"
         },
-        "VT MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.61 / 10",
             "MSCI ESG Quality Score": "20.93",
             "Peer Group Percentile Rank": "43.10",
             "Global Percentile Rank": "7.03%",
             "SRI Screening Criteria Exposure": "5.85%",
             "Exposure to Sustainable Impact Solutions": "157.78"
-        },
-        "VT Benchmark Comparison Holdings": {}
+        }
     },
     "XLI": {
         "Top 10 Countries ": {
@@ -5780,7 +5682,7 @@
             "Homebuilding & Construction Supplies": "1.00%",
             "Other Specialty Retailers": "0.97%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Honeywell International Inc.": "5.27%",
             "Union Pacific Corporation": "5.19%",
             "United Parcel Service, Inc. Class B": "4.32%",
@@ -5850,8 +5752,7 @@
             "Global Percentile Rank": "27.39%",
             "SRI Screening Criteria Exposure": "1.86%",
             "Exposure to Sustainable Impact Solutions": "151.42"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "SDY": {
         "Top 10 Countries ": {
@@ -5869,7 +5770,7 @@
             "Telecommunications Services": "3.05%",
             "Technology": "2.84%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Exxon Mobil Corporation": "3.24%",
             "AT&T Inc.": "2.64%",
             "Chevron Corporation": "2.24%",
@@ -5939,11 +5840,10 @@
             "Global Percentile Rank": "3.15%",
             "SRI Screening Criteria Exposure": "4.30%",
             "Exposure to Sustainable Impact Solutions": "167.90"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "PFF": {
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Broadcom Inc 8.00 % Cum Conv Pfd Registered Shs 2019-30.09.22 Series A": "2.60%",
             "Wells Fargo & Company 7.5 % Non Cum Perp Conv Pfd Registered Shs A Series L": "1.62%",
             "Bank of America Corp 7.25 % Non Cum Perp Conv Pfd Registered Shs Series L": "1.49%",
@@ -6011,10 +5911,6 @@
             "Global Percentile Rank": "9.15%",
             "SRI Screening Criteria Exposure": "2.40%",
             "Exposure to Sustainable Impact Solutions": "377.31"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "--",
-            "Yield to Maturity": "--"
         }
     },
     "VXF": {
@@ -6034,7 +5930,7 @@
             "Utilities": "2.04%",
             "Telecommunications Services": "0.57%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "2.23%",
             "Square, Inc. Class A": "1.20%",
             "Uber Technologies, Inc.": "1.02%",
@@ -6103,8 +5999,7 @@
             "Global Percentile Rank": "3.13%",
             "SRI Screening Criteria Exposure": "12.24%",
             "Exposure to Sustainable Impact Solutions": "100.25"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "DVY": {
         "Top 10 Countries ": {
@@ -6122,7 +6017,7 @@
             "Telecommunications Services": "3.86%",
             "Healthcare": "1.90%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "ViacomCBS Inc. Class B": "2.73%",
             "Altria Group Inc": "2.21%",
             "Prudential Financial, Inc.": "2.14%",
@@ -6192,8 +6087,7 @@
             "Global Percentile Rank": "14.69%",
             "SRI Screening Criteria Exposure": "2.82%",
             "Exposure to Sustainable Impact Solutions": "675.67"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IWN": {
         "Top 10 Countries ": {
@@ -6212,7 +6106,7 @@
             "Consumer Non-Cyclicals": "3.74%",
             "Telecommunications Services": "0.65%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Novavax, Inc.": "0.98%",
             "Darling Ingredients Inc.": "0.83%",
             "Penn National Gaming, Inc.": "0.64%",
@@ -6282,8 +6176,7 @@
             "Global Percentile Rank": "4.36%",
             "SRI Screening Criteria Exposure": "4.88%",
             "Exposure to Sustainable Impact Solutions": "196.21"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VBK": {
         "Top 10 Countries ": {
@@ -6302,7 +6195,7 @@
             "Telecommunications Services": "0.59%",
             "Utilities": "0.42%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "1.43%",
             "Enphase Energy, Inc.": "0.88%",
             "MongoDB, Inc. Class A": "0.84%",
@@ -6371,15 +6264,14 @@
             "Global Percentile Rank": "4.08%",
             "SRI Screening Criteria Exposure": "8.91%",
             "Exposure to Sustainable Impact Solutions": "60.75"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "DGRO": {
-        "DGRO Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%",
             "Canada": "0.00%"
         },
-        "DGRO Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "19.76%",
             "Financials": "18.90%",
             "Healthcare": "16.33%",
@@ -6390,7 +6282,7 @@
             "Basic Materials": "2.98%",
             "Telecommunications Services": "2.74%"
         },
-        "DGRO Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Microsoft Corporation": "3.34%",
             "JPMorgan Chase & Co.": "3.18%",
             "Apple Inc.": "3.12%",
@@ -6402,7 +6294,7 @@
             "Home Depot, Inc.": "2.16%",
             "Cisco Systems, Inc.": "2.08%"
         },
-        "DGRO Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "06/10/14",
@@ -6412,7 +6304,7 @@
             "Average Daily $ Volume": "$81.58M",
             "Average Spread (%)": "0.02%"
         },
-        "DGRO Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$257.00B",
             "Price / Earnings Ratio": "22.74",
             "Price / Book Ratio": "3.19",
@@ -6420,13 +6312,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "390"
         },
-        "DGRO Index Data": {
+        "Index Data": {
             "Index Tracked": "Morningstar U.S. Dividend Growth Index",
             "Index Weighting Methodology": "Dividends",
             "Index Selection Methodology": "Fundamental",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "DGRO Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,811,958",
             "Average Daily $ Volume": "$81.58M",
             "Median Daily Share Volume": "1,588,944",
@@ -6445,7 +6337,7 @@
             "Net Asset Value (Yesterday)": "$46.19",
             "ETF.com Implied Liquidity": "5"
         },
-        "DGRO Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.96",
             "Beta": "0.99",
             "Up Beta": "1.06",
@@ -6453,18 +6345,17 @@
             "Downside Standard Deviation": "0.46%",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "DGRO MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.07 / 10",
             "MSCI ESG Quality Score": "59.06",
             "Peer Group Percentile Rank": "57.61",
             "Global Percentile Rank": "6.52%",
             "SRI Screening Criteria Exposure": "3.27%",
             "Exposure to Sustainable Impact Solutions": "203.07"
-        },
-        "DGRO Benchmark Comparison Holdings": {}
+        }
     },
     "EMB": {
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Government of Russia 5.25% 23-JUN-2047": "0.83%",
             "Government of Uruguay 5.1% 18-JUN-2050": "0.78%",
             "Government of Kuwait 3.5% 20-MAR-2027": "0.76%",
@@ -6532,14 +6423,10 @@
             "Global Percentile Rank": "0.54%",
             "SRI Screening Criteria Exposure": "0.18%",
             "Exposure to Sustainable Impact Solutions": "--"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "--",
-            "Yield to Maturity": "--"
         }
     },
     "JPST": {
-        "JPST Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "U.S. Dollar": "19.71%",
             "JPMorgan Trust II US Government Money Market Fund Institutional": "6.92%",
             "CORPORATE BOND": "2.52%",
@@ -6551,7 +6438,7 @@
             "Citigroup Inc. 3.142% 24-JAN-2023": "0.56%",
             "BPCE SA FRN 14-JAN-2022": "0.52%"
         },
-        "JPST Summary Data": {
+        "Summary Data": {
             "Issuer": "JPMorgan Chase",
             "Brand": "JPMorgan",
             "Inception Date": "05/17/17",
@@ -6561,20 +6448,20 @@
             "Average Daily $ Volume": "$154.17M",
             "Average Spread (60-Day)": "0.02%"
         },
-        "JPST Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "--",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "--",
             "Next Ex-Dividend Date": "02/01/21",
             "Number of Holdings": "804"
         },
-        "JPST Index Data": {
+        "Index Data": {
             "Index Tracked": "No Underlying Index",
             "Index Weighting Methodology": "Proprietary",
             "Index Selection Methodology": "Proprietary",
             "Segment Benchmark": "N/A"
         },
-        "JPST Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "3,035,073",
             "Average Daily $ Volume": "$154.17M",
             "Median Daily Share Volume": "2,864,117",
@@ -6593,34 +6480,30 @@
             "Net Asset Value (Yesterday)": "$50.78",
             "ETF.com Implied Liquidity": "5"
         },
-        "JPST Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "--",
             "Beta": "--",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
         },
-        "JPST MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "7.02 / 10",
             "MSCI ESG Quality Score": "87.02",
             "Peer Group Percentile Rank": "82.38",
             "Global Percentile Rank": "6.82%",
             "SRI Screening Criteria Exposure": "1.77%",
             "Exposure to Sustainable Impact Solutions": "198.34"
-        },
-        "JPST Holdings Statistics": {
-            "Weighted Average Life": "--",
-            "Yield to Maturity": "--"
         }
     },
     "SCHP": {
-        "SCHP Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%"
         },
-        "SCHP Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Treasury": "100.00%"
         },
-        "SCHP Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "United States Treasury Notes 0.125% 15-JAN-2023": "3.77%",
             "United States Treasury Notes 0.375% 15-JUL-2023": "3.76%",
             "United States Treasury Notes 0.625% 15-JAN-2024": "3.66%",
@@ -6632,7 +6515,7 @@
             "United States Treasury Notes 0.125% 15-APR-2022": "3.17%",
             "United States Treasury Notes 0.125% 15-JUL-2022": "3.16%"
         },
-        "SCHP Summary Data": {
+        "Summary Data": {
             "Issuer": "Charles Schwab",
             "Brand": "Schwab",
             "Inception Date": "08/05/10",
@@ -6642,20 +6525,20 @@
             "Average Daily $ Volume": "$87.78M",
             "Average Spread (60-Day)": "0.02%"
         },
-        "SCHP Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "7.59",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "0.70%",
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "44"
         },
-        "SCHP Index Data": {
+        "Index Data": {
             "Index Tracked": "Bloomberg Barclays US Treasury Inflation Protected Notes (TIPS)",
             "Index Weighting Methodology": "Market Value",
             "Index Selection Methodology": "Market Value",
             "Segment Benchmark": "Bloomberg Barclays US Treasury Inflation Protected Notes (TIPS)"
         },
-        "SCHP Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,416,171",
             "Average Daily $ Volume": "$87.78M",
             "Median Daily Share Volume": "1,366,559",
@@ -6674,32 +6557,28 @@
             "Net Asset Value (Yesterday)": "$61.82",
             "ETF.com Implied Liquidity": "5"
         },
-        "SCHP Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.00",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
         },
-        "SCHP MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.10 / 10",
             "MSCI ESG Quality Score": "37.18",
             "Peer Group Percentile Rank": "58.46",
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "--",
             "Exposure to Sustainable Impact Solutions": "2.50"
-        },
-        "SCHP Holdings Statistics": {
-            "Weighted Average Life": "8.09 years",
-            "Yield to Maturity": "7.59"
         }
     },
     "SCHA": {
-        "SCHA Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "99.93%",
             "Canada": "0.07%"
         },
-        "SCHA Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Financials": "22.14%",
             "Healthcare": "17.72%",
             "Technology": "15.89%",
@@ -6711,7 +6590,7 @@
             "Utilities": "2.34%",
             "Telecommunications Services": "0.85%"
         },
-        "SCHA Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Plug Power Inc.": "0.78%",
             "Penn National Gaming, Inc.": "0.44%",
             "Caesars Entertainment Inc": "0.42%",
@@ -6723,7 +6602,7 @@
             "Axon Enterprise Inc": "0.31%",
             "Repligen Corporation": "0.28%"
         },
-        "SCHA Summary Data": {
+        "Summary Data": {
             "Issuer": "Charles Schwab",
             "Brand": "Schwab",
             "Inception Date": "11/03/09",
@@ -6733,7 +6612,7 @@
             "Average Daily $ Volume": "$69.56M",
             "Average Spread (%)": "0.09%"
         },
-        "SCHA Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$4.04B",
             "Price / Earnings Ratio": "-43.44",
             "Price / Book Ratio": "2.38",
@@ -6741,13 +6620,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "1,745"
         },
-        "SCHA Index Data": {
+        "Index Data": {
             "Index Tracked": "Dow Jones US Total Stock Market Small-Cap",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI USA Small Cap Index"
         },
-        "SCHA Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "736,532",
             "Average Daily $ Volume": "$69.56M",
             "Median Daily Share Volume": "566,636",
@@ -6766,7 +6645,7 @@
             "Net Asset Value (Yesterday)": "$101.37",
             "ETF.com Implied Liquidity": "5"
         },
-        "SCHA Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.01",
             "Up Beta": "1.01",
@@ -6774,15 +6653,14 @@
             "Downside Standard Deviation": "0.13%",
             "Segment Benchmark": "MSCI USA Small Cap Index"
         },
-        "SCHA MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "4.23 / 10",
             "MSCI ESG Quality Score": "15.93",
             "Peer Group Percentile Rank": "14.07",
             "Global Percentile Rank": "3.94%",
             "SRI Screening Criteria Exposure": "6.18%",
             "Exposure to Sustainable Impact Solutions": "122.86"
-        },
-        "SCHA Benchmark Comparison Holdings": {}
+        }
     },
     "SHV": {
         "Top 10 Countries ": {
@@ -6791,7 +6669,7 @@
         "Top 10 Sectors ": {
             "Treasury": "100.00%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "United States Treasury Bills 0.0% 22-APR-2021": "11.62%",
             "United States Treasury Bills 0.0% 27-MAY-2021": "7.84%",
             "United States Treasury Bills 0.0% 03-JUN-2021": "7.20%",
@@ -6859,10 +6737,6 @@
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "--",
             "Exposure to Sustainable Impact Solutions": "--"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "0.40 years",
-            "Yield to Maturity": "0.39"
         }
     },
     "VGK": {
@@ -6890,7 +6764,7 @@
             "Utilities": "4.52%",
             "Telecommunications Services": "2.63%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Nestle S.A.": "2.93%",
             "Roche Holding Ltd": "2.20%",
             "Novartis AG": "1.80%",
@@ -6959,11 +6833,10 @@
             "Global Percentile Rank": "12.48%",
             "SRI Screening Criteria Exposure": "7.47%",
             "Exposure to Sustainable Impact Solutions": "134.53"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "ACWI": {
-        "ACWI Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "57.28%",
             "Japan": "6.83%",
             "Hong Kong": "5.03%",
@@ -6975,7 +6848,7 @@
             "Australia": "1.88%",
             "Korea, Republic of": "1.87%"
         },
-        "ACWI Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "27.51%",
             "Financials": "16.00%",
             "Consumer Cyclicals": "13.50%",
@@ -6987,7 +6860,7 @@
             "Utilities": "2.98%",
             "Telecommunications Services": "2.33%"
         },
-        "ACWI Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "3.70%",
             "Microsoft Corporation": "2.81%",
             "Amazon.com, Inc.": "2.22%",
@@ -6999,7 +6872,7 @@
             "Taiwan Semiconductor Manufacturing Co., Ltd.": "0.92%",
             "Tencent Holdings Ltd.": "0.90%"
         },
-        "ACWI Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "03/26/08",
@@ -7009,7 +6882,7 @@
             "Average Daily $ Volume": "$296.15M",
             "Average Spread (%)": "0.01%"
         },
-        "ACWI Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$297.78B",
             "Price / Earnings Ratio": "36.48",
             "Price / Book Ratio": "2.72",
@@ -7017,13 +6890,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "2,295"
         },
-        "ACWI Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI ACWI Index",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Market Cap",
             "Segment Benchmark": "MSCI ACWI + Frontier Markets IMI Index"
         },
-        "ACWI Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "3,216,054",
             "Average Daily $ Volume": "$296.15M",
             "Median Daily Share Volume": "3,015,765",
@@ -7042,7 +6915,7 @@
             "Net Asset Value (Yesterday)": "$96.50",
             "ETF.com Implied Liquidity": "5"
         },
-        "ACWI Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "1.00",
             "Up Beta": "1.02",
@@ -7050,22 +6923,21 @@
             "Downside Standard Deviation": "0.08%",
             "Segment Benchmark": "MSCI ACWI + Frontier Markets IMI Index"
         },
-        "ACWI MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.68 / 10",
             "MSCI ESG Quality Score": "23.66",
             "Peer Group Percentile Rank": "45.13",
             "Global Percentile Rank": "7.31%",
             " SRI Screening Criteria Exposure": "5.90%",
             "Exposure to Sustainable Impact Solutions": "156.45"
-        },
-        "ACWI Benchmark Comparison Holdings": {}
+        }
     },
     "ESGU": {
-        "ESGU Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "99.91%",
             "Canada": "0.09%"
         },
-        "ESGU Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "34.99%",
             "Consumer Cyclicals": "15.28%",
             "Healthcare": "13.24%",
@@ -7077,7 +6949,7 @@
             "Energy": "2.19%",
             "Telecommunications Services": "1.41%"
         },
-        "ESGU Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "6.50%",
             "Microsoft Corporation": "5.22%",
             "Amazon.com, Inc.": "3.91%",
@@ -7089,7 +6961,7 @@
             "NVIDIA Corporation": "1.16%",
             "JPMorgan Chase & Co.": "1.03%"
         },
-        "ESGU Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "12/01/16",
@@ -7099,7 +6971,7 @@
             "Average Daily $ Volume": "$83.80M",
             "Average Spread (%)": "0.03%"
         },
-        "ESGU Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$451.85B",
             "Price / Earnings Ratio": "36.48",
             "Price / Book Ratio": "4.28",
@@ -7107,13 +6979,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "342"
         },
-        "ESGU Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI USA Extended ESG Focus Index",
             "Index Weighting Methodology": "Principles-based",
             "Index Selection Methodology": "Principles-based",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "ESGU Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "960,399",
             "Average Daily $ Volume": "$83.80M",
             "Median Daily Share Volume": "782,222",
@@ -7132,7 +7004,7 @@
             "Net Asset Value (Yesterday)": "$90.83",
             "ETF.com Implied Liquidity": "5"
         },
-        "ESGU Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "0.98",
             "Up Beta": "1.00",
@@ -7140,15 +7012,14 @@
             "Downside Standard Deviation": "0.13%",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "ESGU MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.77 / 10",
             "MSCI ESG Quality Score": "74.35",
             "Peer Group Percentile Rank": "47.67",
             "Global Percentile Rank": "5.04%",
             "SRI Screening Criteria Exposure": "5.76%",
             "Exposure to Sustainable Impact Solutions": "88.91"
-        },
-        "ESGU Benchmark Comparison Holdings": {}
+        }
     },
     "SLV": {
         "Top 10 Holdings ": {
@@ -7219,7 +7090,7 @@
             "Telecommunications Services": "0.33%",
             "Utilities": "0.09%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Moderna, Inc.": "1.43%",
             "Roku, Inc. Class A": "1.39%",
             "Twilio, Inc. Class A": "1.38%",
@@ -7289,8 +7160,7 @@
             "Global Percentile Rank": "1.88%",
             "SRI Screening Criteria Exposure": "6.93%",
             "Exposure to Sustainable Impact Solutions": "34.81"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "TLT": {
         "Top 10 Countries ": {
@@ -7299,7 +7169,7 @@
         "Top 10 Sectors ": {
             "Treasury": "100.00%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "United States Treasury Bond 3.0% 15-FEB-2049": "8.55%",
             "United States Treasury Bond 3.0% 15-AUG-2048": "7.20%",
             "United States Treasury Bond 2.875% 15-MAY-2043": "5.82%",
@@ -7370,7 +7240,7 @@
         }
     },
     "MINT": {
-        "MINT Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "AGENCY BOND": "3.64%",
             "CORPORATE BOND": "2.78%",
             "U.S. Dollar": "2.74%",
@@ -7382,7 +7252,7 @@
             "HSBC Holdings Plc FRN 18-MAY-2024": "1.15%",
             "American Electric Power Company, Inc. FRN 01-NOV-2023": "1.11%"
         },
-        "MINT Summary Data": {
+        "Summary Data": {
             "Issuer": "PIMCO",
             "Inception Date": "11/16/09",
             "Legal Structure": "Open-Ended Fund",
@@ -7391,20 +7261,20 @@
             "Average Daily $ Volume": "$105.45M",
             "Average Spread (60-Day)": "0.01%"
         },
-        "MINT Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "--",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "--",
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "746"
         },
-        "MINT Index Data": {
+        "Index Data": {
             "Index Tracked": "No Underlying Index",
             "Index Weighting Methodology": "Proprietary",
             "Index Selection Methodology": "Proprietary",
             "Segment Benchmark": "Bloomberg Barclays US Universal 1-5 Year Index"
         },
-        "MINT Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,033,062",
             "Average Daily $ Volume": "$105.45M",
             "Median Daily Share Volume": "978,823",
@@ -7423,32 +7293,28 @@
             "Net Asset Value (Yesterday)": "$102.12",
             "ETF.com Implied Liquidity": "5"
         },
-        "MINT Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.41",
             "Beta": "0.49",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
         },
-        "MINT MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.54 / 10",
             "MSCI ESG Quality Score": "14.50",
             "Peer Group Percentile Rank": "40.91",
             "Global Percentile Rank": "4.05%",
             "SRI Screening Criteria Exposure": "0.82%",
             "Exposure to Sustainable Impact Solutions": "153.87"
-        },
-        "MINT Holdings Statistics": {
-            "Weighted Average Life": "--",
-            "Yield to Maturity": "--"
         }
     },
     "MTUM": {
-        "MTUM Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%",
             "Canada": "0.00%"
         },
-        "MTUM Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "50.92%",
             "Consumer Cyclicals": "22.20%",
             "Healthcare": "12.03%",
@@ -7460,7 +7326,7 @@
             "Telecommunications Services": "0.73%",
             "Consumer Non-Cyclicals": "0.57%"
         },
-        "MTUM Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Tesla Inc": "7.00%",
             "Microsoft Corporation": "4.86%",
             "Apple Inc.": "4.81%",
@@ -7472,7 +7338,7 @@
             "Alphabet Inc. Class C": "2.52%",
             "Alphabet Inc. Class A": "2.51%"
         },
-        "MTUM Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "04/16/13",
@@ -7482,7 +7348,7 @@
             "Average Daily $ Volume": "$170.27M",
             "Average Spread (%)": "0.02%"
         },
-        "MTUM Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$453.39B",
             "Price / Earnings Ratio": "57.96",
             "Price / Book Ratio": "10.85",
@@ -7490,13 +7356,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "122"
         },
-        "MTUM Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI USA Momentum SR Variant Index",
             "Index Weighting Methodology": "Momentum",
             "Index Selection Methodology": "Momentum",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "MTUM Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,021,598",
             "Average Daily $ Volume": "$170.27M",
             "Median Daily Share Volume": "787,440",
@@ -7515,7 +7381,7 @@
             "Net Asset Value (Yesterday)": "$177.54",
             "ETF.com Implied Liquidity": "5"
         },
-        "MTUM Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.88",
             "Beta": "0.97",
             "Up Beta": "1.00",
@@ -7523,15 +7389,14 @@
             "Downside Standard Deviation": "0.86%",
             "Segment Benchmark": "MSCI USA IMI"
         },
-        "MTUM MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "5.17 / 10",
             "MSCI ESG Quality Score": "44.09",
             "Peer Group Percentile Rank": "33.50",
             "Global Percentile Rank": "1.40%",
             "SRI Screening Criteria Exposure": "11.08%",
             "Exposure to Sustainable Impact Solutions": "65.31"
-        },
-        "MTUM Benchmark Comparison Holdings": {}
+        }
     },
     "GDX": {
         "Top 10 Countries ": {
@@ -7550,7 +7415,7 @@
             "Precious Metals & Minerals": "5.29%",
             "Integrated Mining": "4.78%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Newmont Corporation": "12.58%",
             "Barrick Gold Corporation": "10.46%",
             "Franco-Nevada Corporation": "6.14%",
@@ -7619,17 +7484,16 @@
             "Global Percentile Rank": "3.44%",
             "SRI Screening Criteria Exposure": "--",
             "Exposure to Sustainable Impact Solutions": "410.06"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "GOVT": {
-        "GOVT Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%"
         },
-        "GOVT Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Treasury": "100.00%"
         },
-        "GOVT Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "MUTUAL FUND (OTHER)": "4.97%",
             "United States Treasury Notes 2.375% 15-AUG-2024": "4.75%",
             "TREASURY ISSUES (LONG-TERM)": "3.59%",
@@ -7641,7 +7505,7 @@
             "United States Treasury Notes 2.75% 15-FEB-2028": "2.52%",
             "United States Treasury Notes 1.625% 15-MAY-2026": "2.36%"
         },
-        "GOVT Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "02/14/12",
@@ -7651,20 +7515,20 @@
             "Average Daily $ Volume": "$179.37M",
             "Average Spread (60-Day)": "0.04%"
         },
-        "GOVT Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "6.89",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "0.57%",
             "Next Ex-Dividend Date": "12/17/20",
             "Number of Holdings": "155"
         },
-        "GOVT Index Data": {
+        "Index Data": {
             "Index Tracked": "ICE U.S. Treasury Core Bond Index",
             "Index Weighting Methodology": "Market Value",
             "Index Selection Methodology": "Market Value",
             "Segment Benchmark": "Barclays US Aggregate Government - Treasury"
         },
-        "GOVT Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "6,607,025",
             "Average Daily $ Volume": "$179.37M",
             "Median Daily Share Volume": "4,734,059",
@@ -7683,28 +7547,24 @@
             "Net Asset Value (Yesterday)": "$26.75",
             "ETF.com Implied Liquidity": "5"
         },
-        "GOVT Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "--",
             "Beta": "--",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
         },
-        "GOVT MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.10 / 10",
             "MSCI ESG Quality Score": "84.62",
             "Peer Group Percentile Rank": "58.99",
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "--",
             "Exposure to Sustainable Impact Solutions": "--"
-        },
-        "GOVT Holdings Statistics": {
-            "Weighted Average Life": "8.38 years",
-            "Yield to Maturity": "6.89"
         }
     },
     "BIV": {
-        "Top 10 Countries [View All]": {
+        "Top 10 Countries ": {
             "United States": "89.86%",
             "United Kingdom": "2.08%",
             "Japan": "1.59%",
@@ -7728,7 +7588,7 @@
             "General obligation": "0.15%",
             "Corporate-Other": "0.04%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "United States Treasury Notes 0.625% 15-AUG-2030": "2.26%",
             "United States Treasury Notes 3.125% 15-NOV-2028": "2.18%",
             "United States Treasury Notes 0.625% 15-MAY-2030": "2.14%",
@@ -7795,18 +7655,14 @@
             "Global Percentile Rank": "4.34%",
             "SRI Screening Criteria Exposure": "1.53%",
             "Exposure to Sustainable Impact Solutions": "233.95"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "7.20 years",
-            "Yield to Maturity": "6.51"
         }
     },
     "VLUE": {
-        "VLUE Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%",
             "Canada": "0.00%"
         },
-        "VLUE Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "29.25%",
             "Consumer Cyclicals": "16.54%",
             "Financials": "13.55%",
@@ -7818,7 +7674,7 @@
             "Basic Materials": "2.06%",
             "Energy": "1.59%"
         },
-        "VLUE Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Intel Corporation": "7.99%",
             "AT&T Inc.": "6.56%",
             "Micron Technology, Inc.": "4.10%",
@@ -7830,7 +7686,7 @@
             "Target Corporation": "1.86%",
             "Applied Materials, Inc.": "1.77%"
         },
-        "VLUE Summary Data": {
+        "Summary Data": {
             "Issuer": "Blackrock",
             "Brand": "iShares",
             "Inception Date": "04/16/13",
@@ -7840,7 +7696,7 @@
             "Average Daily $ Volume": "$89.42M",
             "Average Spread (%)": "0.03%"
         },
-        "VLUE Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$86.81B",
             "Price / Earnings Ratio": "35.23",
             "Price / Book Ratio": "1.86",
@@ -7848,13 +7704,13 @@
             "Next Ex-Dividend Date": "12/14/20",
             "Number of Holdings": "142"
         },
-        "VLUE Index Data": {
+        "Index Data": {
             "Index Tracked": "MSCI USA Enhanced Value Index",
             "Index Weighting Methodology": "Fundamental",
             "Index Selection Methodology": "Fundamental",
             "Segment Benchmark": "MSCI USA IMI Value Index"
         },
-        "VLUE Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "927,878",
             "Average Daily $ Volume": "$89.42M",
             "Median Daily Share Volume": "728,610",
@@ -7873,7 +7729,7 @@
             "Net Asset Value (Yesterday)": "$103.33",
             "ETF.com Implied Liquidity": "5"
         },
-        "VLUE Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.95",
             "Beta": "1.05",
             "Up Beta": "1.02",
@@ -7881,24 +7737,23 @@
             "Downside Standard Deviation": "0.46%",
             "Segment Benchmark": "MSCI USA IMI Value Index"
         },
-        "VLUE MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "6.49 / 10",
             "MSCI ESG Quality Score": "89.20",
             "Peer Group Percentile Rank": "69.38",
             "Global Percentile Rank": "7.59%",
             "SRI Screening Criteria Exposure": "3.44%",
             "Exposure to Sustainable Impact Solutions": "134.20"
-        },
-        "VLUE Benchmark Comparison Holdings": {}
+        }
     },
     "VMBS": {
-        "VMBS Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%"
         },
-        "VMBS Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "MBS": "100.00%"
         },
-        "VMBS Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "MUTUAL FUND (OTHER)": "13.62%",
             "UMBS TBA 30yr 2% November Delivery 2.000% 01-APR-2050": "4.60%",
             "UMBS TBA 30yr 2% October Delivery 2.000% 01-APR-2050": "3.58%",
@@ -7910,7 +7765,7 @@
             "UMBS TBA 15yr 2% October Delivery 2.000% 01-MAY-2035": "1.10%",
             "UMBS TBA 30yr 3.5% October Delivery 3.500% 01-DEC-2049": "1.02%"
         },
-        "VMBS Summary Data": {
+        "Summary Data": {
             "Issuer": "Vanguard",
             "Inception Date": "11/19/09",
             "Legal Structure": "Open-Ended Fund",
@@ -7919,20 +7774,20 @@
             "Average Daily $ Volume": "$74.32M",
             "Average Spread (60-Day)": "0.02%"
         },
-        "VMBS Portfolio Data": {
+        "Portfolio Data": {
             "Duration": "2.14",
             "Weighted Avg. Maturity": "--",
             "Yield to Maturity": "1.16%",
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "3,458"
         },
-        "VMBS Index Data": {
+        "Index Data": {
             "Index Tracked": "Bloomberg Barclays U.S. MBS Float Adjusted Index",
             "Index Weighting Methodology": "Market Value",
             "Index Selection Methodology": "Market Value",
             "Segment Benchmark": "Bloomberg Barclays U.S. MBS Index"
         },
-        "VMBS Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "1,375,208",
             "Average Daily $ Volume": "$74.32M",
             "Median Daily Share Volume": "1,157,509",
@@ -7951,16 +7806,12 @@
             "Net Asset Value (Yesterday)": "$53.83",
             "ETF.com Implied Liquidity": "5"
         },
-        "VMBS Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "1.00",
             "Beta": "0.99",
             "Up Beta": "--",
             "Down Beta": "--",
             "Downside Standard Deviation": "--"
-        },
-        "VMBS Holdings Statistics": {
-            "Weighted Average Life": "3.34 years",
-            "Yield to Maturity": "2.14"
         }
     },
     "VHT": {
@@ -7979,7 +7830,7 @@
             "Communications & Networking": "0.03%",
             "Professional & Commercial Services": "0.02%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Johnson & Johnson": "7.82%",
             "UnitedHealth Group Incorporated": "6.29%",
             "Merck & Co., Inc.": "3.91%",
@@ -8048,11 +7899,10 @@
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "10.71%",
             "Exposure to Sustainable Impact Solutions": "18.94"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IEF": {
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "United States Treasury Notes 0.625% 15-AUG-2030": "19.90%",
             "United States Treasury Notes 3.125% 15-NOV-2028": "15.33%",
             "United States Treasury Notes 0.875% 15-NOV-2030": "12.18%",
@@ -8120,10 +7970,6 @@
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "--",
             "Exposure to Sustainable Impact Solutions": "--"
-        },
-        "Holdings Statistics": {
-            "Weighted Average Life": "--",
-            "Yield to Maturity": "--"
         }
     },
     "XLC": {
@@ -8141,7 +7987,7 @@
             "Leisure & Recreation": "0.94%",
             "Consumer Publishing": "0.86%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Facebook, Inc. Class A": "19.51%",
             "Alphabet Inc. Class A": "12.61%",
             "Alphabet Inc. Class C": "12.23%",
@@ -8211,8 +8057,7 @@
             "Global Percentile Rank": "--",
             "SRI Screening Criteria Exposure": "0.37%",
             "Exposure to Sustainable Impact Solutions": "14.75"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "EWJ": {
         "Top 10 Countries ": {
@@ -8230,7 +8075,7 @@
             "Utilities": "1.24%",
             "Energy": "0.52%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Toyota Motor Corp.": "4.00%",
             "SoftBank Group Corp.": "3.44%",
             "Sony Corporation": "3.35%",
@@ -8300,15 +8145,14 @@
             "Global Percentile Rank": "6.20%",
             "SRI Screening Criteria Exposure": "9.76%",
             "Exposure to Sustainable Impact Solutions": "74.12"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "SCHG": {
-        "SCHG Top 10 Countries ": {
+        "Top 10 Countries ": {
             "United States": "100.00%",
             "Canada": "0.00%"
         },
-        "SCHG Top 10 Sectors ": {
+        "Top 10 Sectors ": {
             "Technology": "57.70%",
             "Consumer Cyclicals": "19.32%",
             "Healthcare": "12.14%",
@@ -8319,7 +8163,7 @@
             "Telecommunications Services": "0.54%",
             "Energy": "0.39%"
         },
-        "SCHG Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Apple Inc.": "12.41%",
             "Microsoft Corporation": "10.63%",
             "Amazon.com, Inc.": "8.02%",
@@ -8331,7 +8175,7 @@
             "Visa Inc. Class A": "2.04%",
             "PayPal Holdings Inc": "2.01%"
         },
-        "SCHG Summary Data": {
+        "Summary Data": {
             "Issuer": "Charles Schwab",
             "Brand": "Schwab",
             "Inception Date": "12/11/09",
@@ -8341,7 +8185,7 @@
             "Average Daily $ Volume": "$58.68M",
             "Average Spread (%)": "0.03%"
         },
-        "SCHG Portfolio Data": {
+        "Portfolio Data": {
             "Weighted Average Market Cap": "$776.75B",
             "Price / Earnings Ratio": "51.48",
             "Price / Book Ratio": "9.80",
@@ -8349,13 +8193,13 @@
             "Next Ex-Dividend Date": "N/A",
             "Number of Holdings": "219"
         },
-        "SCHG Index Data": {
+        "Index Data": {
             "Index Tracked": "Dow Jones US Total Stock Market Large-Cap Growth",
             "Index Weighting Methodology": "Market Cap",
             "Index Selection Methodology": "Multi-Factor",
             "Segment Benchmark": "MSCI USA Large Cap Growth Index"
         },
-        "SCHG Tradability": {
+        "Tradability": {
             "Avg. Daily Share Volume": "453,396",
             "Average Daily $ Volume": "$58.68M",
             "Median Daily Share Volume": "443,224",
@@ -8374,7 +8218,7 @@
             "Net Asset Value (Yesterday)": "$136.15",
             "ETF.com Implied Liquidity": "5"
         },
-        "SCHG Performance Statistics": {
+        "Performance Statistics": {
             "Goodness of Fit (R2)": "0.99",
             "Beta": "0.99",
             "Up Beta": "0.98",
@@ -8382,15 +8226,14 @@
             "Downside Standard Deviation": "0.18%",
             "Segment Benchmark": "MSCI USA Large Cap Growth Index"
         },
-        "SCHG MSCI ESG Ratings": {
+        "MSCI ESG Ratings": {
             "MSCI ESG Rating": "4.29 / 10",
             "MSCI ESG Quality Score": "5.12",
             "Peer Group Percentile Rank": "14.94",
             "Global Percentile Rank": "1.46%",
             "SRI Screening Criteria Exposure": "6.67%",
             "Exposure to Sustainable Impact Solutions": "35.28"
-        },
-        "SCHG Benchmark Comparison Holdings": {}
+        }
     },
     "SCZ": {
         "Top 10 Countries ": {
@@ -8417,7 +8260,7 @@
             "Energy": "2.31%",
             "Telecommunications Services": "1.12%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "ASM International N.V.": "0.45%",
             "U.S. Dollar": "0.33%",
             "SIG Combibloc Group Ltd": "0.28%",
@@ -8487,8 +8330,7 @@
             "Global Percentile Rank": "3.31%",
             "SRI Screening Criteria Exposure": "8.03%",
             "Exposure to Sustainable Impact Solutions": "135.80"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "VOE": {
         "Top 10 Countries ": {
@@ -8505,7 +8347,7 @@
             "Healthcare": "5.31%",
             "Energy": "4.95%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Freeport-McMoRan, Inc.": "1.64%",
             "Aptiv PLC": "1.35%",
             "ViacomCBS Inc. Class B": "1.15%",
@@ -8574,8 +8416,7 @@
             "Global Percentile Rank": "7.68%",
             "SRI Screening Criteria Exposure": "5.32%",
             "Exposure to Sustainable Impact Solutions": "434.31"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IWS": {
         "Top 10 Countries ": {
@@ -8593,7 +8434,7 @@
             "Energy": "4.00%",
             "Telecommunications Services": "0.22%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Twitter, Inc.": "0.83%",
             "Freeport-McMoRan, Inc.": "0.70%",
             "Ford Motor Company": "0.70%",
@@ -8663,8 +8504,7 @@
             "Global Percentile Rank": "6.66%",
             "SRI Screening Criteria Exposure": "5.53%",
             "Exposure to Sustainable Impact Solutions": "320.52"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     },
     "IWO": {
         "Top 10 Countries ": {
@@ -8683,7 +8523,7 @@
             "Utilities": "1.50%",
             "Telecommunications Services": "1.50%"
         },
-        "Top 10 Holdings [View All]": {
+        "Top 10 Holdings ": {
             "Plug Power Inc.": "1.70%",
             "Sunrun Inc.": "0.82%",
             "Ultragenyx Pharmaceutical, Inc.": "0.68%",
@@ -8753,7 +8593,6 @@
             "Global Percentile Rank": "3.65%",
             "SRI Screening Criteria Exposure": "8.36%",
             "Exposure to Sustainable Impact Solutions": "63.69"
-        },
-        "Benchmark Comparison Holdings": {}
+        }
     }
 }

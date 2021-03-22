@@ -9,10 +9,14 @@ def remove_leading_etf_name(field, etf):
     :param etf: the etf symbol
     :return: the field without the leading etf symbol, useless since it's already in the etf data
     """
-    if len(field) < 5:
+    if len(field) < 6:
         return field
     if field[:4] == etf + ' ':
         return field[4:]
+    if field[:3] == etf + ' ':
+        return field[3:]
+    if field[:5] == etf + ' ':
+        return field[5:]
     return field
 
 
@@ -46,11 +50,17 @@ def get_data_from_url(soup, current_ETF):
 
     # stores all the data inside lists, then adding them into the dictionaries
     for chart in charts:
+
         table_row_name = chart.find_all('span', class_="truncate display-inline-b maxw-60")
         table_row_percent = chart.find_all('span', class_="bold pull-right text-right")
         for name, percent in zip(table_row_name, table_row_percent):
             data[name.text] = format_numbers(percent.text)
-        etf_data[remove_leading_etf_name(chart.h4.text, current_ETF)] = data
+        if "[View All]" in chart.h4.text:
+            text_new = chart.h4.text[: -10]
+            etf_data[remove_leading_etf_name(text_new, current_ETF)] = data
+        else:
+            etf_data[remove_leading_etf_name(chart.h4.text, current_ETF)] = data
+
         data = dict()
 
     # finds all summary charts in soup
@@ -77,7 +87,14 @@ def get_data_from_url(soup, current_ETF):
         # zip the lists into the dictionaries
         for element1, element2 in zip(new_data, new_percent):
             new_dict_data[element1] = element2
-        etf_data[remove_leading_etf_name(name.text, current_ETF)] = new_dict_data
+        if "Benchmark Comparison Holdings" in name.text:
+            pass
+        elif "Holdings Statistics" in name.text:
+            pass
+        else:
+            etf_data[remove_leading_etf_name(name.text, current_ETF)] = new_dict_data
+
+
         new_dict_data = dict()
 
     return etf_data

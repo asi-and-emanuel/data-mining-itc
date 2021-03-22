@@ -6,6 +6,8 @@ from random import random
 from get_data_from_url import get_data_from_url
 from open_url_or_file import open_url_or_file
 import os
+import csv
+import pandas as pd
 import argparse
 
 parser = argparse.ArgumentParser(description="this is etf.com data scraper it will download all data from 100 top "
@@ -16,6 +18,9 @@ group.add_argument('-d', '--download', action="store_true", help='delete all eft
 group.add_argument('-l', '--list', action="store_true", help='delete etf.com list data and download new '
                                                              '100 top list')
 group.add_argument('-s', '--show', action="store_true", help='show the etf.com after downloading list')
+group.add_argument('-sc', '--savecsv', action="store_true", help='show the etf.com after downloading list')
+group.add_argument('-sj', '--savejson', action="store_true", help='show the etf.com after downloading list')
+
 args = parser.parse_args()
 # more options
 #save to file
@@ -64,12 +69,15 @@ def main():
         full_dict[current_ETF] = get_data_from_url(current_ETF_data, current_ETF)
 
     # dumps all to json file
-    with open('data.json', 'w', encoding='utf-8') as f:
-        json.dump(full_dict, f, ensure_ascii=False, indent=4)
+    if args.savejson:
+        with open('data.json', 'w', encoding='utf-8') as f:
+            json.dump(full_dict, f, ensure_ascii=False, indent=4)
 
-
-
-
+    if args.savecsv:
+        os.remove("data.csv")
+        data = pd.DataFrame(full_dict)
+        data = data.fillna("-")
+        data.to_csv("./data.csv")
 
     # finds and sets the drivers variables
     if 'driver' in locals() and isinstance(driver, webdriver.chrome.webdriver.WebDriver):

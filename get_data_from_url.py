@@ -109,6 +109,11 @@ def get_data_from_url(soup, current_ETF):
                     new_dict_data[cur_field] = format_numbers(cur_data)
             except StopIteration:
                 break
-        etf_data[remove_leading_etf_name(name.text, current_ETF)] = new_dict_data
+        if "Benchmark Comparison Holdings" in name.text:
+            pass
+        elif "Holdings Statistics" in name.text:
+            pass
+        else:
+            etf_data[remove_leading_etf_name(name.text, current_ETF)] = new_dict_data
 
     return etf_data

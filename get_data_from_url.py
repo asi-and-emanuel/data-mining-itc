@@ -1,5 +1,4 @@
-import time
-import re
+
 
 def remove_leading_etf_name(field, etf):
     """
@@ -24,6 +23,11 @@ def format_numbers(field):
     :param field: a field which is potentially a number
     :return: the number value of the field if the field was detected as a number
     """
+    return field
+    # if field[-1] == '%':
+    #     return round(float(field[:-1]) / 100, 4)
+    # if field[-1] == 'B' and field[0] == '$':
+    #     return int(float(field[1:-1]) * 1_000_000_000)
     # return field
     if field[-1] == '%':
         return round(float(field[:-1]) / 100, 4)
@@ -58,6 +62,7 @@ def get_data_from_url(soup, current_ETF):
 
     # initialize the needed dictionaries to store the data
     etf_data = dict()
+    data = dict()
     # finds all charts in soup
     charts = soup.find_all('div', class_="col-md-12 col-sm-12 col-xs-12 no-padding pull-left my15")
 
@@ -72,6 +77,7 @@ def get_data_from_url(soup, current_ETF):
 
     # finds all summary charts in soup
     summary = soup.find_all('div', class_="generalData col-md-12 no-padding 0 pull-left col-xs-12 col-sm-12")
+    new_dict_data = dict()
     for data in summary:
 
         # finds the name of etf

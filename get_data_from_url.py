@@ -1,4 +1,4 @@
-
+import re
 
 def remove_leading_etf_name(field, etf):
     """
@@ -9,11 +9,16 @@ def remove_leading_etf_name(field, etf):
     :param etf: the etf symbol
     :return: the field without the leading etf symbol, useless since it's already in the etf data
     """
-    if len(field) < 5:
+    if len(field) < 6:
         return field
     if field[:4] == etf + ' ':
         return field[4:].replace(' [View All]', '').rstrip()
+    if field[:3] == etf + ' ':
+        return field[3:].replace(' [View All]', '').rstrip()
+    if field[:5] == etf + ' ':
+        return field[5:].replace(' [View All]', '').rstrip()
     return field.replace(' [View All]', '').rstrip()
+
 
 
 def format_numbers(field):

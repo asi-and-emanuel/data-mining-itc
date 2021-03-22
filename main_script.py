@@ -6,7 +6,7 @@ from random import random
 from get_data_from_url import get_data_from_url
 from open_url_or_file import open_url_or_file
 import os
-import csv
+import re
 import pandas as pd
 import argparse
 

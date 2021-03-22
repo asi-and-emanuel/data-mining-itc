@@ -78,6 +78,6 @@ def get_data_from_url(soup, current_ETF):
         for element1, element2 in zip(new_data, new_percent):
             new_dict_data[element1] = element2
         etf_data[remove_leading_etf_name(name.text, current_ETF)] = new_dict_data
-        # new_dict_data = dict()
+        new_dict_data = dict()
 
     return etf_data

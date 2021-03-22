@@ -12,12 +12,13 @@ parser = argparse.ArgumentParser(description="this is etf.com data scraper it wi
                                              "links in etf.com")
 group = parser.add_mutually_exclusive_group()
 group.add_argument('-d', '--download', action="store_true", help='delete all eft *.html data and '
-                                                                 'download new data')
+                                                                 'download new data this make take a while')
 group.add_argument('-l', '--list', action="store_true", help='delete etf.com list data and download new '
                                                              '100 top list')
 group.add_argument('-s', '--show', action="store_true", help='show the etf.com after downloading list')
 args = parser.parse_args()
-
+# more options
+#save to file
 
 def main():
     # initialize the full dict of etf data

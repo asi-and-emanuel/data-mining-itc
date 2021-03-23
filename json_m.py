@@ -16,8 +16,8 @@ with open(file_path) as f:
     data = json.loads(f.read())
     for etf in data:
         if str(only_files[idx][:-5]) in data:
-            if 'Top 10 Countries ' in data[str(only_files[idx][:-5])]:
-                for element in data[str(only_files[idx][:-5])]['Top 10 Countries '].keys():
+            if 'Top 10 Countries' in data[str(only_files[idx][:-5])]:
+                for element in data[str(only_files[idx][:-5])]['Top 10 Countries'].keys():
                     country_list_set.add(element)
 
         else:

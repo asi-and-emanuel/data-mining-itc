@@ -18,9 +18,9 @@ group.add_argument('-d', '--download', action="store_true", help='delete all eft
 group.add_argument('-l', '--list', action="store_true", help='delete etf.com list data and download new '
                                                              '100 top list')
 group.add_argument('-s', '--show', action="store_true", help='show the etf.com after downloading list')
-group.add_argument('-sc', '--savecsv', action="store_true", help='show the etf.com after downloading list')
-group.add_argument('-sj', '--savejson', action="store_true", help='show the etf.com after downloading list')
-
+group.add_argument('-sc', '--savecsv', action="store_true", help='save the etf to data.json file')
+group.add_argument('-sj', '--savejson', action="store_true", help='save the etf to data.csv file')
+group.add_argument('-sql', '--sqldb', action="store_true", help='save the etf to sql.db file')
 args = parser.parse_args()
 # more options
 #save to file

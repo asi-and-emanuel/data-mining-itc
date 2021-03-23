@@ -1,0 +1,172 @@
+{
+  "SPY": {
+    "Top 10 Countries": {
+      "United States": "100.00%",
+      "Canada": "0.00%"
+    },
+    "Top 10 Sectors": {
+      "Technology": "34.10%",
+      "Consumer Cyclicals": "16.01%",
+      "Healthcare": "13.32%",
+      "Financials": "12.53%",
+      "Industrials": "8.89%",
+      "Consumer Non-Cyclicals": "5.93%",
+      "Utilities": "2.74%",
+      "Energy": "2.45%",
+      "Basic Materials": "2.44%",
+      "Telecommunications Services": "1.58%"
+    },
+    "Top 10 Holdings": {
+      "Apple Inc.": "5.81%",
+      "Microsoft Corporation": "5.26%",
+      "Amazon.com, Inc.": "3.90%",
+      "Facebook, Inc. Class A": "2.02%",
+      "Alphabet Inc. Class A": "1.83%",
+      "Alphabet Inc. Class C": "1.78%",
+      "Tesla Inc": "1.49%",
+      "Berkshire Hathaway Inc. Class B": "1.48%",
+      "JPMorgan Chase & Co.": "1.45%",
+      "Johnson & Johnson": "1.27%"
+    },
+    "Summary Data": {
+      "Issuer": "State Street Global Advisors",
+      "Brand": "SPDR",
+      "Inception Date": "01/22/93",
+      "Legal Structure": "Unit Investment Trust",
+      "Expense Ratio": "0.09%",
+      "Assets Under Management": "$339.87B",
+      "Average Daily $ Volume": "$27.25B",
+      "Average Spread (%)": "0.00%"
+    },
+    "Portfolio Data": {
+      "Weighted Average Market Cap": "$506.72B",
+      "Price / Earnings Ratio": "38.17",
+      "Price / Book Ratio": "4.18",
+      "Distribution Yield": "1.44%",
+      "Next Ex-Dividend Date": "N/A",
+      "Number of Holdings": "496"
+    },
+    "Index Data": {
+      "Index Tracked": "S&P 500",
+      "Index Weighting Methodology": "Market Cap",
+      "Index Selection Methodology": "Market Cap",
+      "Segment Benchmark": "MSCI USA Large Cap Index"
+    },
+    "Tradability": {
+      "Avg. Daily Share Volume": "70,804,184",
+      "Average Daily $ Volume": "$27.25B",
+      "Median Daily Share Volume": "62,686,448",
+      "Median Daily Volume ($)": "$23.99B",
+      "Average Spread (%)": "0.00%",
+      "Average Spread ($)": "$0.01",
+      "Median Premium / Discount (12 Mo)": "0.00%",
+      "Max. Premium / Discount (12 Mo)": "0.31%",
+      "Min. Premium / Discount (12 Mo)": "-0.39%",
+      "Impediment to Creations": "None",
+      "Market Hours Overlap": "100.00%",
+      "Creation Unit Size (Shares)": "50,000",
+      "Creation Unit/Day (45 Day Average)": "1,253.73",
+      "Creation Unit Cost (%)": "0.00%",
+      "Underlying Volume / Unit": "0.01%",
+      "Open Interest on ETF Options": "20,688,199",
+      "Net Asset Value (Yesterday)": "$397.12",
+      "ETF.com Implied Liquidity": "5"
+    },
+    "Performance Statistics": {
+      "Goodness of Fit (R2)": "1.00",
+      "Beta": "1.00",
+      "Up Beta": "1.00",
+      "Down Beta": "1.00",
+      "Downside Standard Deviation": "0.11%",
+      "Segment Benchmark": "MSCI USA Large Cap Index"
+    },
+    "MSCI ESG Ratings": {
+      "MSCI ESG Rating": "BBB",
+      "MSCI ESG Quality Score (out of 10)": "5.30",
+      "Peer Group Percentile Rank": "45.32",
+      "Global Percentile Rank": "35.43",
+      "SRI Screening Criteria Exposure": "6.77%",
+      "Exposure to Sustainable Impact Solutions": "5.24%",
+      "Weighted Average Carbon Intensity (t CO2e/$M Sales)": "140.00"
+    }
+  },
+      "IVV": {
+        "Top 10 Countries": {
+            "United States": "100.00%",
+            "Canada": "0.00%"
+        },
+        "Top 10 Sectors": {
+            "Technology": "33.46%",
+            "Consumer Cyclicals": "15.90%",
+            "Healthcare": "13.31%",
+            "Financials": "12.59%",
+            "Industrials": "9.19%",
+            "Consumer Non-Cyclicals": "6.27%",
+            "Utilities": "2.73%",
+            "Basic Materials": "2.51%",
+            "Energy": "2.30%",
+            "Telecommunications Services": "1.73%"
+        },
+        "Summary Data": {
+            "Issuer": "Blackrock",
+            "Brand": "iShares",
+            "Inception Date": "05/15/00",
+            "Legal Structure": "Open-Ended Fund",
+            "Expense Ratio": "0.03%",
+            "Assets Under Management": "$254.78B",
+            "Average Daily $ Volume": "$1.37B",
+            "Average Spread (%)": "0.01%"
+        },
+        "Portfolio Data": {
+            "Weighted Average Market Cap": "$472.85B",
+            "Price / Earnings Ratio": "37.89",
+            "Price / Book Ratio": "4.13",
+            "Distribution Yield": "1.50%",
+            "Next Ex-Dividend Date": "12/14/20",
+            "Number of Holdings": "498"
+        },
+        "Index Data": {
+            "Index Tracked": "S&P 500",
+            "Index Weighting Methodology": "Market Cap",
+            "Index Selection Methodology": "Committee",
+            "Segment Benchmark": "MSCI USA Large Cap Index"
+        },
+        "Tradability": {
+            "Avg. Daily Share Volume": "3,624,722",
+            "Average Daily $ Volume": "$1.37B",
+            "Median Daily Share Volume": "3,571,764",
+            "Median Daily Volume ($)": "$1.33B",
+            "Average Spread (%)": "0.01%",
+            "Average Spread ($)": "$0.03",
+            "Median Premium / Discount (12 Mo)": "0.00%",
+            "Max. Premium / Discount (12 Mo)": "0.43%",
+            "Min. Premium / Discount (12 Mo)": "-0.42%",
+            "Impediment to Creations": "None",
+            "Market Hours Overlap": "100.00%",
+            "Creation Unit Size (Shares)": "50,000",
+            "Creation Unit/Day (45 Day Average)": "71.44",
+            "Creation Unit Cost (%)": "0.00%",
+            "Underlying Volume / Unit": "0.01%",
+            "Open Interest on ETF Options": "7,344",
+            "Net Asset Value (Yesterday)": "$393.91",
+            "ETF.com Implied Liquidity": "5"
+        },
+        "Performance Statistics": {
+            "Goodness of Fit (R2)": "1.00",
+            "Beta": "1.00",
+            "Up Beta": "1.00",
+            "Down Beta": "1.00",
+            "Downside Standard Deviation": "0.10%",
+            "Segment Benchmark": "MSCI USA Large Cap Index"
+        },
+        "MSCI ESG Ratings": {
+            "MSCI ESG Rating": "BBB",
+            "MSCI ESG Quality Score (out of 10)": "5.14",
+            "Peer Group Percentile Rank": "40.07",
+            "Global Percentile Rank": "32.85",
+            "SRI Screening Criteria Exposure": "7.05%",
+            "Exposure to Sustainable Impact Solutions": "3.66%",
+            "Weighted Average Carbon Intensity (t CO2e/$M Sales)": "144.74"
+        }
+    }
+}

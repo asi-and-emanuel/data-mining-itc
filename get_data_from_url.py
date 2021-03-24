@@ -1,6 +1,7 @@
 import time
 import re
 
+
 def remove_leading_etf_name(field, etf):
     """
     This function removes the leading etf symbol from the field:
@@ -12,8 +13,9 @@ def remove_leading_etf_name(field, etf):
     """
     if len(field) < 5:
         return field
-    if field[:4] == etf + ' ':
-        return field[4:].replace(' [View All]', '').rstrip()
+    first_space = field.find(' ')
+    if field.split(' ')[0] == etf:
+        return field[first_space + 1:].replace(' [View All]', '').rstrip()
     return field.replace(' [View All]', '').rstrip()
 
 
@@ -53,6 +55,7 @@ def get_data_from_url(soup, current_ETF):
     """
     get all the data from the URL soup
     :param soup: soup from html
+    :param current_ETF: the current ETF to process
     :return: dictionary with all data
     """
 

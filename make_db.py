@@ -186,7 +186,7 @@ with open(file_path) as json_file:
 # print(index_data_list_data_lst)
 # print(tradability_data_list_data_lst)
 # print(performance_statistics_data_list_data_lst)
-print(MSCI_ESG_ratings_data_list_data_lst)
+# print(MSCI_ESG_ratings_data_list_data_lst)
 
 
 TEST_DB_FILENAME = 'etf_id.db'
@@ -200,7 +200,7 @@ else:
             cur.execute(
                 '''CREATE TABLE etf_id (
                     etf_id INT PRIMARY KEY,
-                    etf_name VARCHAR)'''
+                    etf_name VARCHAR(50))'''
             )
             for i in etf_list_data_lst:
                 # print(str(i[0]), str(i[1]), str(i[2]), str(i[3]), str(i[4]), str(i[5]), str(i[6]) )
@@ -215,7 +215,7 @@ else:
                 '''CREATE TABLE top_10_countries (
                     etf_id INT,
                     country_id INT,
-                    country_name VARCHAR,
+                    country_name VARCHAR(50),
                     country_percent FLOAT)'''
             )
             for i in top_10_countries_list_data_lst:
@@ -231,7 +231,7 @@ else:
                 '''CREATE TABLE top_10_sectors (
                     etf_id INT,
                     sector_id INT,
-                    sector_name VARCHAR,
+                    sector_name VARCHAR(50),
                     sector_percent FLOAT)'''
             )
             for i in top_10_sectors_list_data_lst:
@@ -247,7 +247,7 @@ else:
                 '''CREATE TABLE top_10_holdings (
                     etf_id INT,
                     holdings_id INT,
-                    holdings_name VARCHAR,
+                    holdings_name VARCHAR(50),
                     holdings_percent FLOAT)'''
             )
             for i in top_10_holdings_list_data_lst:
@@ -262,8 +262,8 @@ else:
             cur.execute(
                 '''CREATE TABLE summary_data (
                     etf_id INT,
-                    data_name VARCHAR,
-                    data VARCHAR)'''
+                    data_name VARCHAR(50),
+                    data VARCHAR(50))'''
             )
             for i in summary_data_list_data_lst:
                 cur.execute(
@@ -277,8 +277,8 @@ else:
             cur.execute(
                 '''CREATE TABLE portfolio_data (
                     etf_id INT,
-                    portfolio_data_name VARCHAR,
-                    data VARCHAR)'''
+                    portfolio_data_name VARCHAR(50),
+                    data VARCHAR(50))'''
             )
             for i in portfolio_data_list_data_lst:
                 cur.execute(
@@ -292,8 +292,8 @@ else:
             cur.execute(
                 '''CREATE TABLE index_data (
                     etf_id INT,
-                    index_data_name VARCHAR,
-                    data VARCHAR)'''
+                    index_data_name VARCHAR(50),
+                    data VARCHAR(50))'''
             )
             for i in index_data_list_data_lst:
                 cur.execute(
@@ -307,8 +307,8 @@ else:
             cur.execute(
                 '''CREATE TABLE tradability_data (
                     etf_id INT,
-                    tradability_data_name VARCHAR,
-                    data VARCHAR)'''
+                    tradability_data_name VARCHAR(50),
+                    data VARCHAR(50))'''
             )
             for i in tradability_data_list_data_lst:
                 cur.execute(
@@ -322,8 +322,8 @@ else:
             cur.execute(
                 '''CREATE TABLE performance_statistics_data (
                     etf_id INT,
-                    performance_statistics_data_name VARCHAR,
-                    data VARCHAR)'''
+                    performance_statistics_data_name VARCHAR(50),
+                    data VARCHAR(50))'''
             )
             for i in performance_statistics_data_list_data_lst:
                 cur.execute(
@@ -337,8 +337,8 @@ else:
             cur.execute(
                 '''CREATE TABLE MSCI_data (
                     etf_id INT,
-                    MSCI_data_name VARCHAR,
-                    data VARCHAR)'''
+                    MSCI_data_name VARCHAR(50),
+                    data VARCHAR(50))'''
             )
             for i in MSCI_ESG_ratings_data_list_data_lst:
                 cur.execute(
@@ -349,9 +349,9 @@ else:
                 if idx % 100 == 0:
                     con.commit()
 
-with contextlib.closing(sqlite3.connect(TEST_DB_FILENAME)) as con: # auto-closes
-    cur = con.cursor()
-    cur.execute('SELECT * FROM MSCI_data LIMIT 10')
-    result = cur.fetchall()
-
-print(result)
+# with contextlib.closing(sqlite3.connect(TEST_DB_FILENAME)) as con: # auto-closes
+#     cur = con.cursor()
+#     cur.execute('SELECT * FROM MSCI_data LIMIT 10')
+#     result = cur.fetchall()
+#
+# print(result)

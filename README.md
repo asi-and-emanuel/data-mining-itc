@@ -7,6 +7,14 @@ Our sub topic is - stock exchange site "ETF.com".
 Our project is based on the ETF site that have a lot of raw data on the the stocks ETF.<br />
 there are many ETF's they are a group af stocks that have many characteristics. <br />
 
+updated 20/3/2021:<br />
+
+added a command line argparse.<br />
+-h for help<br />
+-l for new first 100 list<br />
+-s for show list<br />
+-d for delete data<br />
+
 ###FOR EXAMPLE: <br />
 
 The ETF **"SPY"** is stated as : **"SPDR S&P 500 ETF Trust"**<br />
@@ -126,24 +134,6 @@ We build a method of random wait between operations in order not to be detected<
 as a robot by the website, that does not allow scraping...<br />
 For the same reason, we rather download the pages once and keep them <br />
 rather than downloading the pages each time...
-
-## if we want to load from hard drive:<br />
-set value "download_new_list = False" <br />
-in function "open_url_or_file".<br />
-program will run from files in ETF_raw_data<br />
-
-## if we want to load from hard and refresh some etf data:<br />
-delete etf data from ETF_raw_data - program will download it fresh.<br />
-set value "download_new_list = False"<br /> 
-in function "open_url_or_file".<br />
-program will download them.<br />
-
-## if we want to fresh list top-100 etf and new etf data:<br />
-delete etf data from ETF_raw_data - program will download it fresh.<br />
-set value "download_new_list = True" <br />
-in function "open_url_or_file".<br />
-
-run program once to download all data.<br />
 
 # output<br />
 

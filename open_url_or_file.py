@@ -6,17 +6,15 @@ from random import random
 import os
 
 
-def open_url_or_file(url, local_file, is_all_data=False):
+def open_url_or_file(url, local_file, is_all_data=False, download_new_list = False):
     """
     finds if there is a downloaded file or not for the etf sent
     :param url: url for the etf
     :param local_file: if there is local file uses it if not it downloads it
     :param is_all_data:
+    :param download_new_list: for getting new list set to true
     :return: soup from file
     """
-
-    # initialize if you want to download the etf list from the start
-    download_new_list = False
 
     # if there is no file for the etf download it and get soup
     if not os.path.isfile(local_file):

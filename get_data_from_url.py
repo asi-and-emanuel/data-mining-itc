@@ -1,7 +1,6 @@
 import time
 import re
 
-
 def remove_leading_etf_name(field, etf):
     """
     This function removes the leading etf symbol from the field:

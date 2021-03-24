@@ -1,6 +1,8 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
 CREATE TABLE etf_id (
                     etf_id INT PRIMARY KEY,
-                    etf_name VARCHAR(170));
+                    etf_name VARCHAR(250));
 INSERT INTO etf_id VALUES(0,'SPY');
 INSERT INTO etf_id VALUES(1,'IVV');
 INSERT INTO etf_id VALUES(2,'VTI');
@@ -104,7 +106,7 @@ INSERT INTO etf_id VALUES(99,'IWO');
 CREATE TABLE top_10_countries (
                     etf_id INT,
                     country_id INT,
-                    country_name VARCHAR(170),
+                    country_name VARCHAR(250),
                     country_percent FLOAT);
 INSERT INTO top_10_countries VALUES(0,43,'United States',100.0);
 INSERT INTO top_10_countries VALUES(0,4,'Canada',0.0);
@@ -465,7 +467,7 @@ INSERT INTO top_10_countries VALUES(99,4,'Canada',0.31000000000000000888);
 CREATE TABLE top_10_sectors (
                     etf_id INT,
                     sector_id INT,
-                    sector_name VARCHAR(170),
+                    sector_name VARCHAR(250),
                     sector_percent FLOAT);
 INSERT INTO top_10_sectors VALUES(0,67,'Technology',34.100000000000001421);
 INSERT INTO top_10_sectors VALUES(0,11,'Consumer Cyclicals',16.010000000000001563);
@@ -1226,7 +1228,7 @@ INSERT INTO top_10_sectors VALUES(99,68,'Telecommunications Services',1.5);
 CREATE TABLE top_10_holdings (
                     etf_id INT,
                     holdings_id INT,
-                    holdings_name VARCHAR(170),
+                    holdings_name VARCHAR(250),
                     holdings_percent FLOAT);
 INSERT INTO top_10_holdings VALUES(0,33,'Apple Inc.',5.8099999999999996092);
 INSERT INTO top_10_holdings VALUES(0,214,'Microsoft Corporation',5.2599999999999997868);
@@ -1289,6 +1291,7 @@ INSERT INTO top_10_holdings VALUES(6,299,'SoftBank Group Corp.',0.77000000000000
 INSERT INTO top_10_holdings VALUES(6,301,'Sony Corporation',0.74000000000000003552);
 INSERT INTO top_10_holdings VALUES(6,351,'Unilever PLC',0.72999999999999998223);
 INSERT INTO top_10_holdings VALUES(7,53,'BlackRock Funds III Instl Money Mkt Fund',7.4800000000000004263);
+INSERT INTO top_10_holdings VALUES(7,338,'UMBS TBA 30yr 2% March Delivery 2.000% 01-NOV-2049',2.2299999999999999822);
 INSERT INTO top_10_holdings VALUES(7,387,'United States Treasury Notes 0.375% 30-NOV-2025',0.54000000000000003552);
 INSERT INTO top_10_holdings VALUES(7,423,'United States Treasury Notes 2.5% 15-MAY-2024',0.54000000000000003552);
 INSERT INTO top_10_holdings VALUES(7,347,'UMBS TBA 30yr 4% March Delivery 4.000% 01-MAY-2048',0.54000000000000003552);
@@ -1296,9 +1299,11 @@ INSERT INTO top_10_holdings VALUES(7,398,'United States Treasury Notes 1.5% 15-A
 INSERT INTO top_10_holdings VALUES(7,392,'United States Treasury Notes 0.625% 15-AUG-2030',0.47999999999999998223);
 INSERT INTO top_10_holdings VALUES(7,396,'United States Treasury Notes 0.875% 15-NOV-2030',0.47999999999999998223);
 INSERT INTO top_10_holdings VALUES(7,409,'United States Treasury Notes 2.0% 15-AUG-2025',0.42999999999999998223);
+INSERT INTO top_10_holdings VALUES(7,342,'UMBS TBA 30yr 2.5% March Delivery 2.500% 01-JAN-2049',0.40999999999999996447);
 INSERT INTO top_10_holdings VALUES(8,320,'Tencent Holdings Ltd.',6.4599999999999999644);
 INSERT INTO top_10_holdings VALUES(8,19,'Alibaba Group Holding Ltd. Sponsored ADR',5.6600000000000001421);
 INSERT INTO top_10_holdings VALUES(8,315,'Taiwan Semiconductor Manufacturing Co., Ltd.',4.4800000000000004263);
+INSERT INTO top_10_holdings VALUES(8,316,'Taiwan Semiconductor Manufacturing Co., Ltd. Sponsored ADR',2.2400000000000002131);
 INSERT INTO top_10_holdings VALUES(8,210,'Meituan Class B',2.0899999999999998578);
 INSERT INTO top_10_holdings VALUES(8,331,'U.S. Dollar',1.3000000000000000444);
 INSERT INTO top_10_holdings VALUES(8,227,'Naspers Limited Class N',1.2299999999999999822);
@@ -1795,6 +1800,7 @@ INSERT INTO top_10_holdings VALUES(59,112,'Denver Colo City & Cnty 5.0% 01-AUG-2
 INSERT INTO top_10_holdings VALUES(59,95,'Connecticut St 4.0% 15-JUN-2033',0.14000000000000001776);
 INSERT INTO top_10_holdings VALUES(59,97,'Contra Costa Calif Cmnty College Dist 4.0% 01-AUG-2039',0.14000000000000001776);
 INSERT INTO top_10_holdings VALUES(59,235,'New York N Y City Mun Wtr Fin Auth Wtr & Swr Sysrev 5.0% 15-JUN-2045',0.14000000000000001776);
+INSERT INTO top_10_holdings VALUES(59,290,'San Francisco Calif City & Cnty Arpts Commn Intlarpt Rev 5.0% 01-MAY-2050',0.13000000000000000444);
 INSERT INTO top_10_holdings VALUES(59,234,'New Jersey St Transn Tr Fd Auth 5.0% 15-JUN-2042',0.13000000000000000444);
 INSERT INTO top_10_holdings VALUES(60,214,'Microsoft Corporation',4.3700000000000001065);
 INSERT INTO top_10_holdings VALUES(60,33,'Apple Inc.',4.3200000000000002842);
@@ -1867,6 +1873,7 @@ INSERT INTO top_10_holdings VALUES(66,444,'Walgreens Boots Alliance Inc',1.81000
 INSERT INTO top_10_holdings VALUES(66,276,'Realty Income Corporation',1.7400000000000000355);
 INSERT INTO top_10_holdings VALUES(66,251,'Old Republic International Corporation',1.7199999999999999289);
 INSERT INTO top_10_holdings VALUES(67,63,'Broadcom Inc 8.00 % Cum Conv Pfd Registered Shs 2019-30.09.22 Series A',2.6000000000000000888);
+INSERT INTO top_10_holdings VALUES(67,451,'Wells Fargo & Company 7.5 % Non Cum Perp Conv Pfd Registered Shs A Series L',1.6200000000000001065);
 INSERT INTO top_10_holdings VALUES(67,46,'Bank of America Corp 7.25 % Non Cum Perp Conv Pfd Registered Shs Series L',1.4900000000000000355);
 INSERT INTO top_10_holdings VALUES(67,141,'GMAC Capital Trust I Trust Pfd Secs 2011-15.2.40 Gtd Series 2 Fltg Rt',1.2700000000000000177);
 INSERT INTO top_10_holdings VALUES(67,240,'NextEra Energy, Inc. Corporate Units Cons of Debenture 01.03.25 + 1 PC 01.03.23',1.2399999999999999911);
@@ -2188,8 +2195,8 @@ INSERT INTO top_10_holdings VALUES(99,258,'Penn National Gaming, Inc.',0.5899999
 INSERT INTO top_10_holdings VALUES(99,229,'Natera, Inc.',0.56000000000000005329);
 CREATE TABLE summary_data (
                     etf_id INT,
-                    data_name VARCHAR(170),
-                    data VARCHAR(170));
+                    data_name VARCHAR(250),
+                    data VARCHAR(250));
 INSERT INTO summary_data VALUES(0,'Issuer','State Street Global Advisors');
 INSERT INTO summary_data VALUES(0,'Brand','SPDR');
 INSERT INTO summary_data VALUES(0,'Inception Date','01/22/93');
@@ -2958,8 +2965,8 @@ INSERT INTO summary_data VALUES(99,'Average Daily $ Volume','$169.88M');
 INSERT INTO summary_data VALUES(99,'Average Spread (%)','0.12%');
 CREATE TABLE portfolio_data (
                     etf_id INT,
-                    portfolio_data_name VARCHAR(170),
-                    data VARCHAR(170));
+                    portfolio_data_name VARCHAR(250),
+                    data VARCHAR(250));
 INSERT INTO portfolio_data VALUES(0,'Weighted Average Market Cap','$506.72B');
 INSERT INTO portfolio_data VALUES(0,'Price / Earnings Ratio','38.17');
 INSERT INTO portfolio_data VALUES(0,'Price / Book Ratio','4.18');
@@ -3532,8 +3539,8 @@ INSERT INTO portfolio_data VALUES(99,'Next Ex-Dividend Date','12/14/20');
 INSERT INTO portfolio_data VALUES(99,'Number of Holdings','1,095');
 CREATE TABLE index_data (
                     etf_id INT,
-                    index_data_name VARCHAR(170),
-                    data VARCHAR(170));
+                    index_data_name VARCHAR(250),
+                    data VARCHAR(250));
 INSERT INTO index_data VALUES(0,'Index Tracked','S&P 500');
 INSERT INTO index_data VALUES(0,'Index Weighting Methodology','Market Cap');
 INSERT INTO index_data VALUES(0,'Index Selection Methodology','Market Cap');
@@ -3936,8 +3943,8 @@ INSERT INTO index_data VALUES(99,'Index Selection Methodology','Multi-Factor');
 INSERT INTO index_data VALUES(99,'Segment Benchmark','MSCI USA Small Cap Growth Index');
 CREATE TABLE tradability_data (
                     etf_id INT,
-                    tradability_data_name VARCHAR(170),
-                    data VARCHAR(170));
+                    tradability_data_name VARCHAR(250),
+                    data VARCHAR(250));
 INSERT INTO tradability_data VALUES(0,'Avg. Daily Share Volume','70,804,184');
 INSERT INTO tradability_data VALUES(0,'Average Daily $ Volume','$27.25B');
 INSERT INTO tradability_data VALUES(0,'Median Daily Share Volume','62,686,448');
@@ -5740,8 +5747,8 @@ INSERT INTO tradability_data VALUES(99,'Net Asset Value (Yesterday)','$328.87');
 INSERT INTO tradability_data VALUES(99,'ETF.com Implied Liquidity','5');
 CREATE TABLE performance_statistics_data (
                     etf_id INT,
-                    performance_statistics_data_name VARCHAR(170),
-                    data VARCHAR(170));
+                    performance_statistics_data_name VARCHAR(250),
+                    data VARCHAR(250));
 INSERT INTO performance_statistics_data VALUES(0,'Goodness of Fit (R2)','1.00');
 INSERT INTO performance_statistics_data VALUES(0,'Beta','1.00');
 INSERT INTO performance_statistics_data VALUES(0,'Up Beta','1.00');
@@ -6317,8 +6324,8 @@ INSERT INTO performance_statistics_data VALUES(99,'Downside Standard Deviation',
 INSERT INTO performance_statistics_data VALUES(99,'Segment Benchmark','MSCI USA Small Cap Growth Index');
 CREATE TABLE MSCI_data (
                     etf_id INT,
-                    MSCI_data_name VARCHAR(170),
-                    data VARCHAR(170));
+                    MSCI_data_name VARCHAR(250),
+                    data VARCHAR(250));
 INSERT INTO MSCI_data VALUES(0,'MSCI ESG Rating','BBB');
 INSERT INTO MSCI_data VALUES(0,'MSCI ESG Quality Score (out of 10)','5.30');
 INSERT INTO MSCI_data VALUES(0,'Peer Group Percentile Rank','45.32');

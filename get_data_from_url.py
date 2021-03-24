@@ -1,4 +1,6 @@
+import time
 import re
+
 
 def remove_leading_etf_name(field, etf):
     """
@@ -9,16 +11,12 @@ def remove_leading_etf_name(field, etf):
     :param etf: the etf symbol
     :return: the field without the leading etf symbol, useless since it's already in the etf data
     """
-    if len(field) < 6:
-        return field
-    if field[:4] == etf + ' ':
-        return field[4:].replace(' [View All]', '').rstrip()
-    if field[:3] == etf + ' ':
-        return field[3:].replace(' [View All]', '').rstrip()
-    if field[:5] == etf + ' ':
-        return field[5:].replace(' [View All]', '').rstrip()
+    #if len(field) < 5:
+    #    return field
+    first_space = field.find(' ')
+    if field.split(' ')[0] == etf:
+        return field[first_space + 1:].replace(' [View All]', '').rstrip()
     return field.replace(' [View All]', '').rstrip()
-
 
 
 def format_numbers(field):
@@ -28,11 +26,6 @@ def format_numbers(field):
     :param field: a field which is potentially a number
     :return: the number value of the field if the field was detected as a number
     """
-    return field
-    # if field[-1] == '%':
-    #     return round(float(field[:-1]) / 100, 4)
-    # if field[-1] == 'B' and field[0] == '$':
-    #     return int(float(field[1:-1]) * 1_000_000_000)
     # return field
     if field[-1] == '%':
         return round(float(field[:-1]) / 100, 4)
@@ -62,12 +55,12 @@ def get_data_from_url(soup, current_ETF):
     """
     get all the data from the URL soup
     :param soup: soup from html
+    :param current_ETF: the current ETF to process
     :return: dictionary with all data
     """
 
     # initialize the needed dictionaries to store the data
     etf_data = dict()
-    data = dict()
     # finds all charts in soup
     charts = soup.find_all('div', class_="col-md-12 col-sm-12 col-xs-12 no-padding pull-left my15")
 
@@ -82,7 +75,6 @@ def get_data_from_url(soup, current_ETF):
 
     # finds all summary charts in soup
     summary = soup.find_all('div', class_="generalData col-md-12 no-padding 0 pull-left col-xs-12 col-sm-12")
-    new_dict_data = dict()
     for data in summary:
 
         # finds the name of etf
@@ -109,11 +101,6 @@ def get_data_from_url(soup, current_ETF):
                     new_dict_data[cur_field] = format_numbers(cur_data)
             except StopIteration:
                 break
-        if "Benchmark Comparison Holdings" in name.text:
-            pass
-        elif "Holdings Statistics" in name.text:
-            pass
-        else:
             etf_data[remove_leading_etf_name(name.text, current_ETF)] = new_dict_data
 
     return etf_data

@@ -15,6 +15,9 @@ added a command line argparse.<br />
 -s for show list<br />
 -d for delete data<br />
 
+sqlite3 etf_id.db .dump >dump.sql
+
+
 ###FOR EXAMPLE: <br />
 
 The ETF **"SPY"** is stated as : **"SPDR S&P 500 ETF Trust"**<br />

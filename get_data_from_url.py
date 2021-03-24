@@ -1,6 +1,7 @@
 import time
 import re
 
+
 def remove_leading_etf_name(field, etf):
     """
     This function removes the leading etf symbol from the field:
@@ -10,8 +11,8 @@ def remove_leading_etf_name(field, etf):
     :param etf: the etf symbol
     :return: the field without the leading etf symbol, useless since it's already in the etf data
     """
-    if len(field) < 5:
-        return field
+    #if len(field) < 5:
+    #    return field
     first_space = field.find(' ')
     if field.split(' ')[0] == etf:
         return field[first_space + 1:].replace(' [View All]', '').rstrip()

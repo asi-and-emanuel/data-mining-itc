@@ -71,14 +71,15 @@ def main():
 
     # dumps all to json file
     if args.savejson:
-        with open('data.json', 'w', encoding='utf-8') as f:
+        with open('Data/data.json', 'w', encoding='utf-8') as f:
             json.dump(full_dict, f, ensure_ascii=False, indent=4)
 
     if args.savecsv:
-        os.remove("data.csv")
+        if os.path.isfile("Data/data.csv"):
+            os.remove("Data/data.csv")
         data = pd.DataFrame(full_dict)
         data = data.fillna("-")
-        data.to_csv("./data.csv")
+        data.to_csv("Data/data.csv")
 
     # finds and sets the drivers variables
     if 'driver' in locals() and isinstance(driver, webdriver.chrome.webdriver.WebDriver):

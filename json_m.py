@@ -1,7 +1,7 @@
 import json
 import os
 import pprint
-file_path = 'data.json'
+file_path = 'Data/data.json'
 mypath = "ETF_raw_data"
 
 only_files = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]

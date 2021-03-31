@@ -1,0 +1,63 @@
+{
+	"etf_id":{
+		"etf_id": "INT PRIMARY KEY",
+        "etf_name": "VARCHAR(250)"
+	},
+	"top_10_countries":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "country_id": "INT",
+        "country_name": "VARCHAR(250)",
+        "country_percent": "FLOAT"
+	},
+	"top_10_sectors":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "sector_id": "INT",
+        "sector_name": "VARCHAR(250)",
+        "sector_percent": "FLOAT"
+	},
+	"top_10_holdings":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "holding_id": "INT",
+        "holding_name": "VARCHAR(250)",
+        "holding_percent": "FLOAT"
+	},
+	"summary_data":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "data_name": "VARCHAR(250)",
+        "data": "VARCHAR(250)"
+	},
+	"portfolio_data":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "portfolio_data_name": "VARCHAR(250)",
+        "data": "VARCHAR(250)"
+	},
+	"index_data":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "index_data_name": "VARCHAR(250)",
+        "data": "VARCHAR(250)"
+	},
+	"tradability":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "tradability_data_name": "VARCHAR(250)",
+        "data": "VARCHAR(250)"
+	},
+	"performance_statistics":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "performance_statistics_data_name": "VARCHAR(250)",
+        "data": "VARCHAR(250)"
+	},
+	"msci_esg_ratings":{
+		"etf_id": "INT",
+        "etf_name": "VARCHAR(250)",
+        "MSCI_data_name": "VARCHAR(250)",
+        "data": "VARCHAR(250)"
+	}
+}

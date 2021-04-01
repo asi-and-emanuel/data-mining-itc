@@ -12,8 +12,10 @@ def generate_db(path_to_file, data, data_dict):
             for table in data:
                 table_name = '_'.join(table.lower().split())
                 data_k = data_dict[table_name].keys()
-                exec_command = 'CREATE TABLE %s (%s)' %(table_name, ', '.join(['%s %s' %(k, v) for k, v in data_dict[table_name].items()]))
-                add_command = 'INSERT INTO %s (%s) VALUES (%s)' % (table_name, ', '.join(map(str, data_k)), ', '.join(['?'] * len(data_k)))
+                exec_command = 'CREATE TABLE %s (%s)' % (table_name, ', '.join(['%s %s' % (k, v) for k, v in
+                                                                                data_dict[table_name].items()]))
+                add_command = 'INSERT INTO %s (%s) VALUES (%s)' % (table_name, ', '.join(map(str, data_k)),
+                                                                   ', '.join(['?'] * len(data_k)))
 
                 cur.execute(exec_command)
                 for entry in data[table]:
@@ -36,7 +38,8 @@ def parse_json(json_file):
     fields_indexed: a dict containing 3 dicts, one for each of the 3 common fields:
     Top 10 Countries, Top 10 Sectors and Top 10 Holdings
     Each one of these 3 dicts contains all the existing fields and a running reference number
-    all_data_sql: a dict containing all the fields and the relevant values from each ETF, but with one line for each data
+    all_data_sql: a dict containing all the fields and the relevant values from each ETF,
+    but with one line for each data
     """
     with open(json_file) as f:
         data = json.loads(f.read())
@@ -52,7 +55,8 @@ def parse_json(json_file):
     fields_indexed = dict()
     for field in top_10_fields:
         fields_indexed[field] = {v: k for k, v in enumerate(sorted(
-            set([val for sublist in (list(all_data[field][k].keys()) for k in all_data[field].keys()) for val in sublist if val != 'Null'])))}
+            set([val for sublist in (list(all_data[field][k].keys()) for k in all_data[field].keys())
+                 for val in sublist if val != 'Null'])))}
         fields_indexed[field]['Null'] = 9999
 
     all_data_sql = dict()
@@ -61,7 +65,8 @@ def parse_json(json_file):
         cur_fields = list()
         for etf_idx, (etf_name, values) in enumerate(all_data[field].items()):
             if field in fields_indexed.keys():
-                cur_fields.extend([[etf_idx, etf_name, fields_indexed[field][key], key, value] for key, value in values.items()])
+                cur_fields.extend([[etf_idx, etf_name, fields_indexed[field][key], key, value]
+                                   for key, value in values.items()])
             else:
                 cur_fields.extend([[etf_idx, etf_name, key, value] for key, value in values.items()])
         all_data_sql[field] = cur_fields
@@ -69,7 +74,7 @@ def parse_json(json_file):
     return all_data, fields_indexed, all_data_sql
 
 
-def main():
+def create_db():
 
     my_path = "ETF_raw_data"
 
@@ -81,20 +86,17 @@ def main():
 
     data_fields_json = 'Data/all_tables.json'
     data_fields = parse_json_tables(data_fields_json)
-    test_db_filename_manu = 'Data/etf_id_Manu.db'
+    db_filename = 'Data/etf_id.db'
 
-    if os.path.exists(test_db_filename_manu):
-        print(f'DB already exists:{test_db_filename_manu}')
+    if os.path.exists(db_filename):
+        print(f'DB already exists:{db_filename}')
     else:
-        generate_db(test_db_filename_manu, all_data_sql, data_fields)
+        generate_db(db_filename, all_data_sql, data_fields)
+        print("DB created")
 
-    with contextlib.closing(sqlite3.connect(test_db_filename_manu)) as con: # auto-closes
-        cur = con.cursor()
-        cur.execute('SELECT * FROM msci_esg_ratings LIMIT 10')
-        result = cur.fetchall()
-
-    print(result)
-
-
-if __name__ == '__main__':
-    main()
+    # with contextlib.closing(sqlite3.connect(db_filename)) as con: # auto-closes
+    #     cur = con.cursor()
+    #     cur.execute('SELECT * FROM msci_esg_ratings LIMIT 10')
+    #     result = cur.fetchall()
+    #
+    # print(result)

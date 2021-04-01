@@ -10,13 +10,17 @@ there are many ETF's they are a group af stocks that have many characteristics. 
 updated 20/3/2021:<br />
 
 added a command line argparse.<br />
--h for help<br />
--l for new first 100 list<br />
--s for show list<br />
--d for delete data<br />
+  -h, --help       show this help message and exit<br />
+  -d, --download   delete all eft *.html data and download new data this make take a while<br />
+  -l, --list       delete etf.com list data and download new 100 top list<br />
+  -s, --show       show the etf.com after downloading list<br />
+  -sc, --savecsv   save the etf to data.json file<br />
+  -sj, --savejson  save the etf to data.csv file<br />
+  -sql, --sqldb    save the etf to sql.db file<br />
 
-sqlite3 etf_id.db .dump >dump.sql
-
+in order to save dump file to run query in mySQL exwcute this command:<br />
+"sqlite3 etf_id.db .dump >dump.sql"<br />
+and run dump.sql in mySQL.
 
 ###FOR EXAMPLE: <br />
 

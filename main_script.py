@@ -5,6 +5,7 @@ from selenium import webdriver
 from random import random
 from get_data_from_url import get_data_from_url
 from open_url_or_file import open_url_or_file
+from create_db import create_db
 import os
 import re
 import pandas as pd
@@ -22,8 +23,6 @@ group.add_argument('-sc', '--savecsv', action="store_true", help='save the etf t
 group.add_argument('-sj', '--savejson', action="store_true", help='save the etf to data.csv file')
 group.add_argument('-sql', '--sqldb', action="store_true", help='save the etf to sql.db file')
 args = parser.parse_args()
-# more options
-#save to file
 
 
 def main():
@@ -80,6 +79,9 @@ def main():
         data = pd.DataFrame(full_dict)
         data = data.fillna("-")
         data.to_csv("Data/data.csv")
+
+    if args.sqldb:
+        create_db()
 
     # finds and sets the drivers variables
     if 'driver' in locals() and isinstance(driver, webdriver.chrome.webdriver.WebDriver):

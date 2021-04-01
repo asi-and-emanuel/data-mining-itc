@@ -131,6 +131,7 @@ after downloading paste in the same folder.<br />
 requests>=2.24.0<br />
 selenium>=3.141.0<br />
 beautifulsoup4>=4.9.1<br />
+pandas>=1.0.5<br />
 
 # How it works <br />
 
@@ -140,11 +141,7 @@ or read from hard drive.<br />
 We build a method of random wait between operations in order not to be detected<br />
 as a robot by the website, that does not allow scraping...<br />
 For the same reason, we rather download the pages once and keep them <br />
-rather than downloading the pages each time...
-
-# output<br />
-
-output is in json file "data.json"<br />
+rather than downloading the pages each time...<br />
 
 #Contributing
 

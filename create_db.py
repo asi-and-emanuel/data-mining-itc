@@ -63,12 +63,12 @@ def parse_json(json_file):
     all_data_sql['ETF ID'] = [[k, v] for k, v in enumerate(data.keys())]
     for field in all_fields:
         cur_fields = list()
-        for etf_idx, (etf_name, values) in enumerate(all_data[field].items()):
+        for etf_idx, values in enumerate(all_data[field].values()):
             if field in fields_indexed.keys():
-                cur_fields.extend([[etf_idx, etf_name, fields_indexed[field][key], key, value]
+                cur_fields.extend([[etf_idx, fields_indexed[field][key], key, value]
                                    for key, value in values.items()])
             else:
-                cur_fields.extend([[etf_idx, etf_name, key, value] for key, value in values.items()])
+                cur_fields.extend([[etf_idx, key, value] for key, value in values.items()])
         all_data_sql[field] = cur_fields
 
     return all_data, fields_indexed, all_data_sql

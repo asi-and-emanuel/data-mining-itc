@@ -12,7 +12,7 @@ import pandas as pd
 import argparse
 
 
-class Argument_Parser:
+class ArgumentParser:
     def __init__(self):
         parser = argparse.ArgumentParser(description='this is etf.com data scraper it will download '
                                                      'all data from 100 top links in etf.com')

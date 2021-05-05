@@ -12,46 +12,46 @@ import pandas as pd
 import argparse
 
 
-parser = argparse.ArgumentParser(description="this is etf.com data scraper it will download all data from 100 top "
-                                             "links in etf.com")
-group = parser.add_mutually_exclusive_group()
-group.add_argument('-d', '--download', action="store_true", help='delete all eft *.html data and '
-                                                                 'download new data this make take a while')
-group.add_argument('-l', '--list', action="store_true", help='delete etf.com list data and download new '
-                                                             '100 top list')
-group.add_argument('-s', '--show', action="store_true", help='show the etf.com after downloading list')
-group.add_argument('-sc', '--savecsv', action="store_true", help='save the etf to data.json file')
-group.add_argument('-sj', '--savejson', action="store_true", help='save the etf to data.csv file')
-group.add_argument('-sql', '--sqldb', action="store_true", help='save the etf to sql.db file')
-group.add_argument('-ddb', '--del_DB', action="store_true", help='Deletes the data base Data/etf_id.db in order to'
-                                                                 ' create the new one with -sql')
-args = parser.parse_args()
+class Argument_Parser:
+    def __init__(self):
+        parser = argparse.ArgumentParser(description='this is etf.com data scraper it will download '
+                                                     'all data from 100 top links in etf.com')
+        group = parser.add_mutually_exclusive_group()
+        group.add_argument('-d', '--download', action="store_true", help='delete all eft *.html data and '
+                                                                         'download new data this make take a while')
+        group.add_argument('-l', '--list', action="store_true", help='delete etf.com list data and download new '
+                                                                     '100 top list')
+        group.add_argument('-s', '--show', action="store_true", help='show the etf.com after downloading list')
+        group.add_argument('-sc', '--savecsv', action="store_true", help='save the etf to data.json file')
+        group.add_argument('-sj', '--savejson', action="store_true", help='save the etf to data.csv file')
+        group.add_argument('-sql', '--sqldb', action="store_true", help='save the etf to sql.db file')
+        group.add_argument('-ddb', '--del_DB', action="store_true",
+                           help='Deletes the data base Data/etf_id.db in order to'
+                                ' create the new one with -sql')
+        self.args = parser.parse_args()
 
 
-def main():
+def main(args):
     # initialize the full dict of etf data
     full_dict = dict()
 
     # sets the urls
     all_etf_url = r'https://www.etf.com/etfanalytics/etf-finder'
     base_url = r'https://www.etf.com/'
-    mypath = "ETF_raw_data"
-    only_files = [f for f in os.listdir(mypath) if os.path.isfile(os.path.join(mypath, f))]
+    my_path = "ETF_raw_data"
+    only_files = [f for f in os.listdir(my_path) if os.path.isfile(os.path.join(my_path, f))]
 
     if args.download:
         only_files.remove("all_etf_data.html")
         for i in only_files:
-            os.remove(str(mypath) + '/' + str(i))
-
+            os.remove(str(my_path) + '/' + str(i))
 
     if args.list:
         os.remove("ETF_raw_data/all_etf_data.html")
 
-    print_idx = 1
     if args.show:
-        for i in only_files:
-            print(f"downloaded etf {print_idx} is : {i}")
-            print_idx += 1
+        for i, etf in enumerate(only_files):
+            print(f"Downloaded etf number {i} is : {etf}")
         exit()
 
     if args.del_DB:
@@ -100,4 +100,5 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    my_args = Argument_Parser()
+    main(my_args.args)

@@ -100,5 +100,5 @@ def main(args):
 
 
 if __name__ == '__main__':
-    my_args = Argument_Parser()
+    my_args = ArgumentParser()
     main(my_args.args)

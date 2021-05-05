@@ -89,14 +89,10 @@ def create_db():
     db_filename = 'Data/etf_id.db'
 
     if os.path.exists(db_filename):
-        print(f'DB already exists:{db_filename}')
+        print(f'=============================\n\n\nDB already exists:{db_filename}\n\n\n'
+              f'============================='
+              f'\n\n\nif you wish to create a new db please delete Data/etf_id.db')
     else:
         generate_db(db_filename, all_data_sql, data_fields)
-        print("DB created")
-
-    # with contextlib.closing(sqlite3.connect(db_filename)) as con: # auto-closes
-    #     cur = con.cursor()
-    #     cur.execute('SELECT * FROM msci_esg_ratings LIMIT 10')
-    #     result = cur.fetchall()
-    #
-    # print(result)
+        print(f"=============================\n\n\nDB created - DB location :{db_filename}\n\n\n"
+              f"=============================")

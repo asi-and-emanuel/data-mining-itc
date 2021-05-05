@@ -11,6 +11,7 @@ import re
 import pandas as pd
 import argparse
 
+
 parser = argparse.ArgumentParser(description="this is etf.com data scraper it will download all data from 100 top "
                                              "links in etf.com")
 group = parser.add_mutually_exclusive_group()
@@ -22,15 +23,14 @@ group.add_argument('-s', '--show', action="store_true", help='show the etf.com a
 group.add_argument('-sc', '--savecsv', action="store_true", help='save the etf to data.json file')
 group.add_argument('-sj', '--savejson', action="store_true", help='save the etf to data.csv file')
 group.add_argument('-sql', '--sqldb', action="store_true", help='save the etf to sql.db file')
+group.add_argument('-ddb', '--del_DB', action="store_true", help='Deletes the data base Data/etf_id.db in order to'
+                                                                 ' create the new one with -sql')
 args = parser.parse_args()
 
 
 def main():
     # initialize the full dict of etf data
     full_dict = dict()
-
-    # start selenium driver for download
-    driver = webdriver.Chrome(r'chromedriver.exe')  # Optional argument, if not specified will search path.
 
     # sets the urls
     all_etf_url = r'https://www.etf.com/etfanalytics/etf-finder'
@@ -43,6 +43,7 @@ def main():
         for i in only_files:
             os.remove(str(mypath) + '/' + str(i))
 
+
     if args.list:
         os.remove("ETF_raw_data/all_etf_data.html")
 
@@ -51,6 +52,30 @@ def main():
         for i in only_files:
             print(f"downloaded etf {print_idx} is : {i}")
             print_idx += 1
+        exit()
+
+    if args.del_DB:
+        os.remove("Data/etf_id.db")
+        exit()
+
+    # dumps all to json file
+    if args.savejson:
+        with open('Data/data.json', 'w', encoding='utf-8') as f:
+            json.dump(full_dict, f, ensure_ascii=False, indent=4)
+
+    if args.savecsv:
+        if os.path.isfile("Data/data.csv"):
+            os.remove("Data/data.csv")
+        data = pd.DataFrame(full_dict)
+        data = data.fillna("-")
+        data.to_csv("Data/data.csv")
+
+    if args.sqldb:
+        create_db()
+
+    # start selenium driver for download
+    # Optional argument, if not specified will search path.
+    driver = webdriver.Chrome(r'chromedriver.exe')
 
     # join data to URL
     path_base_data = os.path.join(os.getcwd(), r'ETF_raw_data', '%s.html' % 'all_etf_data')
@@ -67,21 +92,6 @@ def main():
         url_ETF = open_url_or_file(base_url + current_ETF, path_base_data)
         current_ETF_data = open_url_or_file(base_url, path_base_data)
         full_dict[current_ETF] = get_data_from_url(current_ETF_data, current_ETF)
-
-    # dumps all to json file
-    if args.savejson:
-        with open('Data/data.json', 'w', encoding='utf-8') as f:
-            json.dump(full_dict, f, ensure_ascii=False, indent=4)
-
-    if args.savecsv:
-        if os.path.isfile("Data/data.csv"):
-            os.remove("Data/data.csv")
-        data = pd.DataFrame(full_dict)
-        data = data.fillna("-")
-        data.to_csv("Data/data.csv")
-
-    if args.sqldb:
-        create_db()
 
     # finds and sets the drivers variables
     if 'driver' in locals() and isinstance(driver, webdriver.chrome.webdriver.WebDriver):

@@ -137,9 +137,6 @@ def create_db():
     all_data_sql['market_data'] = mkt_data_sql
 
     if os.path.exists(db_filename):
-        # TEMP HACK
-        os.remove(db_filename)
-        generate_db(db_filename, all_data_sql, data_fields)
         print(f'=============================\n\n\nDB already exists:{db_filename}\n\n\n'
               f'============================='
               f'\n\n\nif you wish to create a new db please delete Data/etf_id.db')

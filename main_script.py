@@ -7,9 +7,9 @@ from get_data_from_url import get_data_from_url
 from open_url_or_file import open_url_or_file
 from create_db import create_db
 import os
-import re
 import pandas as pd
 import argparse
+import logging
 
 
 class ArgumentParser:
@@ -28,10 +28,22 @@ class ArgumentParser:
         group.add_argument('-ddb', '--del_DB', action="store_true",
                            help='Deletes the data base Data/etf_id.db in order to'
                                 ' create the new one with -sql')
+        parser.add_argument("-vs", "--verbose_s", help="increase output verbosity to screen",
+                            action="store_true")
+        parser.add_argument("-vl", "--verbose_l", help="increase output verbosity to log",
+                            action="store_true")
         self.args = parser.parse_args()
 
 
 def main(args):
+    if args.verbose_s:
+        logging.basicConfig(level=logging.DEBUG,
+                            format='%(asctime)s:%(filename)s:%(message)s')
+
+    if args.verbose_l:
+        logging.basicConfig(filename="log.log", level=logging.DEBUG,
+                            format='%(asctime)s:%(filename)s:%(message)s')
+
     # initialize the full dict of etf data
     full_dict = dict()
 
@@ -50,21 +62,25 @@ def main(args):
         os.remove("ETF_raw_data/all_etf_data.html")
 
     if args.show:
+        logging.debug("Entered show file names")
         for i, etf in enumerate(only_files):
             print(f"Downloaded etf number {i} is : {etf}")
         exit()
 
     if args.del_DB:
+        logging.debug("Entered del_DB now deleting 'Data/etf_id.db'")
         os.remove("Data/etf_id.db")
         exit()
 
     # dumps all to json file
     if args.savejson:
+        logging.debug("Entered save JSON now dumping to JSON file name 'Data/data.json'")
         with open('Data/data.json', 'w', encoding='utf-8') as f:
             json.dump(full_dict, f, ensure_ascii=False, indent=4)
         exit()
 
     if args.savecsv:
+        logging.debug("Entered save csv now dumping to csv file name 'Data/data.csv'")
         if os.path.isfile("Data/data.csv"):
             os.remove("Data/data.csv")
         data = pd.DataFrame(full_dict)
@@ -73,17 +89,20 @@ def main(args):
         exit()
 
     if args.sqldb:
+        logging.debug("Entered sql DB - now creating a data base")
         create_db()
+        logging.debug("finished creating DB in 'Data/etf_id.db'")
         exit()
 
     # start selenium driver for download
     # Optional argument, if not specified will search path.
+    logging.debug("created driver")
     driver = webdriver.Chrome(r'chromedriver.exe')
 
     # join data to URL
     path_base_data = os.path.join(os.getcwd(), r'ETF_raw_data', '%s.html' % 'all_etf_data')
     all_etf_data = open_url_or_file(all_etf_url, path_base_data, is_all_data=True, download_new_list=True)
-    #time.sleep(10)
+    # time.sleep(10)
 
     # finds the 100 first endings in the HTML
     first_100 = all_etf_data.find_all('a', 'linkTickerName')
@@ -91,10 +110,13 @@ def main(args):
     # for each ETF gets all the data and stores inside the dictionaries
     for current_ETF in first_100:
         current_ETF = current_ETF.text.strip()
+        logging.debug(f"striping text data {current_ETF}")
         path_base_data = os.path.join(os.getcwd(), r'ETF_raw_data', '%s.html' % current_ETF)
+        logging.debug(f"getting path for {current_ETF}")
         url_ETF = open_url_or_file(base_url + current_ETF, path_base_data)
         current_ETF_data = open_url_or_file(base_url, path_base_data)
         full_dict[current_ETF] = get_data_from_url(current_ETF_data, current_ETF)
+        logging.debug(f"finished {current_ETF}")
 
     # finds and sets the drivers variables
     if 'driver' in locals() and isinstance(driver, webdriver.chrome.webdriver.WebDriver):

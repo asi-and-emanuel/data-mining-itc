@@ -1,9 +1,10 @@
 import subprocess
 import mysql.connector
+from conf import MY_SQL_USER, MY_SQL_PASS, MY_SQL_HOST
 
-
-username = 'root'
-password = 'Liri19012012'
+host = MY_SQL_HOST
+username = MY_SQL_USER
+password = MY_SQL_PASS
 database = 'Data/etf_id.db'
 sql_dump_name = 'etf_id.sql'
 
@@ -27,7 +28,7 @@ with open(sql_dump_name, "w") as f:
         else:
             f.write(line)
 
-my_db = mysql.connector.connect(host='127.0.0.1', user='root', passwd='Liri19012012')
+my_db = mysql.connector.connect(host=MY_SQL_HOST, user=MY_SQL_USER, passwd=MY_SQL_PASS)
 cur = my_db.cursor()
 for line in open(sql_dump_name):
     cur.execute(line)

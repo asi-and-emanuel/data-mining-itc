@@ -2,6 +2,12 @@ import sqlite3
 import os
 import contextlib
 import json
+import datetime
+import time
+
+import pandas as pd
+import requests
+from cred_api import API_ADDRESS, TOKEN
 
 
 def generate_db(path_to_file, data, data_dict):
@@ -74,6 +80,36 @@ def parse_json(json_file):
     return all_data, fields_indexed, all_data_sql
 
 
+def add_market_data_api(ETF_list):
+    epoch = datetime.datetime(1970, 1, 1).date()
+    date_today = datetime.datetime.now().date()
+    date_minus_1y = datetime.date(date_today.year - 1, date_today.month, date_today.day)
+    date_end = int((date_today - epoch).total_seconds())
+    date_start = int((date_minus_1y - epoch).total_seconds())
+
+    mkt_data_fields = ['date', 'etf', 'valid', 'open', 'high', 'low', 'close', 'volume']
+    df = pd.DataFrame(columns=mkt_data_fields)
+    for ETF in ETF_list:
+        this_request = '%s%s&resolution=D&from=%s&to=%s&token=%s' % (API_ADDRESS, ETF, date_start, date_end, TOKEN)
+        r = requests.get(this_request)
+        while r.status_code != 200:
+            time.sleep(60)
+            print('Waiting 60 second because of the API usage...')
+            r = requests.get(this_request)
+        this_df = pd.DataFrame(r.json())
+        this_df['date'] = pd.to_datetime(this_df['t'], unit='s')
+        this_df['etf'] = ETF
+        this_df = this_df[['date', 'etf', 's', 'o', 'h', 'l', 'c', 'v']]
+        this_df.columns = mkt_data_fields
+        df = df.append(this_df)
+    mkt_data = df.reset_index().to_dict()
+    len_df = df.shape[0]
+    mkt_data_list = {key: list(v.values()) for key, v in mkt_data.items()}
+    mkt_data_sql = [[mkt_data_list[field][x] for field in mkt_data_list if field != 'index'] for x in range(len_df)]
+
+    return df, mkt_data_sql, mkt_data_fields
+
+
 def create_db():
 
     my_path = "ETF_raw_data"
@@ -88,7 +124,22 @@ def create_db():
     data_fields = parse_json_tables(data_fields_json)
     db_filename = 'Data/etf_id.db'
 
+    if not os.path.isfile(r'Data/market_data.csv'):
+        market_data_df, mkt_data_sql, mkt_data_fields = add_market_data_api([x.split('.')[0] for x in only_files])
+    else:
+        df = pd.read_csv(r'Data/market_data.csv')
+        mkt_data = df.reset_index().to_dict()
+        len_df = df.shape[0]
+        mkt_data_list = {key: list(v.values()) for key, v in mkt_data.items()}
+        mkt_data_sql = [[mkt_data_list[field][x] for field in mkt_data_list if field != 'index'] for x in
+                        range(len_df)]
+
+    all_data_sql['market_data'] = mkt_data_sql
+
     if os.path.exists(db_filename):
+        # TEMP HACK
+        os.remove(db_filename)
+        generate_db(db_filename, all_data_sql, data_fields)
         print(f'=============================\n\n\nDB already exists:{db_filename}\n\n\n'
               f'============================='
               f'\n\n\nif you wish to create a new db please delete Data/etf_id.db')

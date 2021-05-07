@@ -62,6 +62,7 @@ def main(args):
     if args.savejson:
         with open('Data/data.json', 'w', encoding='utf-8') as f:
             json.dump(full_dict, f, ensure_ascii=False, indent=4)
+        exit()
 
     if args.savecsv:
         if os.path.isfile("Data/data.csv"):
@@ -69,9 +70,11 @@ def main(args):
         data = pd.DataFrame(full_dict)
         data = data.fillna("-")
         data.to_csv("Data/data.csv")
+        exit()
 
     if args.sqldb:
         create_db()
+        exit()
 
     # start selenium driver for download
     # Optional argument, if not specified will search path.

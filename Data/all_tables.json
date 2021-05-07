@@ -1,7 +1,7 @@
 {
 	"etf_id":{
 		"etf_id": "INT PRIMARY KEY",
-        "etf_name": "VARCHAR(250)"
+        "etf_name": "VARCHAR(10)"
 	},
 	"top_10_countries":{
 		"etf_id": "INT",
@@ -50,5 +50,16 @@
 		"etf_id": "INT",
         "MSCI_data_name": "VARCHAR(250)",
         "data": "VARCHAR(250)"
+	},
+	"market_data":{
+		"data_index": "INT",
+        "date": "DATE",
+        "etf_name": "VARCHAR(10)",
+		"status": "VARCHAR(10)",
+		"open_price": "FLOAT(24)",
+		"high_price": "FLOAT(24)",
+		"low_price": "FLOAT(24)",
+		"close_price": "FLOAT(24)",
+		"volume": "INT"
 	}
 }

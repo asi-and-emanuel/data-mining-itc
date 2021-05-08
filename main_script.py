@@ -5,6 +5,7 @@ from selenium import webdriver
 from random import random
 from get_data_from_url import get_data_from_url
 from open_url_or_file import open_url_or_file
+from sqlite_to_mysql import sqlite_to_mysql
 from create_db import create_db
 import os
 import pandas as pd
@@ -21,10 +22,11 @@ class ArgumentParser:
                                                                          'download new data this make take a while')
         group.add_argument('-l', '--list', action="store_true", help='delete etf.com list data and download new '
                                                                      '100 top list')
-        group.add_argument('-s', '--show', action="store_true", help='show the etf.com after downloading list')
-        group.add_argument('-sc', '--savecsv', action="store_true", help='save the etf to data.json file')
-        group.add_argument('-sj', '--savejson', action="store_true", help='save the etf to data.csv file')
+        group.add_argument('-s', '--show', action="store_true", help='show the etf.com list in data folder')
+        group.add_argument('-sc', '--savecsv', action="store_true", help='save the etf to data.csv file')
+        group.add_argument('-sj', '--savejson', action="store_true", help='save the etf to data.json file')
         group.add_argument('-sql', '--sqldb', action="store_true", help='save the etf to sql.db file')
+        group.add_argument('-mysql', '--mysqldb', action="store_true", help='save the etf to mysql server')
         group.add_argument('-ddb', '--del_DB', action="store_true",
                            help='Deletes the data base Data/etf_id.db in order to'
                                 ' create the new one with -sql')
@@ -43,6 +45,8 @@ def main(args):
     if args.verbose_l:
         logging.basicConfig(filename="log.log", level=logging.DEBUG,
                             format='%(asctime)s:%(filename)s:%(message)s')
+
+
 
     # initialize the full dict of etf data
     full_dict = dict()
@@ -72,27 +76,6 @@ def main(args):
         os.remove("Data/etf_id.db")
         exit()
 
-    # dumps all to json file
-    if args.savejson:
-        logging.debug("Entered save JSON now dumping to JSON file name 'Data/data.json'")
-        with open('Data/data.json', 'w', encoding='utf-8') as f:
-            json.dump(full_dict, f, ensure_ascii=False, indent=4)
-        exit()
-
-    if args.savecsv:
-        logging.debug("Entered save csv now dumping to csv file name 'Data/data.csv'")
-        if os.path.isfile("Data/data.csv"):
-            os.remove("Data/data.csv")
-        data = pd.DataFrame(full_dict)
-        data = data.fillna("-")
-        data.to_csv("Data/data.csv")
-        exit()
-
-    if args.sqldb:
-        logging.debug("Entered sql DB - now creating a data base")
-        create_db()
-        logging.debug("finished creating DB in 'Data/etf_id.db'")
-        exit()
 
     # start selenium driver for download
     # Optional argument, if not specified will search path.
@@ -117,6 +100,38 @@ def main(args):
         current_ETF_data = open_url_or_file(base_url, path_base_data)
         full_dict[current_ETF] = get_data_from_url(current_ETF_data, current_ETF)
         logging.debug(f"finished {current_ETF}")
+
+
+
+
+
+    # dumps all to json file
+    if args.savejson:
+        logging.debug("Entered save JSON now dumping to JSON file name 'Data/data.json'")
+        with open('Data/data.json', 'w', encoding='utf-8') as f:
+            json.dump(full_dict, f, ensure_ascii=False, indent=4)
+        exit()
+
+    if args.savecsv:
+        logging.debug("Entered save csv now dumping to csv file name 'Data/data.csv'")
+        if os.path.isfile("Data/data.csv"):
+            os.remove("Data/data.csv")
+        data = pd.DataFrame(full_dict)
+        data = data.fillna("-")
+        data.to_csv("Data/data.csv")
+        exit()
+
+    if args.sqldb:
+        logging.debug("Entered sql DB - now creating a data base")
+        create_db()
+        logging.debug("finished creating DB in 'Data/etf_id.db'")
+        exit()
+
+    if args.mysqldb:
+        logging.debug("Entered mysql DB - now creating a data base in my sql")
+        sqlite_to_mysql()
+        logging.debug("finished creating DB in mysql")
+        exit()
 
     # finds and sets the drivers variables
     if 'driver' in locals() and isinstance(driver, webdriver.chrome.webdriver.WebDriver):

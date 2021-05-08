@@ -7,20 +7,25 @@ Our sub topic is - stock exchange site "ETF.com".
 Our project is based on the ETF site that have a lot of raw data on the the stocks ETF.<br />
 there are many ETF's they are a group af stocks that have many characteristics. <br />
 
-updated 20/3/2021:<br />
+updated 8/5/2021:<br />
+this is etf.com data scraper it will download all data from 100 top links in etf.com<br />
 
-added a command line argparse.<br />
-  -h, --help       show this help message and exit<br />
-  -d, --download   delete all eft *.html data and download new data this make take a while<br />
-  -l, --list       delete etf.com list data and download new 100 top list<br />
-  -s, --show       show the etf.com after downloading list<br />
-  -sc, --savecsv   save the etf to data.json file<br />
-  -sj, --savejson  save the etf to data.csv file<br />
-  -sql, --sqldb    save the etf to sql.db file<br />
+optional arguments:<br />
 
-in order to save dump file to run query in mySQL exwcute this command:<br />
-"sqlite3 etf_id.db .dump >dump.sql"<br />
-and run dump.sql in mySQL.
+  -h, --help        show this help message and exit <br />
+  -d, --download    delete all eft *.html data and download new data this make take a while <br />
+  -l, --list        delete etf.com list data and download new 100 top list<br />
+  -s, --show        show the etf.com after downloading list<br />
+  -sc, --savecsv    save the etf to data.json file<br />
+  -sj, --savejson   save the etf to data.csv file<br />
+  -sql, --sqldb     save the etf to sql.db file<br />
+  -ddb, --del_DB    Deletes the data base Data/etf_id.db in order to create the new one with -sql<br />
+  -vs, --verbose_s  increase output verbosity to screen<br />
+  -vl, --verbose_l  increase output verbosity to log<br />
+
+
+# the data collected
+### for every eft we will collect the data submitted bellow in a sql database
 
 ###FOR EXAMPLE: <br />
 
@@ -113,18 +118,36 @@ Average Daily $ Volume|$20.67B|$8.38B|
 |Energy|2.30%|
 |Telecommunications Services|1.73%|
 
-
-#### And a lot more data<br />
+#### and also open close chart for last year<br />
 
 # SETUP<br />
 
-for setup we will need to download the "chromedriver" for our chrome browser.<br />
+see erd in files:<br />
+erd.pdf
 
-if you need to download chrome download here : https://www.google.com/chrome<br />
+check the video in :<br />
+
+https://www.youtube.com/watch?v=S_AZxyuh7N4
+
+for setup we will need to download the "chromedriver" for our chrome browser.<br />
+there is one in the directory but best to update chrome and web driver from this sites below: <br />
+if you need to download chrome download here : <br />
+
+https://www.google.com/chrome
+
 to download the correct chrome driver find the version in chrome.<br />
-download the corresponding driver from here: https://chromedriver.chromium.org/downloads<br />
+download the corresponding driver from here: 
+
+https://chromedriver.chromium.org/downloads
 
 after downloading paste in the same folder.<br />
+you can follow this link for explanation from you tube explaning how to download the chromedriver:<br />
+
+https://www.youtube.com/watch?v=dz59GsdvUF8
+
+after you downloaded it paste it in root folder.<br />
+you don't have to use since all relevant already downloaded as html file to the system.<br />
+
 
 # Requirements<br />
 
@@ -133,16 +156,91 @@ selenium>=3.141.0<br />
 beautifulsoup4>=4.9.1<br />
 pandas>=1.0.5<br />
 
+in order to install them paste and run :br />
+
+"pip install -r requirements.txt"
+
 # How it works <br />
 
-Simply run the "main_script.py" script.<br />
+Simply run the "main_script.py" script with the relevant sub-fix .<br />
 When running the program we can either download all the etf pages from the web <br />
 or read from hard drive.<br />
+
 We build a method of random wait between operations in order not to be detected<br />
 as a robot by the website, that does not allow scraping...<br />
-For the same reason, we rather download the pages once and keep them <br />
+
+For the same reason, we pre downloaded the pages once and keep them <br />
 rather than downloading the pages each time...<br />
 
-#Contributing
+#### OPTIONS AND EXPLANATION<br />
 
-Feel Free
+you can show a list all of the downloaded html files simply by running main_script.py with: <br />
+  -s, --show        show the etf.com after downloading list<br />
+simply write in the command line : <br />
+"python.exe  main_script.py  -s"<br />
+
+verbose log and on screen : <br />
+you can toggle between Verbose log on screen and to log file by selecting :<br />
+
+
+  -vs, --verbose_s  increase output verbosity to screen<br />
+simply write in the command line : <br />
+"python.exe main_script.py  -s -vs"<br />
+
+
+  -vl, --verbose_l  increase output verbosity to log file "log.log":<br />
+simply write in the command line : <br />
+"python.exe main_script.py  -s -vl"<br />
+
+##### in order to delete all data and download new data from site:
+
+simply write in the command line : <br />
+"python.exe  main_script.py  -l"<br />
+in order to refresh the 100 top etf list
+  
+simply write in the command line : <br />
+"python.exe  main_script.py  -d"<br />
+in order to refresh all data after deleting the list delete all data - this may take some time
+
+simply write in the command line : <br />
+"python.exe  main_script.py  -sj"<br />
+in order to dump all data to json file - this file will be the data that will produce the DB.<br />
+
+after downloading all the new data from scratch and making a data.json.file you will need to make a new DB: <br />
+for that you will need to do some things: <br />
+
+first: <br />
+go to the site : <br />
+https://finnhub.io<br />
+
+register and get a token. <br />
+place the token inside "cred_api.py" under : TOKEN = r'INSERT TOKEN HERE'<br />
+
+now run this to delete the old DB (or just delete : \\Data\etf_id.db)<br />
+  -ddb, --del_DB    Deletes the data base Data/etf_id.db<br />
+simply write in the command line : <br />
+"python.exe  main_script.py  -ddb"<br />
+
+then use -sql to create a db file for SQLite3<br />
+simply write in the command line : <br />
+"python.exe  main_script.py  -sql"<br />
+
+it will create a new DB - now you can query db file with SQLite3.<br />
+
+on the other hand if you want to use MYSQL<br />
+use the conf.py to enter host, user, pass for the server and run:<br />
+
+MY_SQL_HOST = 'host ip'<br />
+MY_SQL_USER = 'my sql user name'<br />
+MY_SQL_PASS = 'my sql password'<br />
+
+simply write in the command line : <br />
+"python.exe  main_script.py  -mysql"<br />
+
+it will create a new mysql DB - now you can query db file with MYSQL.<br />
+
+there is en erd.pdf file in the folder in order to grasp the DB.
+
+#Contributing<br />
+
+Feel Free<br />

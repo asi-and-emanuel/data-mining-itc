@@ -5,6 +5,6 @@ url_list = [
     "https://www.etf.com/SPY"
 ]
 
-MY_SQL_HOST = 'host ip'
-MY_SQL_USER = 'my sql user name'
-MY_SQL_PASS = 'my sql password'
+MY_SQL_HOST = '127.0.0.1'
+MY_SQL_USER = 'root'
+MY_SQL_PASS = '-----------'

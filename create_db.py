@@ -80,6 +80,14 @@ def parse_json(json_file):
 
 
 def add_market_data_api(ETF_list):
+    """
+    This function will download Market Data from finnhub.io API for each one of our ETFs.
+    Market Data include Open_High_Low_CLose prices, and Traded Volume, for each day of the last 1Y.
+    :param ETF_list: The list of all ETF's on which we will download the Market Data
+    :return: df: A DataFrame containing all the data
+    mkt_data_sql: All the data in format usable by MySQL
+    mkt_data_fields: All the fields returned
+    """
     epoch = datetime.datetime(1970, 1, 1).date()
     date_today = datetime.datetime.now().date()
     date_minus_1y = datetime.date(date_today.year - 1, date_today.month, date_today.day)

@@ -1,7 +1,7 @@
 import subprocess
 import mysql.connector
 from conf import MY_SQL_USER, MY_SQL_PASS, MY_SQL_HOST
-
+# /home/ubuntu/data-mining-itc/Data
 
 def sqlite_to_mysql():
 

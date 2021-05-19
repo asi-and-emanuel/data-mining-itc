@@ -11,7 +11,7 @@ def sqlite_to_mysql():
         f.write('CREATE SCHEMA `etf_id` ;\n')
         f.write('USE etf_id;')
         f.write('\n')
-        proc = subprocess.Popen('sqlite3 Data/etf_id.db .dump', stdout=subprocess.PIPE)
+        proc = subprocess.Popen('sqlite3 /home/ubuntu/data-mining-itc/Data/etf_id.db .dump', stdout=subprocess.PIPE)
         output = proc.stdout.read()
         f.write(output.decode())
 

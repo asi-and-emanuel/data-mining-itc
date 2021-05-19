@@ -18,7 +18,7 @@ def open_url_or_file(url, local_file, is_all_data=False, download_new_list = Fal
 
     # if there is no file for the etf download it and get soup
     if not os.path.isfile(local_file):
-        driver = webdriver.Chrome(r'chromedriver.exe')  # Optional argument, if not specified will search path.
+        driver = webdriver.Chrome(r'/home/ubuntu/data-mining-itc/chromedriver')  # Optional argument, if not specified will search path.
         time.sleep(RANDOM_MULTIPLE * random() + RANDOM_FIX)  # Let the user actually see something!
         driver.get(url)
         time.sleep(15)

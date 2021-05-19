@@ -11,6 +11,7 @@ import os
 import pandas as pd
 import argparse
 import logging
+from pyvirtualdisplay import Display
 
 
 class ArgumentParser:
@@ -68,8 +69,7 @@ def main(args):
     if args.show:
         logging.debug("Entered show file names")
         for i, etf in enumerate(only_files):
-            print(f"Downloaded etf number {i} is : {etf}")
-        exit()
+            print(f"Downloaded etf number {i}  : {etf}")
 
     if args.del_DB:
         logging.debug("Entered del_DB now deleting 'Data/etf_id.db'")
@@ -80,7 +80,9 @@ def main(args):
     # start selenium driver for download
     # Optional argument, if not specified will search path.
     logging.debug("created driver")
-    driver = webdriver.Chrome(r'chromedriver.exe')
+    display = Display(visible=0, size=(800, 800))
+    display.start()
+    driver = webdriver.Chrome(r'/home/ubuntu/data-mining-itc/chromedriver')
 
     # join data to URL
     path_base_data = os.path.join(os.getcwd(), r'ETF_raw_data', '%s.html' % 'all_etf_data')
@@ -99,7 +101,7 @@ def main(args):
         url_ETF = open_url_or_file(base_url + current_ETF, path_base_data)
         current_ETF_data = open_url_or_file(base_url, path_base_data)
         full_dict[current_ETF] = get_data_from_url(current_ETF_data, current_ETF)
-        logging.debug(f"finished {current_ETF}")
+        logging.debug("finished ", str(current_ETF))
 
 
 
